@@ -1,0 +1,53 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#5ab0ff">
+    <meta name="msapplication-navbutton-color" content="#5ab0ff">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#5ab0ff">
+    <title>Authorization</title>
+    <link rel="stylesheet" href="./css/authorization.css">
+    <link rel="stylesheet" href="./css/loader.css">
+</head>
+<body>
+    <div id="loader">
+      <svg>
+        <circle class="circle" r="200" stroke="#5d2d87"></circle>
+        <circle class="circle" r="175" stroke="#c32287"></circle>
+        <circle class="circle" r="150" stroke="#ea225e"></circle>
+        <circle class="circle" r="125" stroke="#ee5b35"></circle>
+        <circle class="circle" r="100" stroke="#f4b42e"></circle>
+        <circle class="circle" r="75" stroke="#82c741"></circle>
+        <circle class="circle" r="50" stroke="#00a597"></circle>
+        <circle class="circle" r="25" stroke="#1a65a3"></circle>
+      </svg>
+    </div>
+    
+    <div id="root">
+      <form class="signin">
+          <h1>Sign in</h1>
+          <div class="user-input">
+            <input type="text">
+            <div class="input-after">Login</div>
+          </div>
+          <div class="user-input">
+            <input type="password">
+            <div class="input-after">Password</div>
+          </div>
+          <div class="user-input">
+            <input type="password">
+            <div class="input-after">Password</div>
+          </div>
+          <div class="button-input">
+            <input type="submit" value="Enter">
+          </div>
+      </form>
+      <input type="button" id="change-to-signin" value="Sign in">
+      <input type="button" id="change-to-signup" value="Sign up">
+      <div class="text-signin">Do you have an account?</div>
+      <div class="text-signup">Don't have an account?</div>
+    </div>
+    <script src="./js/authorization.js"></script>
+</body>
+</html>
