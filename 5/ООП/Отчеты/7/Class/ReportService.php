@@ -10,9 +10,9 @@ require_once ('PrintController.php');
 use Class;
 use Class;
 /**
- * @author SAI-HOME
+ * @author Nikola-Ver
  * @version 1.0
- * @created 03-дек.-2020 23:36:09
+ * @created 03-пїЅпїЅпїЅ.-2020 23:36:09
  */
 class ReportService extends PrintController implements IReport
 {
