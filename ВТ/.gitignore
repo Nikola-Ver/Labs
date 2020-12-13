@@ -1,0 +1,4 @@
+# Default ignored files
+/out
+/target
+/src/main/resources/db.properties
