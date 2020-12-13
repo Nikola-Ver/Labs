@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<BorlandProject>
-  <Transactions>
-    <Transaction>2019.10.22 19:52:04.997,=C:\Users\Надежда\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2019.10.22 20:13:00.663,D:\СиАОД\Лаба 2\Main.dfm=C:\Users\Надежда\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
-    <Transaction>2019.10.22 20:13:00.663,D:\СиАОД\Лаба 2\Main.pas=C:\Users\Надежда\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2019.10.22 20:13:28.938,D:\СиАОД\Лаба 2\Index.dproj=C:\Users\Надежда\Documents\Embarcadero\Studio\Projects\Project4.dproj</Transaction>
-  </Transactions>
-</BorlandProject>
