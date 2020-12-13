@@ -1,0 +1,25 @@
+<taglib>
+    <tlib-version>1.0</tlib-version>
+    <jsp-version>2.0</jsp-version>
+    <short-name>Conditional message</short-name>
+
+    <tag>
+        <name>condMsg</name>
+        <tag-class>org.leatherclub.testingSystem.tagHandlers.conditionMessageTag</tag-class>
+        <body-content>empty</body-content>
+        
+        <attribute>
+            <name>condition</name>
+            <required>true</required>
+            <type>boolean</type>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+
+        <attribute>
+            <name>message</name>
+            <required>true</required>
+            <type>java.lang.String</type>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+    </tag>
+</taglib>
