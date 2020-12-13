@@ -1,0 +1,5 @@
+851006 Vereschaghin 10 10 10 10 10
+851002 Krot 9 9 9 9 10
+851006 Ushkewich 8 10 10 10 9
+812000 Dashkevich 7 3 4 5 6
+853006 Bunak 7 7 7 7 7
