@@ -1,0 +1,13 @@
+D:\C#\Labs\HandleManager\HandleManagmend\HandleManagmend\bin\Debug\netcoreapp3.1\HandleManagmend.exe
+D:\C#\Labs\HandleManager\HandleManagmend\HandleManagmend\bin\Debug\netcoreapp3.1\HandleManagmend.deps.json
+D:\C#\Labs\HandleManager\HandleManagmend\HandleManagmend\bin\Debug\netcoreapp3.1\HandleManagmend.runtimeconfig.json
+D:\C#\Labs\HandleManager\HandleManagmend\HandleManagmend\bin\Debug\netcoreapp3.1\HandleManagmend.runtimeconfig.dev.json
+D:\C#\Labs\HandleManager\HandleManagmend\HandleManagmend\bin\Debug\netcoreapp3.1\HandleManagmend.dll
+D:\C#\Labs\HandleManager\HandleManagmend\HandleManagmend\bin\Debug\netcoreapp3.1\HandleManagmend.pdb
+D:\C#\Labs\HandleManager\HandleManagmend\HandleManagmend\obj\Debug\netcoreapp3.1\HandleManagmend.csprojAssemblyReference.cache
+D:\C#\Labs\HandleManager\HandleManagmend\HandleManagmend\obj\Debug\netcoreapp3.1\HandleManagmend.AssemblyInfoInputs.cache
+D:\C#\Labs\HandleManager\HandleManagmend\HandleManagmend\obj\Debug\netcoreapp3.1\HandleManagmend.AssemblyInfo.cs
+D:\C#\Labs\HandleManager\HandleManagmend\HandleManagmend\obj\Debug\netcoreapp3.1\HandleManagmend.csproj.CoreCompileInputs.cache
+D:\C#\Labs\HandleManager\HandleManagmend\HandleManagmend\obj\Debug\netcoreapp3.1\HandleManagmend.dll
+D:\C#\Labs\HandleManager\HandleManagmend\HandleManagmend\obj\Debug\netcoreapp3.1\HandleManagmend.pdb
+D:\C#\Labs\HandleManager\HandleManagmend\HandleManagmend\obj\Debug\netcoreapp3.1\HandleManagmend.genruntimeconfig.cache
