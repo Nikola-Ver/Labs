@@ -1,9 +1,0 @@
-﻿  lab_13.cpp
-C:\Users\bunak\source\repos\lab_13\lab_13\lab_13.cpp(132,10): warning C4018: <: несоответствие типов со знаком и без знака
-C:\Users\bunak\source\repos\lab_13\lab_13\lab_13.cpp(238,5): warning C4551: в вызове функции отсутствует список аргументов
-C:\Users\bunak\source\repos\lab_13\lab_13\lab_13.cpp(246,5): warning C4551: в вызове функции отсутствует список аргументов
-C:\Users\bunak\source\repos\lab_13\lab_13\lab_13.cpp(253,6): warning C4551: в вызове функции отсутствует список аргументов
-C:\Users\bunak\source\repos\lab_13\lab_13\lab_13.cpp(263,5): warning C4551: в вызове функции отсутствует список аргументов
-C:\Users\bunak\source\repos\lab_13\lab_13\lab_13.cpp(269,5): warning C4551: в вызове функции отсутствует список аргументов
-C:\Users\bunak\source\repos\lab_13\lab_13\lab_13.cpp(327,9): warning C4101: stack_head: неиспользованная локальная переменная
-  lab_13.vcxproj -> C:\Users\bunak\source\repos\lab_13\Debug\lab_13.exe

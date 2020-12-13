@@ -1,0 +1,24 @@
+object MainForm: TMainForm
+  Left = 428
+  Top = 88
+  Caption = 'MainForm'
+  ClientHeight = 681
+  ClientWidth = 1464
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  OnPaint = FormPaint
+  PixelsPerInch = 96
+  TextHeight = 13
+  object tmr1: TTimer
+    Enabled = False
+    Interval = 100
+    OnTimer = tmr1Timer
+    Left = 24
+    Top = 24
+  end
+end
