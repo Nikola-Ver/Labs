@@ -1,0 +1,41 @@
+body {
+    background: url("main.jpg") no-repeat;
+    background-size: cover;
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.menu {
+    margin-left: 42%;
+    margin-top: 18%;
+    height: 25em;
+    width: 16%;
+    background: rgba(46, 46, 46, 0);
+    border-radius: 25px;
+}
+
+.button {
+    text-align: center;
+    margin-left: 5%;
+    text-decoration: none;
+    color: white;
+    display: block;
+    font-size: 40px;
+    font-family: "Embassy BT",cursive;
+    letter-spacing: 2px;
+    margin-top: 35%;
+    transition: 1s;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.253);
+}
+
+.button:hover {
+    cursor: pointer;
+    color: aqua;
+    background: rgba(0, 0, 0, 0.335);
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+}

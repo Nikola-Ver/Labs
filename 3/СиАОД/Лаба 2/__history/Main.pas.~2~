@@ -1,0 +1,43 @@
+unit Main;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ComCtrls, Vcl.Menus;
+
+type
+  TMainForm = class(TForm)
+    MainOutPut: TRichEdit;
+    Group: TGroupBox;
+    PopMenu: TPopupMenu;
+    dsfnsjf1: TMenuItem;
+    Menu: TMainMenu;
+    MyFIle: TMenuItem;
+    ShowList: TMenuItem;
+    Searching: TMenuItem;
+    SearchTerm: TMenuItem;
+    SearchSubTerm: TMenuItem;
+    ChangeFile: TMenuItem;
+    AddAnything: TMenuItem;
+    AddPage: TMenuItem;
+    AddTerm: TMenuItem;
+    AddSubTerm: TMenuItem;
+    SortAnything: TMenuItem;
+    SortPage: TMenuItem;
+    SortTerm: TMenuItem;
+    SortSubTerm: TMenuItem;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  MainForm: TMainForm;
+
+implementation
+
+{$R *.dfm}
+
+end.

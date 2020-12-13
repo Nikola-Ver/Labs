@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.238,C:\Users\Надежда\Desktop\ \Laba 2\Unit1.pas=C:\Users\Надежда\Desktop\ \Laba 2\FileRecType.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.512,=C:\Users\Надежда\Desktop\ \Laba 2\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.496,C:\Users\Надежда\Desktop\ \Laba 2\Unit1.pas=C:\Users\Надежда\Desktop\ \Laba 2\Price.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.323,C:\Users\Надежда\Desktop\ \Laba 2\Unit2.pas=C:\Users\Надежда\Desktop\ \Laba 2\PriceU.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.303,=C:\Users\Надежда\Desktop\ \Laba 2\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.376,C:\Users\Надежда\Desktop\ \Laba 2\Unit1.pas=C:\Users\Надежда\Desktop\ \Laba 2\Order.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.665,=C:\Users\Надежда\Desktop\ \Laba 2\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.518,=C:\Users\Надежда\Desktop\ \Laba 2\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.536,=C:\Users\Надежда\Desktop\ \Laba 2\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.373,C:\Users\Надежда\Desktop\ \Laba 2\Unit1.pas=C:\Users\Надежда\Desktop\ \Laba 2\Goods.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.063,=C:\Users\Надежда\Desktop\ \Laba 2\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.310,=C:\Users\Надежда\Desktop\ \Laba 2\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

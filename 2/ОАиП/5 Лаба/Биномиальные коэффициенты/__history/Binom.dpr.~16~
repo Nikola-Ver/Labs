@@ -1,0 +1,45 @@
+program Binom;
+
+{$APPTYPE CONSOLE}
+
+procedure factorial(var chis, factchis: Int64; var k: Byte);
+begin
+  if k < chis then
+    begin
+      inc(k);
+      factchis:=factchis*k;
+      factorial(chis,factchis,k);
+    end;
+end;
+
+procedure coefficient(Koeff,i: Integer);
+var
+  FactNum, Calc, Num: Int64;
+  k: Byte;
+  j: Integer;
+begin
+  FactNum:= 1;
+  k:= 1;
+  calc:= 1;
+
+  for j:= 0 to i - 1 do
+    Calc:= Calc * (koeff - j);
+
+  Num:= i;
+  factorial(Num, FactNum, k);
+  Calc:= Calc div FactNum;
+  Write(calc,' ');
+
+  if i < koeff then coefficient(koeff,i + 1);
+end;
+
+var
+  n: Integer;
+begin
+  Readln(n);
+  if n <> 0  then
+    coefficient(n, 0)
+  else
+    Writeln('1');
+  Readln;
+end.

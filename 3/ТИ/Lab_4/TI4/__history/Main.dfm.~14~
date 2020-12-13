@@ -1,0 +1,295 @@
+object fmMain: TfmMain
+  Left = 192
+  Top = 125
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsSingle
+  Caption = #1064#1080#1092#1088#1086#1074#1072#1085#1080#1077' '#1069#1062#1055
+  ClientHeight = 358
+  ClientWidth = 899
+  Color = clSkyBlue
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  Menu = MainMenu
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object lbNumP: TLabel
+    Left = 24
+    Top = 16
+    Width = 156
+    Height = 24
+    Caption = #1055#1088#1086#1089#1090#1086#1077' '#1095#1080#1089#1083#1086' P:'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
+  end
+  object lbNumQ: TLabel
+    Left = 24
+    Top = 88
+    Width = 159
+    Height = 24
+    Caption = #1055#1088#1086#1089#1090#1086#1077' '#1095#1080#1089#1083#1086' Q:'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
+  end
+  object lbNumD: TLabel
+    Left = 24
+    Top = 160
+    Width = 161
+    Height = 24
+    Caption = #1047#1072#1082#1088#1099#1090#1099#1081' '#1082#1083#1102#1095' D:'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
+  end
+  object lbNumE: TLabel
+    Left = 24
+    Top = 232
+    Width = 163
+    Height = 24
+    Caption = #1054#1090#1082#1088#1099#1090#1099#1081' '#1082#1083#1102#1095' E:'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
+  end
+  object lbText: TLabel
+    Left = 232
+    Top = 16
+    Width = 57
+    Height = 24
+    Caption = #1058#1077#1082#1089#1090':'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
+  end
+  object lbHash: TLabel
+    Left = 656
+    Top = 16
+    Width = 62
+    Height = 24
+    Caption = #1061#1101#1096' m:'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
+  end
+  object lbEDS: TLabel
+    Left = 648
+    Top = 88
+    Width = 194
+    Height = 24
+    Caption = #1062#1080#1092#1088#1086#1074#1072#1103' '#1087#1086#1076#1087#1080#1089#1100' S:'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
+  end
+  object lbFileName: TLabel
+    Left = 648
+    Top = 160
+    Width = 101
+    Height = 24
+    Caption = #1048#1084#1103' '#1092#1072#1081#1083#1072':'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
+  end
+  object edNumP: TEdit
+    Left = 24
+    Top = 40
+    Width = 193
+    Height = 32
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 0
+    OnKeyPress = edNumPKeyPress
+  end
+  object mmText: TMemo
+    Left = 232
+    Top = 40
+    Width = 401
+    Height = 248
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
+    ReadOnly = True
+    ScrollBars = ssBoth
+    TabOrder = 1
+  end
+  object edNumQ: TEdit
+    Left = 24
+    Top = 112
+    Width = 193
+    Height = 32
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 2
+    OnKeyPress = edNumQKeyPress
+  end
+  object edNumD: TEdit
+    Left = 24
+    Top = 184
+    Width = 193
+    Height = 32
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 3
+    OnKeyPress = edNumDKeyPress
+  end
+  object edNumE: TEdit
+    Left = 24
+    Top = 256
+    Width = 193
+    Height = 32
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 4
+    OnKeyPress = edNumEKeyPress
+  end
+  object edHash: TEdit
+    Left = 648
+    Top = 38
+    Width = 225
+    Height = 32
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
+    ReadOnly = True
+    TabOrder = 5
+  end
+  object edEDS: TEdit
+    Left = 648
+    Top = 112
+    Width = 225
+    Height = 32
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
+    ReadOnly = True
+    TabOrder = 6
+  end
+  object bbCheckEDS: TButton
+    Left = 649
+    Top = 312
+    Width = 193
+    Height = 33
+    Caption = #1055#1088#1086#1074#1077#1088#1080#1090#1100' '#1087#1086#1076#1087#1080#1089#1100
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 7
+  end
+  object edFileName: TEdit
+    Left = 648
+    Top = 184
+    Width = 225
+    Height = 32
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
+    ReadOnly = True
+    TabOrder = 8
+  end
+  object odOpenFile: TOpenDialog
+    Filter = #1058#1077#1082#1089#1090#1086#1074#1099#1081' '#1092#1072#1081#1083'|*.txt'
+    Left = 240
+    Top = 472
+  end
+  object MainMenu: TMainMenu
+    Left = 864
+    Top = 320
+    object N9: TMenuItem
+      Caption = '|'
+      Enabled = False
+    end
+    object OpenFile: TMenuItem
+      Caption = #1054#1090#1082#1088#1099#1090#1100' '#1092#1072#1081#1083
+      OnClick = OpenFileClick
+    end
+    object N2: TMenuItem
+      Caption = '|'
+      Enabled = False
+    end
+    object MakeEDS: TMenuItem
+      Caption = #1055#1086#1076#1087#1080#1089#1072#1090#1100' '#1092#1072#1081#1083
+      OnClick = MakeEDSClick
+    end
+    object N4: TMenuItem
+      Caption = '|'
+      Enabled = False
+    end
+    object Hash: TMenuItem
+      Caption = #1057#1086#1079#1076#1072#1090#1100' '#1093#1101#1096
+      OnClick = HashClick
+    end
+    object N6: TMenuItem
+      Caption = '|'
+      Enabled = False
+    end
+    object CheckEDS: TMenuItem
+      Caption = #1055#1088#1086#1074#1077#1088#1080#1090#1100' '#1087#1086#1076#1087#1080#1089#1100
+      OnClick = CheckEDSClick
+    end
+    object N8: TMenuItem
+      Caption = '|'
+      Enabled = False
+    end
+  end
+end

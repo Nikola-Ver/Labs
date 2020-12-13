@@ -1,0 +1,202 @@
+Unit Main;
+
+Interface
+
+Uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, StdCtrls, EDS;
+
+Type
+  TfmMain = class(TForm)
+    edNumP: TEdit;
+    lbNumP: TLabel;
+    mmText: TMemo;
+    edNumQ: TEdit;
+    lbNumQ: TLabel;
+    edNumD: TEdit;
+    lbNumD: TLabel;
+    edNumE: TEdit;
+    lbNumE: TLabel;
+    lbText: TLabel;
+    lbHash: TLabel;
+    edEDS: TEdit;
+    lbEDS: TLabel;
+    bbOpenFile: TButton;
+    bbHash: TButton;
+    bbMakeEDS: TButton;
+    bbCheckEDS: TButton;
+    edHash: TEdit;
+    odOpenFile: TOpenDialog;
+    edFileName: TEdit;
+    lbFileName: TLabel;
+    procedure bbOpenFileClick(Sender: TObject);
+    procedure edNumPKeyPress(Sender: TObject; var Key: Char);
+    procedure edNumQKeyPress(Sender: TObject; var Key: Char);
+    procedure edNumDKeyPress(Sender: TObject; var Key: Char);
+    procedure edNumEKeyPress(Sender: TObject; var Key: Char);
+    procedure bbHashClick(Sender: TObject);
+    procedure bbMakeEDSClick(Sender: TObject);
+    procedure bbCheckEDSClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+Var
+  fmMain: TfmMain;
+
+Implementation
+
+{$R *.dfm}
+
+procedure TfmMain.bbOpenFileClick(Sender: TObject);
+var
+  temp:string;
+  OpenedFile:TextFile;
+begin
+  if odOpenFile.Execute then
+  begin
+    mmText.Lines.Clear;
+    AssignFile(OpenedFile,odOpenFile.Filename);
+    edFileName.Text := odOpenFile.Filename;
+    Reset(OpenedFile);
+    while not(EOF(OpenedFile)) do
+    begin
+      Readln(OpenedFile,temp);
+      mmText.Lines.Add(temp);
+    end;
+    CloseFile(OpenedFile);
+  end;
+end;
+
+procedure TfmMain.edNumPKeyPress(Sender: TObject; var Key: Char);
+begin
+  if not (Key in ['0'..'9',#8]) then
+    Key:=#0;
+end;
+
+procedure TfmMain.edNumQKeyPress(Sender: TObject; var Key: Char);
+begin
+  if not (Key in ['0'..'9',#8]) then
+    Key:=#0;
+end;
+
+procedure TfmMain.edNumDKeyPress(Sender: TObject; var Key: Char);
+begin
+  if not (Key in ['0'..'9',#8]) then
+    Key:=#0;
+end;
+
+procedure TfmMain.edNumEKeyPress(Sender: TObject; var Key: Char);
+begin
+  if not (Key in ['0'..'9',#8]) then
+    Key:=#0;
+end;
+
+procedure TfmMain.bbHashClick(Sender: TObject);
+var
+  p:integer;
+  q:integer;
+  h:integer;
+  fileName:string;
+begin
+  if (edNumP.Text<>'') and (edNumQ.Text<>'') and (edFileName.Text<>'') then
+  begin
+    p := StrToInt(edNumP.Text);
+    q := StrToInt(edNumQ.Text);
+    fileName := edFileName.Text;
+    if (IsPrime(p)) and (IsPrime(q)) then
+    begin
+      h := MakeHash(fileName, p, q);
+      if (h <> -1) then
+        edHash.Text := IntToStr(h)
+      else
+        edHash.Text := 'Ошибка!';
+    end;
+  end;
+end;
+
+procedure TfmMain.bbMakeEDSClick(Sender: TObject);
+var
+  p:integer;
+  q:integer;
+  h:integer;
+  d:integer;
+  e:integer;
+  r:integer;
+  fi:integer;
+  S:integer;
+  temp:string;
+  OpenedFile:TextFile;
+begin
+  if (edNumP.Text<>'') and (edNumQ.Text<>'') and (edFileName.Text<>'')
+      and (edNumD.Text<>'') and (edHash.Text<>'') then
+  begin
+    p := StrToInt(edNumP.Text);
+    q := StrToInt(edNumQ.Text);
+    h := StrToInt(edHash.Text);
+    d := StrToInt(edNumD.Text);
+
+    r := p * q;
+    fi := Eiler(p, q);
+    if (IsPrime(p)) and (IsPrime(q) and (GCD(d, p-1) = 1) and (GCD(d, q - 1) = 1)
+        and (fi > d) and (d > 1)) then
+    begin
+      S := 0;
+      e := 0;
+      CreateEDS(edFileName.Text, h, r, fi, d, e, S);
+      edEDS.Text := IntToStr(S);
+      edNumE.Text := IntToStr(e);
+
+      mmText.Lines.Clear;
+      AssignFile(OpenedFile, edFileName.Text);
+      Reset(OpenedFile);
+      while not(EOF(OpenedFile)) do
+      begin
+        Readln(OpenedFile,temp);
+        mmText.Lines.Add(temp);
+      end;
+      CloseFile(OpenedFile);
+    end;
+  end;
+end;
+
+procedure TfmMain.bbCheckEDSClick(Sender: TObject);
+var
+  p:integer;
+  q:integer;
+  r:integer;
+  fi:integer;
+  hash1:integer;
+  hash2:integer;
+  e:integer;
+  temp:string;
+  OpenedFile:TextFile;
+begin
+  if (edNumP.Text<>'') and (edNumQ.Text<>'') and (edFileName.Text<>'')
+      and (edNumE.Text<>'') then
+  begin
+    p := StrToInt(edNumP.Text);
+    q := StrToInt(edNumQ.Text);
+    e := StrToInt(edNumE.Text);
+    r := p * q;
+    fi := Eiler(p, q);
+
+    if ((IsPrime(p)) and ((IsPrime(q)) and (GCD(e, fi) = 1)
+        and (fi > e) and (e > 1) then
+    begin
+      hash1 := 0;
+      hash2 := 0;
+      CheckEDS(edFileName.Text, p, q, e, hash1, hash2);
+      if (hash1 = hash2) then
+        ShowMessage('Подпись действительная. Значения хэш-образов равны '
+                      + IntToStr(hash1))
+      else
+        ShowMessage('Подпись поддельная. Значения хэш-образов не совпадают. Хэш-образ текста равен '
+                      + IntToStr(hash1) + '. Хэш-образ по подписи равен ' + IntToStr(hash2));
+    end;
+  end;
+end;
+
+End.

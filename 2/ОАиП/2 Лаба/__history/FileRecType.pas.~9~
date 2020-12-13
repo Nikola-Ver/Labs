@@ -1,0 +1,183 @@
+unit FileRecType;
+
+interface
+
+type
+
+  TString = String[25];
+
+  {ƒл€ файлов}
+  TFPrice = record
+    Code: Integer;
+    Cost: Integer;
+    Name: TString;
+    Quantity: Integer;
+  end;
+
+  TFGoods = record
+    Code: Integer;
+    Number: Integer;
+    Quantity: Integer;
+  end;
+
+  TFOrder = record
+    Number: Integer;
+    Date: TDateTime;
+    Props: TString;
+  end;
+
+  {ƒл€ записей}
+  TPriceRef = ^TPrice;
+
+  TPrice = record
+      info: TFPrice;
+      Ref: TPriceRef;
+  end;
+
+  TGoodsRef = ^TGoods;
+
+  TGoods = record
+      info: TFGoods;
+      Ref: TGoodsRef;
+  end;
+
+  TOrderRef = ^TOrder;
+
+  TOrder = record
+      info: TFOrder;
+      Ref: TOrderRef;
+  end;
+
+
+procedure ReadFile(var PPrice: TPriceRef; var PGoods: TGoodsRef; var POrder: TOrderRef);
+procedure SaveFile(var PPrice: TPriceRef; var PGoods: TGoodsRef; var POrder: TOrderRef);
+procedure help(AdminFlag, PropsFlag: Boolean);
+
+implementation
+
+procedure ReadFile(var PPrice: TPriceRef; var PGoods: TGoodsRef; var POrder: TOrderRef);
+var
+  PriceTxt: file of TFPrice;
+  GoodsTxt: file of TFGoods;
+  OrderTxt: file of TFOrder;
+begin
+  AssignFile(PriceTxt,'Price.dat');
+  AssignFile(OrderTxt,'Order.dat');
+  AssignFile(GoodsTxt,'Goods.dat');
+
+  Reset(PriceTxt);
+  Reset(GoodsTxt);
+  Reset(OrderTxt);
+
+  {ѕерезаписать старый список Order в запись}
+  while not eof(OrderTxt) do
+  begin
+    New(POrder.Ref);
+    POrder:= POrder.Ref;
+    Read(OrderTxt, POrder.info);
+  end;
+
+  {ѕерезаписать старый список Price в запись}
+  while not eof(PriceTxt) do
+  begin
+    New(PPrice.Ref);
+    PPrice:= PPrice.Ref;
+    Read(PriceTxt, PPrice.info);
+  end;
+
+  {ѕерезаписать старый список Goods в запись}
+  while not eof(GoodsTxt) do
+  begin
+    New(PGoods.Ref);
+    PGoods:= PGoods.Ref;
+    Read(GoodsTxt, PGoods.info);
+  end;
+
+  PPrice.Ref:= nil;
+  POrder.Ref:= nil;
+  PGoods.Ref:= nil;
+
+  CloseFile(PriceTxt);
+  CloseFile(GoodsTxt);
+  CloseFile(OrderTxt);
+end;
+
+procedure SaveFile(var PPrice: TPriceRef; var PGoods: TGoodsRef; var POrder: TOrderRef);
+var
+  PriceTxt: file of TFPrice;
+  GoodsTxt: file of TFGoods;
+  OrderTxt: file of TFOrder;
+begin
+  AssignFile(PriceTxt,'Price.dat');
+  AssignFile(OrderTxt,'Order.dat');
+  AssignFile(GoodsTxt,'Goods.dat');
+
+  Rewrite(PriceTxt);
+  Rewrite(GoodsTxt);
+  Rewrite(OrderTxt);
+
+  {ѕерезаписать старый список Order}
+  while (POrder.Ref <> nil) do
+  begin
+    POrder:= POrder.Ref;
+    Write(OrderTxt, POrder.info);
+  end;
+
+  {ѕерезаписать старый список Price}
+  while (PPrice.Ref <> nil) do
+  begin
+    PPrice:= PPrice.Ref;
+    Write(PriceTxt, PPrice.info);
+  end;
+
+  {ѕерезаписать старый список Goods}
+  while (PGoods.Ref <> nil) do
+  begin
+    PGoods:= PGoods.Ref;
+    Write(GoodsTxt, PGoods.info);
+  end;
+
+  POrder.Ref:= nil;
+  PPrice.Ref:= nil;
+  PGoods.Ref:= nil;
+
+  CloseFile(PriceTxt);
+  CloseFile(GoodsTxt);
+  CloseFile(OrderTxt);
+end;
+
+procedure help(AdminFlag, PropsFlag: Boolean);
+begin
+  Writeln;
+  Writeln('ХProps - чтобы оставить свой реквизит или авторизоватьс€ (дает возможность покупок)');//–аботает
+  Writeln('ХPassword - дл€ авторизации админа');//–аботает
+  Writeln('ХList - список товаров');//–аботает
+  Writeln('ХSave - сохранить изменени€');//–аботает
+  Writeln('ХSaveExit - выход с сохранением изменений');//–аботает
+  Writeln('ХExit - выйти без сохранени€');//–аботает
+
+  if PropsFlag then
+  begin
+    Writeln;
+    Writeln(' оманды клиента:');
+    Writeln('ХBasket - просмотр корзины');
+    Writeln('ХDeleteBasket - удалить товар из корзины');
+    Writeln('ХAddBasket - чтобы добавить в корзину');
+    Writeln('ХClearBasket - полностью очищает корзину');
+    Writeln('ХBuyList - цена за заказ');
+    Writeln('ХBuy - чтобы купить товары в корзине');
+    Writeln('ХQuitProps - выйти из реквизита');//–аботает
+  end;
+
+  if AdminFlag then
+    begin
+      Writeln;
+      Writeln(' оманды администратора:');
+      Writeln('ХFix - редактировать список товаров');//–аботает
+      Writeln('ХDelete - чтобы удалить из списка товаров');//–аботает
+      Writeln('ХQuit - чтобы выйти из режима админа');//–аботает
+    end;
+  Writeln;
+end;
+
+end.

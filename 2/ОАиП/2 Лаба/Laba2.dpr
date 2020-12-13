@@ -1,0 +1,385 @@
+program Laba2;
+
+{$APPTYPE CONSOLE}
+
+uses
+  DateUtils, Windows, SysUtils, FileRecType;
+
+var
+  Command: String;
+  CommandTo, Name: TString;
+  Admin, Props, Presence: Boolean;
+  Price, FirstPrice: TPriceRef;
+  Goods, FirstGoods: TGoodsRef;
+  Order, FirstOrder: TOrderRef;
+  Code, i, CurrentCode, CurrentNumber: Integer;
+begin
+  CurrentNumber:= 0;
+  Admin:= False;
+  Props:= False;
+
+  New(Order);
+  New(Price);
+  New(Goods);
+
+  FirstOrder:= Order;
+  FirstGoods:= Goods;
+  FirstPrice:= Price;
+
+  SetConsoleCP(1251);
+  SetConsoleOutPutCP(1251);
+
+  {Вернуть старые записи (считываем с файла)}
+  ReadFile(Price, Goods, Order);
+
+  Writeln('_____,,,^._.^,,,_____':118);
+  Writeln('|  Meow Coraparation! |':119);
+  Writeln('```````````````````````':119);
+  Writeln;
+  Writeln('•Help - список команд');
+  Writeln;
+
+  Order:= FirstOrder;
+  Goods:= FirstGoods;
+  Price:= FirstPrice;
+
+  repeat
+    Code:= 0;
+    Presence:= False;
+
+    Write('>> ');
+    Readln(Command);
+
+    if (LowerCase(Command) = 'save') or (LowerCase(Command) = 'saveexit') then
+      begin
+        Price:= FirstPrice;
+        Goods:= FirstGoods;
+        Order:= FirstOrder;
+        SaveFile(Price, Goods, Order);
+      end; //Готово к работе
+
+    if LowerCase(Command) = 'quitprops' then
+      begin
+        Props:= False;
+        Writeln;
+        Writeln('Вы вышли с указанного реквизита!');
+        Writeln;
+      end;//Готово к работе
+
+    if LowerCase(Command) = 'list' then
+      begin
+        Writeln;
+        Price:= FirstPrice;
+        if Price.Ref <> nil then
+        begin
+          Writeln('---------------------------------------------------------');
+          Writeln('|   Стоимость  |         Название        |  Количество  |');
+          Writeln('|  в копейках  |                         |   в кг./ед.  |');
+          Writeln('|--------------|-------------------------|--------------|');
+          repeat
+            Price:= Price.Ref;
+            Writeln('|', Price.info.Cost:14, '|',Price.info.Name:25, '|', Price.info.Quantity:14, '|');
+          until (Price.Ref = nil);
+          Writeln('---------------------------------------------------------');
+        end
+        else
+          Writeln('Список пуст!');
+        Writeln;
+      end;//Готово к работе
+
+    if LowerCase(Command) = 'props' then
+      if not Props then
+        begin
+          repeat
+            Write('>> Укажите свой реквизит: ');
+            Readln(CommandTo);
+          until (Length(CommandTo) > 0);
+
+          Name:= CommandTo;
+          Props:= True;
+
+          while (Order.Ref <> nil) and (Order.info.Props <> CommandTo) do
+          begin
+            Order:= Order.Ref;
+            Inc(Code);
+          end;
+
+          if (Order.Ref <> nil) or (Order.info.Props = CommandTo) then
+            begin
+              Writeln;
+              Writeln('С возвращением, ',CommandTo,'!');
+              Writeln;
+            end
+          else
+            begin
+              New(Order.Ref);
+              Order:= Order.Ref;
+              Order.info.Props:= CommandTo;
+              Order.Ref:= nil;
+              Writeln;
+              Writeln('Реквизит добавлен!');
+              Writeln;
+            end;
+        end
+      else
+        begin
+          Writeln;
+          Writeln('Вы уже авторизованны! Чтобы поменять реквизит напишите •QuitProps - выход из реквизита...');
+          Writeln;
+        end;
+
+    if LowerCase(Command) = 'password' then
+      begin
+        if Not Admin then
+        begin
+          Write('>> Введите пароль: ');
+          Readln(Command);
+          Writeln;
+          if Command = '65683164' then
+            begin
+              Writeln('Пароль введен успешно!');
+              Admin:= True;
+            end
+          else
+            Writeln('Неверный пароль!');
+          Writeln;
+        end
+        else
+          Writeln('Вы уже авторизованны как админ! Чтобы выйти из режима админа напищи •Quit - чтобы выйти из режима админа');
+      end;//Готово к работе
+
+    if (LowerCase(Command) = 'quit') and Admin then
+      begin
+        Admin:= False;
+        Writeln;
+        Writeln('Выключен режим администратора!');
+        Writeln;
+      end;//Готово к работе
+
+    if (LowerCase(Command) = 'fix') and Admin then
+      begin
+        Price:= FirstPrice;
+        while Price.Ref <> nil do
+          Price:= Price.Ref;
+        CurrentCode:= Price.info.Code;
+
+        Price:= FirstPrice;
+        Writeln;
+        Write('>> Название товара: ');
+        Readln(CommandTo);
+        while (Price.Ref <> nil) and (Price.info.Name <> CommandTo) do
+        begin
+          Price:= Price.Ref;
+          Inc(Code);
+        end;
+
+        if Price.info.Name <> CommandTo then
+          begin
+            New(Price.Ref);
+            Price:= Price.Ref;
+            Price.Ref:= nil;
+          end
+        else
+          Presence:= True;
+
+        Price.info.Code:= CurrentCode + 1;
+        Price.info.Name:= CommandTo;
+        if not Presence then
+          begin
+            repeat
+              Write('>> Цена товара (в белорусских копейках за кг. или за ед.): ');
+              Readln(Command);
+              if StrToInt(Command) < 0 then
+                Writeln('Вы не можете указать отрицательную стоимость!')
+            until (StrToInt(Command) >= 0);
+            Price.info.Cost:= StrToInt(Command);
+          end
+        else
+          begin
+            Write('>> Изменить цену продукта? (•Yes - чтобы изменить цену): ');
+            Readln(Command);
+            if LowerCase(Command) = 'yes' then
+              repeat
+                Write('>> Укажите новую цену: ');
+                Readln(Command);
+                if StrToInt(Command) < 0 then
+                  Writeln('Вы не можете указать отрицательную стоимость!')
+                else
+                  begin
+                    Price.info.Cost:= StrToInt(Command);
+                    Writeln;
+                    Writeln('Цена изменена успешно!');
+                    Writeln;
+                  end;
+              until (StrToInt(Command) >= 0);
+          end;
+        repeat
+          if not Presence then
+            begin
+              Write('>> Количество: ');
+              Readln(Command);
+            end
+          else
+            begin
+              Write('>> Изменить количество? (•Yes - чтобы изменить количество): ');
+              Readln(Command);
+              if LowerCase(Command) = 'yes' then
+                repeat
+                  Write('>> Укажите количество, которые вы хотите добавить: ');
+                  Readln(Command);
+                  if (Price.info.Quantity + StrToInt(Command) < 0) then
+                    Writeln('Вы не можете удалить больше чем имееться товара!')
+                  else
+                    begin
+                      Writeln;
+                      Writeln('Количество изменено успешно!');
+                    end;
+                until ((Price.info.Quantity + StrToInt(Command) >= 0))
+              else
+                Command:= '0';
+            end;
+          if Presence and (Price.info.Quantity + StrToInt(Command) < 0) then
+            Writeln('Вы не можете отнять больше чем имеется, или указать отрицательное количество товара!');
+        until (Price.info.Quantity + StrToInt(Command) >= 0) or (StrToInt(Command) >= 0);
+
+        if Presence then Price.info.Quantity:= Price.info.Quantity + StrToInt(Command)
+        else Price.info.Quantity:= StrToInt(Command);
+        Writeln;
+        Writeln('Товар успешно добавлен или убран!');
+        Writeln;
+
+        if Price.info.Quantity = 0 then
+          begin
+            Price:= FirstPrice;
+            for i := 1 to Code - 1 do
+              Price:= Price.Ref;
+            Price.Ref:= Price.Ref.Ref;
+          end;
+      end;//Реализовать для всех списков!
+
+    if (LowerCase(Command) = 'delete') and Admin then
+      begin
+        Write('>> Введите товар, который вы хотите удалить: ');
+        Readln(CommandTo);
+        Price:= FirstPrice;
+
+        while (Price.Ref <> nil) and (Price.info.Name <> CommandTo) do
+        begin
+          Price:= Price.Ref;
+          Inc(Code);
+        end;
+
+        if (Price.Ref <> nil) or (Price.info.Name = CommandTo) then
+          begin
+            Price:= FirstPrice;
+            for i := 1 to Code - 1 do
+              Price:= Price.Ref;
+            if Price.Ref <> nil then
+              Price.Ref:= Price.Ref.Ref
+            else
+              Price.Ref:= nil;
+            Writeln;
+            Writeln('Товар успешно удален!');
+            Writeln;
+          end
+        else
+          Writeln('Такого товара нету в списке!');
+      end;//Реализовать для всех списков!
+
+    if (LowerCase(Command) = 'fixbasket') and Props then
+      begin
+        Write('>> Название товара: ');
+        Readln(CommandTo);
+
+        Order:= FirstOrder;
+        while Order.Ref <> nil do
+        begin
+          Order:= Order.Ref;
+          if CurrentNumber > Order.info.Number then
+            CurrentNumber:= Order.info.Number;
+        end;
+
+        Price:= FirstPrice;
+        while (Price.Ref <> nil) and (Price.info.Name <> CommandTo) do
+          Price:= Price.Ref;
+
+        Goods:= FirstGoods;
+        while (Goods.Ref <> nil) and (Goods.info.Code <> Price.info.Code) do
+          Goods:= Goods.Ref;
+
+        Order:= FirstOrder;
+        while (Order.Ref <> nil) and (Order.info.Props <> Name) do
+          Order:= Order.Ref;
+
+        if Goods.Ref <> nil then
+          begin
+            Write('>> Изменить количество товара в вашем заказе? (•Yes - чтобы изменить): ');
+            CurrentNumber:= Order.info.Number;
+            Readln(Command);
+          end;
+
+        if (Goods.Ref = nil) or (LowerCase(Command) = 'yes') then
+          if Price.info.Name = CommandTo then
+            begin
+              Write('>> Количество товара: ');
+              Readln(Command);
+              if Price.info.Quantity - StrToInt(Command) >= 0 then
+                begin
+                  Price.info.Quantity:= Price.info.Quantity - StrToInt(Command);
+
+                  if Price.Ref = nil then
+                    begin
+                      Goods.info.Code:= Price.info.Code;
+                      Goods.info.Quantity:= StrToInt(Command);
+                      Order.info.Number:= CurrentNumber + 1;
+                      Order.info.Date:= Now;
+                    end
+                  else
+                    begin
+                      if StrToInt(Command) > 0 then
+                        begin
+                          Goods.info.Quantity:= Goods.info.Quantity + StrToInt(Command);
+                          Goods.info.Code:= Price.info.Code;
+                          Order.info.Date:= Now;
+                        end
+                      else
+                        Writeln('Вы не можете взять количество товара меньшее, либо равное 0');
+                    end;
+
+                  Writeln;
+                  Writeln('Товар успешно добавлен в заказ!');
+                  Writeln;
+
+                  if Price.info.Quantity = 0 then
+                    begin
+                      Code:= Price.info.Code;
+                      Price:= FirstPrice;
+                      while Price.Ref.info.Code <> Code do
+                        Price:= Price.Ref;
+
+                      if Price.Ref <> nil then
+                        Price.Ref:= Price.Ref.Ref
+                      else
+                        Price.Ref:= nil;
+                    end;
+                end
+              else
+                Writeln('Извините, но на складе всего осталось, ',Price.info.Quantity);
+          end
+        else
+          Writeln('Такого товара нет на складе!');
+      end;
+
+    if (LowerCase(Command) = 'deleteall') and Admin then
+      begin
+        Writeln;
+        Writeln('Список полностью удален!');
+        Writeln;
+        Price:= FirstPrice;
+        Price.Ref:= nil;
+      end;//Готово к работе
+
+    if LowerCase(Command) = 'help' then help(Admin, Props);//Готово к работе
+
+  until (LowerCase(Command) = 'exit') or (LowerCase(Command) = 'saveexit');
+end.

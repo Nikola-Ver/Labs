@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="icon.png">
+    <title> Шифрование</title>
+    <link rel="stylesheet" href="Customer.css">
+</head>
+<body>
+    <div class="headlogo">
+        <div class="fill">
+            <div class="logo" onclick="reload()"></div>
+        </div>
+        <a class="headtext">Шифрование</a>
+        <select class="choose">
+            <option>Метод железнодорожной изгороди</option>
+            <option>Столбцовый метод</option>
+            <option>Алгоритм Виженера</option>
+        </select>
+        <div class="gif"></div>
+        <input type="file" class="InputE" style="color:transparent;" onchange="this.style.color = 'black';">
+        <input type="file" class="InputD" style="color:transparent;" onchange="this.style.color = 'black';">
+    </div>
+    <div class="fieldentery">
+        <textarea class="VvodE" placeholder="      Введите текст для шифровки                          или перетащите текстовый файл"></textarea>
+        <textarea class="VivodE" disabled="true"></textarea>
+        <div class="saveE" onclick="download('Зашифрованный текст.txt', document.getElementsByClassName('VivodE')[0].value)"></div>
+        <div class="closeVivodE" disabled="true" onclick="closebutE()"></div>
+        <textarea class="VvodD" placeholder="     Введите текст для дешифровки                        или перетащите текстовый файл"></textarea>
+        <textarea class="VivodD" disabled="true"></textarea>
+        <div class="saveD" onclick="download('Расшифроанный текст.txt', document.getElementsByClassName('VivodD')[0].value)"></div>
+        <div class="closeVivodD" disabled="true" onclick="closebutD()"></div>
+
+        <div class="encode">
+            <a class="button" onclick="encode()">
+                <svg class="button_svg">
+                    <rect class="button_rect"></rect>
+                </svg>
+                Зашифровать
+            </a>
+        </div>
+
+        <div class="decode">
+            <a class="button" onclick="decode()">
+                <svg class="button_svg">
+                    <rect class="button_rect"></rect>
+                </svg>
+                Расшифровать
+            </a>
+        </div>
+    </div>
+    <script src="Customer.js"></script>
+</body>
+</html>
