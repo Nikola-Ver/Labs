@@ -1,0 +1,7 @@
+﻿  Release.cpp
+C:\Users\Лера\Desktop\distantExp\release\Release\Release\Release.cpp(27,35): warning C4244:  инициализация: преобразование "unsigned __int64" в "unsigned int", возможна потеря данных
+C:\Users\Лера\Desktop\distantExp\release\Release\Release\Release.cpp(31,83): warning C4244:  инициализация: преобразование "unsigned __int64" в "unsigned int", возможна потеря данных
+C:\Users\Лера\Desktop\distantExp\release\Release\Release\Release.cpp(59,10): warning C4477:  "printf": в строке форматирования "%x" требуется аргумент типа "unsigned int", но вариативный аргумент "1" имеет тип "unsigned __int64"
+C:\Users\Лера\Desktop\distantExp\release\Release\Release\Release.cpp(59,10): message :  рекомендуется использовать "%llx" в строке форматирования
+C:\Users\Лера\Desktop\distantExp\release\Release\Release\Release.cpp(59,10): message :  рекомендуется использовать "%I64x" в строке форматирования
+  Release.vcxproj -> C:\Users\Лера\Desktop\distantExp\release\Release\Debug\Release.exe

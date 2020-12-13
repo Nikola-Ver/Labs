@@ -1,0 +1,8 @@
+﻿  lab4.cpp
+D:\C++\labs\lab_4\lab4\lab4\lab4.cpp(48,1): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+D:\C++\labs\lab_4\lab4\lab4\lab4.cpp(166,50): warning C4312: приведение типов: преобразование из "HFILE" в "HANDLE" большего размера
+D:\C++\labs\lab_4\lab4\lab4\lab4.cpp(176,8): warning C4312: приведение типов: преобразование из "HFILE" в "HANDLE" большего размера
+D:\C++\labs\lab_4\lab4\lab4\lab4.cpp(202,68): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+D:\C++\labs\lab_4\lab4\lab4\lab4.cpp(206,35): warning C4312: приведение типов: преобразование из "HFILE" в "HANDLE" большего размера
+D:\C++\labs\lab_4\lab4\lab4\lab4.cpp(263,95): warning C4267: аргумент: преобразование из "size_t" в "DWORD"; возможна потеря данных
+  lab4.vcxproj -> D:\C++\labs\lab_4\lab4\x64\Debug\lab4.exe
