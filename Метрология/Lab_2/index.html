@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="log.png">
+    <title>Метрология</title>
+  </head>
+  <body>
+    <div class="BorderTextArea" style="margin-left: 30%"> 
+        <textarea class="TextArea" title="Введите код программы"></textarea>
+    </div>
+    <div class="BorderTextArea" style= "margin-left: 29%; height: 0; width: 0; border: 0px;">
+            <textarea class="TextArea" title="Ответ" style="text-align: center; padding: 100px; padding-top: 400px; font-size: 26px;" readonly></textarea>
+    </div>
+    <div class="butBox">
+        <a class="but" onclick="LoadBut()">Загрузить</a>
+        <a class="but" onclick="ResultBut()">Результат</a>
+        <a class="but" onclick="CloseBut()">Закрыть</a>
+    </div>
+    <input type="file" style="opacity: 1; margin-left: -3000px" class="load">
+  </body>
+  <script src="index.js"></script>
+</html>

@@ -1,0 +1,143 @@
+body {
+    /* background: rgb(100, 86, 112); */
+    background: url("background.gif");
+}
+
+.tableStyle {
+    border: rgb(0, 0, 0) 3px solid;
+    margin: auto;
+}
+
+.loadfile {
+    float: left;
+    margin-left: -210px;
+    margin-top: 20px;
+}
+
+.cellStyle {
+    border: rgb(0, 0, 0) 2px solid; 
+    font-size: 16px;
+    padding-right: 25px;
+    padding-left: 25px; 
+    letter-spacing: 2px;
+    font-family: "Embassy",cursive;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.cellStyleKPD {
+    border: rgb(0, 0, 0) 2px solid; 
+    font-size: 16px;
+    padding-right: 0;
+    padding-left: 0; 
+    letter-spacing: 2px;
+    font-family: "Embassy",cursive;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.FinalOutput {
+    font-weight: 600;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-family: "Embassy",cursive;
+}
+
+.TableArea {
+    float: right;
+    height: 985px;
+    width: 0;
+    overflow: auto;
+    background: transparent;
+    transition: 1s;
+}
+
+.TableArea::-webkit-scrollbar, .Input::-webkit-scrollbar {
+    width: 1em;
+}
+
+.TableArea::-webkit-scrollbar-track, .Input::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+ 
+.TableArea::-webkit-scrollbar-thumb, .Input::-webkit-scrollbar-thumb {
+  background-color: rgb(173, 173, 173);
+}
+
+.Input {
+    height: 980px;
+    float: left;
+    letter-spacing: 2px;
+    font-family: "Embassy",cursive;
+    font-size: 16px;
+}
+
+.cellStyle::selection, .FinalOutput::selection, .Input::selection {
+    background: rgb(173, 173, 173);
+}
+
+.result {
+    float: left;
+    margin-left: 20px;
+    margin-top: 90px;
+}
+
+.close {
+    float: left;
+    margin-left: -210px;
+    margin-top: 160px;
+}
+
+.button{
+    --width: 210px;
+    --height: 35px;
+    --begin: rgb(255, 255, 255);
+    --end: rgb(0, 255, 42);
+    position: relative;
+    display: inline-block;
+    width: var(--width);
+    height: var(--height);
+    line-height: var(--height);
+    color: var(--begin);
+    text-align: center;
+    font-family: "Embassy BT",cursive;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 2s;
+    background-color: transparent;
+    border-color: transparent; 
+}
+
+.button:hover,
+.button:focus{
+    outline: none;
+}
+
+.button_svg,
+.button_rect{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    fill: none;
+}
+
+.button_rect{
+    stroke: var(--begin);
+    stroke-width: 5;
+    stroke-dasharray: var(--height) var(--width);
+    stroke-dashoffset: calc(
+        2 * var(--width)
+        + 2 * var(--height)
+        + var(--height) 
+    );
+    transition: 2s;
+}
+
+.button:hover .button_rect,
+.button:focus .button_rect{
+    stroke: var(--end);
+    stroke-dashoffset: calc(var(--height) / 2);
+}
