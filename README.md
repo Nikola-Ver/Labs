@@ -36,7 +36,7 @@
                 <td rowspan=2>
                     <a  href="https://github.com/Nikola-Ver/Labs/tree/semester_5">Semester 5</a>
                     <br />
-                    Semester 6
+                    <a  href="https://github.com/Nikola-Ver/Labs/tree/semester_6">Semester 6</a>
                 </td>
             </tr>
             <tr>
