@@ -7,6 +7,12 @@
     <title></title>
 </head>
 <body>
-    <h1><%= val %></h1>
+    <header class="main-header"><span>To</span><span>do</span> <span>list</span></header>
+    <form action="./index.ejs" method="post" class="form">
+        <input type="text" placeholder="Title" name="title" class="title">
+        <input type="text" placeholder="Text" name="text" class="text">
+        <input type="file" name="file" class="file">
+        <input type="submit">
+    </form>
 </body>
 </html>
