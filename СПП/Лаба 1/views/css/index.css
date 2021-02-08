@@ -1,0 +1,213 @@
+:root {
+    --main-color-background-hover: #00ffb4;
+    --main-color-background: black;
+    --main-color-text: white;
+    --invert-val: 1;
+    --do-pos: -100%;
+    --list-pos: -100%;
+}
+
+* {
+    font-family: "Gill Sans","Gill Sans MT",Calibri,"Trebuchet MS",sans-serif;
+    font-weight: 900;
+    transition: 0.2s;
+}
+
+@keyframes header-show {
+    from {
+        transform: translateY(-100%);
+    } to {
+        transform: translateY(0);
+    }
+}
+
+@keyframes form-show {
+    from {
+        transform: scale(0);
+    } to {
+        transform: scale(1);
+    }
+}
+
+@keyframes bell {
+    15% {
+      transform: rotate(15deg);
+    }
+  
+    30% {
+      transform: rotate(-15deg);
+    }
+  
+    40% {
+      transform: rotate(10deg);
+    }
+  
+    50% {
+      transform: rotate(-10deg);
+    }
+  
+    65% {
+      transform: rotate(5deg);
+    }
+  
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+
+body {
+    background: var(--main-color-background);
+    color: var(--main-color-text);
+}
+
+.form {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 500px;
+    margin: auto;
+    margin-top: 30px;
+    animation: 0.5s form-show linear;
+}
+
+.form input {
+    border: none;
+    margin-top: 20px;
+    padding: 0;
+    margin: 0;
+    background: transparent;
+}
+
+.form .text {
+    transition: 0.5s;
+    font-size: 24px;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 120px;
+    margin: auto;
+    color: var(--main-color-text);
+    border-bottom: 2px solid var(--main-color-background-hover);
+    outline: none;
+}
+
+.form .text::placeholder { 
+    text-align: center;
+}
+
+.form .file {
+    display: none;
+}
+
+.form .send-button {
+    opacity: 0;
+    transform: translateY(-30px);
+    cursor: pointer;
+    transition: 0.2s;
+    color: var(--main-color-text);
+    outline: none;
+    margin: auto;
+    margin-top: 15px;
+    width: 130px;
+    height: 40px;
+    font-family: "Gill Sans","Gill Sans MT",Calibri,"Trebuchet MS",sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+    border-radius: 20px;
+    border: 2px solid var(--main-color-background-hover);
+}
+
+.form .send-button:hover {
+    width: 180px;
+    background: var(--main-color-background-hover);
+    color: var(--main-color-background);
+}
+
+.form:focus-within .text {
+    width: calc(100% - 80px);
+}
+
+.form:focus-within .send-button {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.form:focus-within .file-button {
+    opacity: 1;
+    cursor: pointer;
+    transform: scale(1);
+}
+
+.main-header {
+    user-select: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    font-size: 46px;
+    font-family: "Gill Sans","Gill Sans MT",Calibri,"Trebuchet MS",sans-serif;
+    font-weight: 900;
+}
+
+.main-header span:nth-child(1) {
+    transition: 0.5s;
+    animation: 0.5s header-show cubic-bezier(1,.11,.28,-0.28);
+}
+
+.main-header span:nth-child(2) {
+    transition: 0.75s;
+    animation: 0.75s header-show cubic-bezier(1,.11,.28,-0.28);
+}
+
+.main-header span:nth-child(3) {
+    transition: 0.9s;
+    animation: 0.9s header-show cubic-bezier(1,.11,.28,-0.28);
+}
+
+.file-button {
+    transition: 0.2s;
+    opacity: 0;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 10px;
+    right: 5px;
+    background: url('file.png') no-repeat;
+    background-size: 100%;
+    filter: invert(var(--invert-val));
+    z-index: 3;
+    transform: scale(0);
+}
+
+.file-button:hover {
+    animation: bell infinite 1s;
+}
+
+.ondrag-file {
+    display: none;
+    position: absolute;
+    z-index: 4;
+    top: 0;
+    height: 0;
+    width: calc(100% - 4px);
+    height: calc(100% - 4px);
+    border: 2px dashed var(--main-color-text);
+    font-size: 28px;
+    align-items: center;
+    justify-content: center;
+    background: var(--main-color-background);
+    color: var(--main-color-text);
+}
+
+.todo-item {
+    height: 50px;
+    width: 500px;
+    border: 2px solid var(--main-color-background-hover);
+    margin: auto;
+    margin-top: 50px;
+}
+
+@media (max-width: 600px) {
+    .form {
+        width: 90%;
+    }
+}

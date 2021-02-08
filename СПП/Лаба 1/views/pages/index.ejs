@@ -4,15 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
-    <title></title>
+    <link rel="icon" href="logo.png">
+    <title>Todos</title>
 </head>
 <body>
     <header class="main-header"><span>To</span><span>do</span> <span>list</span></header>
-    <form action="./index.ejs" method="post" class="form">
-        <input type="text" placeholder="Title" name="title" class="title">
-        <input type="text" placeholder="Text" name="text" class="text">
+    <div class="form">
+        <input type="text" autocomplete="off" name='text' placeholder="New todo" class="text">
         <input type="file" name="file" class="file">
-        <input type="submit">
-    </form>
+        <input type="submit" value="Add new" class="send-button">
+        <div class="file-button"></div>
+        <div class="ondrag-file">Drop file</div>
+    </div>
+    <div class="todo-item"></div>
+    <script src="index.js"></script>
 </body>
 </html>
