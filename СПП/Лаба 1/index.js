@@ -12,8 +12,22 @@ app
     .use(express.json({ limit: '50mb' }))
     .use(express.urlencoded({ limit: '50mb' }))
 
-    .post('/', (req, res) => {
+    .put('/', (req, res) => {
         data.push(req.body);
+        res.status(200).end();
+    })
+
+    .delete('/', (req, res) => {
+        data.splice(req.body.item, 1);
+        res.status(200).end();
+    })
+
+    .post('/', (req, res) => {
+        if (data[req.body.item].done.length > 0) {
+            data[req.body.item].done = ''
+        } else {
+            data[req.body.item].done = 'done'
+        }
         res.status(200).end();
     })
 

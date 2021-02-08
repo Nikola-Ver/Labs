@@ -10,6 +10,11 @@
 * {
     font-family: "Gill Sans","Gill Sans MT",Calibri,"Trebuchet MS",sans-serif;
     font-weight: 900;
+}
+
+body {
+    margin: 0;
+    padding: 5px;
     transition: 0.2s;
 }
 
@@ -68,6 +73,10 @@ body {
     margin: auto;
     margin-top: 30px;
     animation: 0.5s form-show linear;
+}
+
+.load .form {
+    animation: none;
 }
 
 .form input {
@@ -163,6 +172,10 @@ body {
     animation: 0.9s header-show cubic-bezier(1,.11,.28,-0.28);
 }
 
+.load .main-header span {
+    animation: none;
+}
+
 .file-button {
     transition: 0.2s;
     opacity: 0;
@@ -199,15 +212,154 @@ body {
 }
 
 .todo-item {
+    align-items: center;
+    display: flex;
+    position: relative;
+    flex-direction: row;
     height: 50px;
     width: 500px;
-    border: 2px solid var(--main-color-background-hover);
+    border-bottom: 2px solid var(--main-color-background-hover);
     margin: auto;
-    margin-top: 50px;
+    margin-top: 30px;
+}
+
+.done-item {
+    width: 30px;
+    height: 30px;
+    background: url('done.png') no-repeat;
+    background-size: 100%;
+    filter: invert(var(--invert-val));
+    opacity: 0.3;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.todo-item.done .done-item {
+    opacity: 1;
+}
+
+.todo-item.done .delete-line-item {
+    opacity: 1;
+    width: calc(100% - 110px);
+}
+
+.delete-line-item {
+    position: absolute;
+    left: 40px;
+    top: 25px;
+    background: var(--main-color-text);
+    height: 2px;
+    width: 0;
+    transition: 0.2s;
+}
+
+.done-item:hover {
+    opacity: 1;
+}
+
+.text-item {
+    color: var(--main-color-text);
+    font-size: 24px;
+    margin-left: 20px;
+    width: calc(100% - 130px);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.files-todo {
+    width: 30px;
+    height: 30px;
+    background: url('file.png') no-repeat;
+    background-size: 100%;
+    margin-left: 20px;
+    filter: invert(var(--invert-val));
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.files-todo:hover {
+    animation: bell infinite 1s;
+}
+
+.delete-todo {
+    width: 30px;
+    height: 30px;
+    background: url('delete.png') no-repeat;
+    background-size: 100%;
+    filter: invert(var(--invert-val));
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.delete-todo:hover {
+    animation: bell infinite 1s;
+}
+
+.files-item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    background: var(--main-color-background);
+    color: var(--main-color-text);
+    overflow: hidden;
+}
+
+.files-item.open {
+    width: 100%;
+    min-height: 50px;
+    height: fit-content;
+    overflow: visible;
+}
+
+.file-item {
+    padding: 10px;
+    width: calc(100% - 24px);
+    height: fit-content;
+    border-bottom: 2px solid var(--main-color-text);
+}
+
+.file-item-header {
+    width: calc(100% - 100px);
+    margin: auto;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 24px;
+    text-align: center;
+}
+
+.file-item-content {
+    font-size: 22px;
+}
+
+.content-files-item {
+    position: relative;
+    width: 100%;
+    height: fit-content;
+}
+
+.close-files-item {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 20px;
+    height: 20px;
+    background: url('close.png') no-repeat;
+    cursor: pointer;
+    background-size: 100%;
+    filter: invert(var(--invert-val));
+    transition: 0.2s transform;
+}
+
+.close-files-item:hover {
+    transform: scale(1.2);
 }
 
 @media (max-width: 600px) {
-    .form {
+    .form, .todo-item {
         width: 90%;
     }
 }

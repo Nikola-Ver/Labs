@@ -6,7 +6,58 @@ const [text] = document.getElementsByClassName('text');
 const [sendButton] = document.getElementsByClassName('send-button');
 const [header] = document.getElementsByClassName('main-header');
 
+const todoItems = document.getElementsByClassName('todo-item');
+const deleteItem = document.getElementsByClassName('delete-todo');
+const doneItem = document.getElementsByClassName('done-item');
+const filesTodoOpen = document.getElementsByClassName('files-todo');
+const filesTodoClose = document.getElementsByClassName('close-files-item');
+const filesItems = document.getElementsByClassName('files-item');
+
 const filesData = [];
+
+if (todoItems)
+    for (let i = 0; i < todoItems.length; i++) {
+        doneItem[i].onclick = e => {
+            new Promise ((res, rej) => {
+                todoItems[i].classList.toggle('done');
+                setTimeout(() => { res() }, 200);
+            }).then (() => {
+                fetch('/', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        item: i
+                    })
+                }).then(() => {
+                    window.location.reload();
+                })
+            })
+        }
+
+        deleteItem[i].onclick = e => {
+            fetch('/', {
+                method: 'DELETE',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    item: i
+                })
+            }).then(() => {
+                window.location.reload();
+            })
+        }
+
+        filesTodoOpen[i].onclick = e => {
+            filesItems[i].classList.add('open')
+        }
+
+        filesTodoClose[i].onclick = e => {
+            filesItems[i].classList.remove('open')
+        }
+    }
 
 function changeColorFunc() {
     function getCookie(name) {
@@ -75,7 +126,8 @@ dragElement.ondrop = e => {
             filesData.push({ name, content });
             fileButton.title = filesData.map(e => e.name).join('\n');
         };
-        fr.readAsText(e.dataTransfer.files[i]);
+
+        if (name.match(/\.txt$/)) fr.readAsText(e.dataTransfer.files[i]);
     }
 }
 
@@ -95,18 +147,19 @@ file.addEventListener('change', function () {
         fileButton.title = filesData.map(e => e.name).join('\n');
     };
 
-    fr.readAsText(this.files[0]);
+    if (name.match(/\.txt$/)) fr.readAsText(this.files[0]);
 })
 
 sendButton.onclick = e => {
     fetch('/', {
-        method: 'POST',
+        method: 'PUT',
         headers: {
             'Content-Type': 'application/json'
         },
         body: JSON.stringify({
             text: text.value,
-            files: filesData
+            files: filesData,
+            done: ''
         })
     }).then(() => {
         window.location.reload();
