@@ -1,0 +1,56 @@
+trophy1=1.tga
+trophy2=2.tga
+trophy3=3.tga
+trophy4=4.tga
+trophy5=5.tga
+trophy6=6.tga
+trophy7=7.tga
+trophy8=8.tga
+trophy9=9.tga
+trophy10=10.tga
+trophy11=11.tga
+trophy12=12.tga
+trophy13=13.tga
+trophy14=14.tga
+trophy15=15.tga
+trophy16=16.tga
+trophy17=17.tga
+
+trophylum1=1.jpg
+trophylum2=2.jpg
+trophylum3=3.jpg
+trophylum4=4.jpg
+trophylum5=5.jpg
+trophylum6=6.jpg
+trophylum7=7.jpg
+trophylum8=8.jpg
+trophylum9=9.jpg
+trophylum10=10.jpg
+trophylum11=11.jpg
+trophylum12=12.jpg
+trophylum13=13.jpg
+trophylum14=14.jpg
+trophylum15=15.jpg
+trophylum16=16.jpg
+trophylum17=17.jpg
+
+trophyname1=опхашкэмши спнбемэ!
+trophyname2=ясоеп асл!
+trophyname3=нркхвмне йнлан!
+trophyname4=апнмгнбши лхккхнм!
+trophyname5=апнмгнбши унд!
+trophyname6=яепеапъмши унд!
+trophyname7=яепеапъмши лхккхнм!
+trophyname8=нркхвмши унд!
+trophyname9=хдеюкэмне опнунфдемхе!
+trophyname10=апнмгнбюъ ледюкэ!
+trophyname11=рнвмши пюявер!
+trophyname11=гнкнрни лхккхнм!
+trophyname12=яепеапъмюъ ледюкэ!
+trophyname13=опебняундмне йнлан!
+trophyname14=опебняундмши унд!
+trophyname15=лецю асл!
+trophyname16=гнкнрни унд!
+trophyname17=йпсрюъ лнкмхъ!
+
+

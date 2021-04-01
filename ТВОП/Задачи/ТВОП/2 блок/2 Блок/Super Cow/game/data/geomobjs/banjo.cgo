@@ -1,0 +1,11 @@
+[meshes]
+
+nummeshes=1
+
+mesh0=banjo.msh
+texture0=banjo_tex.jpg
+
+[bounds]
+
+numbounds=0
+

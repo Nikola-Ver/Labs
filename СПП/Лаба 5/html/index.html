@@ -1,0 +1,173 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#5ab0ff">
+    <meta name="msapplication-navbutton-color" content="#5ab0ff">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#5ab0ff">
+    <title>Testing system</title>
+    <link rel="stylesheet" href="../css/index.css" />
+    <link rel="stylesheet" href="../css/loader.css">
+  </head>
+  <body>
+    <div id="loader">
+      <svg>
+        <circle class="circle" r="200" stroke="#5d2d87"></circle>
+        <circle class="circle" r="175" stroke="#c32287"></circle>
+        <circle class="circle" r="150" stroke="#ea225e"></circle>
+        <circle class="circle" r="125" stroke="#ee5b35"></circle>
+        <circle class="circle" r="100" stroke="#f4b42e"></circle>
+        <circle class="circle" r="75" stroke="#82c741"></circle>
+        <circle class="circle" r="50" stroke="#00a597"></circle>
+        <circle class="circle" r="25" stroke="#1a65a3"></circle>
+      </svg>
+    </div>
+    <div id="root">
+      <header class="head-text scroll-mandatory">
+        <div class="background"></div>
+        <div>Testing system</div>
+      </header>
+      <div class="scroll-mandatory">
+        <nav class="navigation">
+          <div class="list-of-control-buttons">
+            <div class="control-buttons">
+              <div class="head-text">
+                <p>Teacher</p>
+              </div>
+              <div class="drop-down-box" id="teacher-drop-down-box">
+                <div>Polls</div>
+                <div>Groups</div>
+                <span class="bottom-border"></span>
+              </div>
+            </div>
+            <div class="control-buttons">
+              <div class="head-text">
+                <p>Student</p>
+              </div>
+              <div class="drop-down-box" id="student-drop-down-box">
+                <div>Polls</div>
+                <div>Groups</div>
+                <div>Marks</div>
+                <span class="bottom-border"></span>
+              </div>
+            </div>
+            <div class="control-buttons">
+              <div class="head-text">
+                <p>About</p>
+              </div>
+              <div class="drop-down-box" id="about-drop-down-box">
+                <div>Program</div>
+                <div>Polls</div>
+                <div>Groups</div>
+                <div>Accounts</div>
+                <span class="bottom-border"></span>
+              </div>
+            </div>
+          </div>
+          <hr />
+        </nav>
+        <main>
+          <div class="main-content" id="teacher-content">
+            <div id="teacher-polls">
+              <div class="head-text-main-content">Polls</div>
+              <div class="container-border">
+                <div class="container">
+                  <!---------------- Repeat ---------------->
+                  <div class="container--element">
+                    <div class="container--name">Polls for students of the Belarusian State University of Engineering and Radio Engineering</div>
+                  </div>
+                  <!---------------------------------------->
+                </div>
+                <div class="add-button">
+                  <div class="add-button-plus"></div>
+                </div>
+              </div>
+            </div>
+            <div id="teacher-groups">
+                <div class="head-text-main-content">Groups</div>
+                <div class="container-border">
+                  <div class="container">
+                    <!---------------- Repeat ---------------->
+                    <div class="container--element">
+                      <div class="container--name">851006</div>
+                    </div>
+                    <!---------------------------------------->
+                  </div>
+                  <div class="add-button">
+                    <div class="add-button-plus"></div>
+                  </div>
+                </div> 
+            </div>
+          </div>
+          <div class="main-content" id="student-content">
+            <div id="student-polls">
+                <div class="head-text-main-content">Polls</div>
+                <div class="container-border">
+                  <div class="container">
+                    <!---------------- Repeat ---------------->
+                    <div class="container--element">
+                      <div class="container--name">Polls for students of the Belarusian State University of Engineering and Radio Engineering</div>
+                    </div>
+                    <!---------------------------------------->
+                  </div>
+                </div> 
+            </div>
+            <div id="student-groups">
+                <div class="head-text-main-content">Groups</div>
+                <div class="container-border">
+                  <div class="container">
+                    <!---------------- Repeat ---------------->
+                    <div class="container--element">
+                      <div class="container--name">851006</div>
+                    </div>
+                    <!---------------------------------------->
+                  </div>
+                </div> 
+            </div>
+            <div id="student-marks">
+                <div class="head-text-main-content">Marks</div>
+
+                <div class="container-border">
+                  <div class="container">
+                    <div class="marks-container-head">
+                      <div class="marks-head">Poll</div>
+                      <div class="marks-head">Mark</div>
+                    </div>
+                    <hr>
+
+                    <!---------------- Repeat ---------------->
+                    <div class="marks-container">
+                      <div class="marks-container--poll">Polls for students of the Belarusian State University of Engineering and Radio Engineering</div>
+                      <div class="marks-container--mark">10</div>
+                    </div>
+                    <hr>
+                    <!---------------------------------------->
+                    <div class="marks-container">
+                      <div class="marks-container--poll">For students of the Belarusian State University of Engineering and Radio Engineering</div>
+                      <div class="marks-container--mark">10</div>
+                    </div>
+
+                  </div>
+                </div> 
+            </div>
+          </div>
+          <div class="main-content" id="about-content">
+            <div id="about-program">
+                <div class="head-text-main-content">Program</div>
+            </div>
+            <div id="about-polls">
+                <div class="head-text-main-content">Polls</div>
+            </div>
+            <div id="about-groups">
+                <div class="head-text-main-content">Groups</div>
+            </div>
+            <div id="about-accounts">
+                <div class="head-text-main-content">Accounts</div>
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+    <script src="../js/index.js"></script>
+  </body>
+</html>
