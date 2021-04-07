@@ -1,0 +1,43 @@
+D:\универ\6 семестр\твоп\3 блок\3\3\bin\Debug\3.exe
+D:\универ\6 семестр\твоп\3 блок\3\3\bin\Debug\3.pdb
+D:\универ\6 семестр\твоп\3 блок\3\3\obj\x86\Debug\_3.Properties.Resources.resources
+D:\универ\6 семестр\твоп\3 блок\3\3\obj\x86\Debug\3.csproj.GenerateResource.Cache
+D:\универ\6 семестр\твоп\3 блок\3\3\obj\x86\Debug\3.exe
+D:\универ\6 семестр\твоп\3 блок\3\3\obj\x86\Debug\3.pdb
+D:\универ\6 семестр\твоп\3 блок\3\3\obj\x86\Debug\_3.Form1.resources
+D:\универ\6 семестр\твоп\3 блок\3\3\obj\x86\Debug\3.csprojResolveAssemblyReference.cache
+D:\универ 3.2\лабы твоп\блок 3\3_blok_2\3 блок\3\3\bin\Debug\3.exe
+D:\универ 3.2\лабы твоп\блок 3\3_blok_2\3 блок\3\3\bin\Debug\3.pdb
+D:\универ 3.2\лабы твоп\блок 3\3_blok_2\3 блок\3\3\obj\x86\Debug\3.csprojResolveAssemblyReference.cache
+D:\универ 3.2\лабы твоп\блок 3\3_blok_2\3 блок\3\3\obj\x86\Debug\_3.Form1.resources
+D:\универ 3.2\лабы твоп\блок 3\3_blok_2\3 блок\3\3\obj\x86\Debug\_3.Properties.Resources.resources
+D:\универ 3.2\лабы твоп\блок 3\3_blok_2\3 блок\3\3\obj\x86\Debug\3.csproj.GenerateResource.Cache
+D:\универ 3.2\лабы твоп\блок 3\3_blok_2\3 блок\3\3\obj\x86\Debug\3.csproj.CoreCompileInputs.cache
+D:\универ 3.2\лабы твоп\блок 3\3_blok_2\3 блок\3\3\obj\x86\Debug\3.exe
+D:\универ 3.2\лабы твоп\блок 3\3_blok_2\3 блок\3\3\obj\x86\Debug\3.pdb
+D:\OneDrive - Белорусский государственный университет информатики и радиоэлектроники\учеба\6 семестр\ТВОП\3 блок\3\3\bin\Debug\3.exe
+D:\OneDrive - Белорусский государственный университет информатики и радиоэлектроники\учеба\6 семестр\ТВОП\3 блок\3\3\bin\Debug\3.pdb
+D:\OneDrive - Белорусский государственный университет информатики и радиоэлектроники\учеба\6 семестр\ТВОП\3 блок\3\3\obj\x86\Debug\_3.Form1.resources
+D:\OneDrive - Белорусский государственный университет информатики и радиоэлектроники\учеба\6 семестр\ТВОП\3 блок\3\3\obj\x86\Debug\_3.Properties.Resources.resources
+D:\OneDrive - Белорусский государственный университет информатики и радиоэлектроники\учеба\6 семестр\ТВОП\3 блок\3\3\obj\x86\Debug\3.csproj.GenerateResource.cache
+D:\OneDrive - Белорусский государственный университет информатики и радиоэлектроники\учеба\6 семестр\ТВОП\3 блок\3\3\obj\x86\Debug\3.csproj.CoreCompileInputs.cache
+D:\OneDrive - Белорусский государственный университет информатики и радиоэлектроники\учеба\6 семестр\ТВОП\3 блок\3\3\obj\x86\Debug\3.exe
+D:\OneDrive - Белорусский государственный университет информатики и радиоэлектроники\учеба\6 семестр\ТВОП\3 блок\3\3\obj\x86\Debug\3.pdb
+D:\all you need is\to study\6 sem\tvop\ТВОП\3 блок\3\3\bin\Debug\3.exe
+D:\all you need is\to study\6 sem\tvop\ТВОП\3 блок\3\3\bin\Debug\3.pdb
+D:\all you need is\to study\6 sem\tvop\ТВОП\3 блок\3\3\obj\x86\Debug\3.csprojAssemblyReference.cache
+D:\all you need is\to study\6 sem\tvop\ТВОП\3 блок\3\3\obj\x86\Debug\_3.Form1.resources
+D:\all you need is\to study\6 sem\tvop\ТВОП\3 блок\3\3\obj\x86\Debug\_3.Properties.Resources.resources
+D:\all you need is\to study\6 sem\tvop\ТВОП\3 блок\3\3\obj\x86\Debug\3.csproj.GenerateResource.cache
+D:\all you need is\to study\6 sem\tvop\ТВОП\3 блок\3\3\obj\x86\Debug\3.csproj.CoreCompileInputs.cache
+D:\all you need is\to study\6 sem\tvop\ТВОП\3 блок\3\3\obj\x86\Debug\3.exe
+D:\all you need is\to study\6 sem\tvop\ТВОП\3 блок\3\3\obj\x86\Debug\3.pdb
+C:\Users\Admin\Desktop\6 сем\ТВОП\3 блок\Программа\3\bin\Debug\3.exe
+C:\Users\Admin\Desktop\6 сем\ТВОП\3 блок\Программа\3\bin\Debug\3.pdb
+C:\Users\Admin\Desktop\6 сем\ТВОП\3 блок\Программа\3\obj\x86\Debug\3.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\6 сем\ТВОП\3 блок\Программа\3\obj\x86\Debug\_3.Form1.resources
+C:\Users\Admin\Desktop\6 сем\ТВОП\3 блок\Программа\3\obj\x86\Debug\_3.Properties.Resources.resources
+C:\Users\Admin\Desktop\6 сем\ТВОП\3 блок\Программа\3\obj\x86\Debug\3.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\6 сем\ТВОП\3 блок\Программа\3\obj\x86\Debug\3.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\6 сем\ТВОП\3 блок\Программа\3\obj\x86\Debug\3.exe
+C:\Users\Admin\Desktop\6 сем\ТВОП\3 блок\Программа\3\obj\x86\Debug\3.pdb

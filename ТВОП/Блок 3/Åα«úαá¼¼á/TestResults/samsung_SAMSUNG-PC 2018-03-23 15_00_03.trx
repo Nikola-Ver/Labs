@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="610d8974-9644-4e5f-9c52-b1ed0f4b3c5c" name="samsung@SAMSUNG-PC 2018-03-23 15:00:03" runUser="samsung-PC\samsung" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Локальные" id="636dc71c-ee14-4ea2-9d7c-f8610282730e">
+    <Description>Это - параметры по умолчанию для локального тестового запуска.</Description>
+    <Deployment enabled="false" runDeploymentRoot="samsung_SAMSUNG-PC 2018-03-23 15_00_03">
+      <DeploymentItem filename="D:\универ\6 семестр\твоп\3 блок\3\3\bin\Debug\3.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2018-03-23T15:00:03.2715224+03:00" queuing="2018-03-23T15:00:03.4695338+03:00" start="2018-03-23T15:00:03.5215367+03:00" finish="2018-03-23T15:00:04.6536015+03:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="11" executed="11" passed="11" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestMethod4" storage="d:\универ\6 семестр\твоп\3 блок\3\utests\bin\debug\utests.dll" id="8d2fc632-eaef-cb04-69d0-9d114f7b9b09">
+      <Execution id="e05657fd-fd8f-4cf2-a734-f539a772dedd" />
+      <TestMethod codeBase="D:/универ/6 семестр/твоп/3 блок/3/UTests/bin/Debug/UTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UTests.UnitTest1, UTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod4" />
+    </UnitTest>
+    <UnitTest name="TestMethod9" storage="d:\универ\6 семестр\твоп\3 блок\3\utests\bin\debug\utests.dll" id="8fee4861-e2f4-71ab-9f08-4e7811e2c6c7">
+      <Execution id="0a439b10-ba5a-4b36-ad02-8a24cf72bec5" />
+      <TestMethod codeBase="D:/универ/6 семестр/твоп/3 блок/3/UTests/bin/Debug/UTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UTests.UnitTest1, UTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod9" />
+    </UnitTest>
+    <UnitTest name="TestMethod2" storage="d:\универ\6 семестр\твоп\3 блок\3\utests\bin\debug\utests.dll" id="08d46847-8e69-ad66-ddb5-929578b49797">
+      <Execution id="473ed6af-dabd-4359-89ed-9fc99ba7e4c7" />
+      <TestMethod codeBase="D:/универ/6 семестр/твоп/3 блок/3/UTests/bin/Debug/UTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UTests.UnitTest1, UTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod2" />
+    </UnitTest>
+    <UnitTest name="TestMethod5" storage="d:\универ\6 семестр\твоп\3 блок\3\utests\bin\debug\utests.dll" id="f45d2b56-5f35-a57c-657d-0217b6393cef">
+      <Execution id="13be70f0-f7b9-47a1-8375-11d115ab9ce3" />
+      <TestMethod codeBase="D:/универ/6 семестр/твоп/3 блок/3/UTests/bin/Debug/UTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UTests.UnitTest1, UTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod5" />
+    </UnitTest>
+    <UnitTest name="TestMethod7" storage="d:\универ\6 семестр\твоп\3 блок\3\utests\bin\debug\utests.dll" id="b0d38483-4483-bee0-1af7-2dd2c85c2026">
+      <Execution id="a42b93ac-21db-4541-bed1-485b9f8615a6" />
+      <TestMethod codeBase="D:/универ/6 семестр/твоп/3 блок/3/UTests/bin/Debug/UTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UTests.UnitTest1, UTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod7" />
+    </UnitTest>
+    <UnitTest name="TestMethod1" storage="d:\универ\6 семестр\твоп\3 блок\3\utests\bin\debug\utests.dll" id="28c1eea9-3bf7-8f9f-7a38-ae3b5ed34007">
+      <Execution id="d9a72c26-b929-4ca8-bd67-ef3e219f5ec0" />
+      <TestMethod codeBase="D:/универ/6 семестр/твоп/3 блок/3/UTests/bin/Debug/UTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UTests.UnitTest1, UTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+    <UnitTest name="TestMethod11" storage="d:\универ\6 семестр\твоп\3 блок\3\utests\bin\debug\utests.dll" id="930f276b-cfb3-b77e-6d3a-63611b46dc06">
+      <Execution id="8b6b35a3-2675-4e45-b502-c23b1c069210" />
+      <TestMethod codeBase="D:/универ/6 семестр/твоп/3 блок/3/UTests/bin/Debug/UTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UTests.UnitTest1, UTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod11" />
+    </UnitTest>
+    <UnitTest name="TestMethod8" storage="d:\универ\6 семестр\твоп\3 блок\3\utests\bin\debug\utests.dll" id="1fee5be1-2f7c-546a-680f-d4dfa5e5d767">
+      <Execution id="56af629f-c897-4f78-aa70-b4cbdd9b09fa" />
+      <TestMethod codeBase="D:/универ/6 семестр/твоп/3 блок/3/UTests/bin/Debug/UTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UTests.UnitTest1, UTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod8" />
+    </UnitTest>
+    <UnitTest name="TestMethod10" storage="d:\универ\6 семестр\твоп\3 блок\3\utests\bin\debug\utests.dll" id="af90197e-d14d-f4c5-57a7-19c23ef3a831">
+      <Execution id="c1a35b00-9709-4202-9ee3-f1a354bb7079" />
+      <TestMethod codeBase="D:/универ/6 семестр/твоп/3 блок/3/UTests/bin/Debug/UTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UTests.UnitTest1, UTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod10" />
+    </UnitTest>
+    <UnitTest name="TestMethod6" storage="d:\универ\6 семестр\твоп\3 блок\3\utests\bin\debug\utests.dll" id="4156c605-3ad6-cca1-6085-9da7c62bf26f">
+      <Execution id="c0f73672-d2d8-448b-a7bf-6509dc7a1d08" />
+      <TestMethod codeBase="D:/универ/6 семестр/твоп/3 блок/3/UTests/bin/Debug/UTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UTests.UnitTest1, UTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod6" />
+    </UnitTest>
+    <UnitTest name="TestMethod3" storage="d:\универ\6 семестр\твоп\3 блок\3\utests\bin\debug\utests.dll" id="8e26141a-dd1d-59cc-c6a4-6771cc97c26c">
+      <Execution id="b58a23d6-aa05-4fda-9b89-555a8768aedd" />
+      <TestMethod codeBase="D:/универ/6 семестр/твоп/3 блок/3/UTests/bin/Debug/UTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UTests.UnitTest1, UTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod3" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Отсутствующие в списке результаты" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Все загруженные результаты" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="08d46847-8e69-ad66-ddb5-929578b49797" executionId="473ed6af-dabd-4359-89ed-9fc99ba7e4c7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1fee5be1-2f7c-546a-680f-d4dfa5e5d767" executionId="56af629f-c897-4f78-aa70-b4cbdd9b09fa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="28c1eea9-3bf7-8f9f-7a38-ae3b5ed34007" executionId="d9a72c26-b929-4ca8-bd67-ef3e219f5ec0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4156c605-3ad6-cca1-6085-9da7c62bf26f" executionId="c0f73672-d2d8-448b-a7bf-6509dc7a1d08" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8d2fc632-eaef-cb04-69d0-9d114f7b9b09" executionId="e05657fd-fd8f-4cf2-a734-f539a772dedd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8e26141a-dd1d-59cc-c6a4-6771cc97c26c" executionId="b58a23d6-aa05-4fda-9b89-555a8768aedd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8fee4861-e2f4-71ab-9f08-4e7811e2c6c7" executionId="0a439b10-ba5a-4b36-ad02-8a24cf72bec5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="930f276b-cfb3-b77e-6d3a-63611b46dc06" executionId="8b6b35a3-2675-4e45-b502-c23b1c069210" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="af90197e-d14d-f4c5-57a7-19c23ef3a831" executionId="c1a35b00-9709-4202-9ee3-f1a354bb7079" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b0d38483-4483-bee0-1af7-2dd2c85c2026" executionId="a42b93ac-21db-4541-bed1-485b9f8615a6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f45d2b56-5f35-a57c-657d-0217b6393cef" executionId="13be70f0-f7b9-47a1-8375-11d115ab9ce3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="473ed6af-dabd-4359-89ed-9fc99ba7e4c7" testId="08d46847-8e69-ad66-ddb5-929578b49797" testName="TestMethod2" computerName="SAMSUNG-PC" duration="00:00:00.0669198" startTime="2018-03-23T15:00:03.6495440+03:00" endTime="2018-03-23T15:00:04.3405836+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="473ed6af-dabd-4359-89ed-9fc99ba7e4c7">
+    </UnitTestResult>
+    <UnitTestResult executionId="56af629f-c897-4f78-aa70-b4cbdd9b09fa" testId="1fee5be1-2f7c-546a-680f-d4dfa5e5d767" testName="TestMethod8" computerName="SAMSUNG-PC" duration="00:00:00.0041901" startTime="2018-03-23T15:00:04.3505841+03:00" endTime="2018-03-23T15:00:04.3605847+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="56af629f-c897-4f78-aa70-b4cbdd9b09fa">
+    </UnitTestResult>
+    <UnitTestResult executionId="d9a72c26-b929-4ca8-bd67-ef3e219f5ec0" testId="28c1eea9-3bf7-8f9f-7a38-ae3b5ed34007" testName="TestMethod1" computerName="SAMSUNG-PC" duration="00:00:00.0047658" startTime="2018-03-23T15:00:04.3635849+03:00" endTime="2018-03-23T15:00:04.3805859+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d9a72c26-b929-4ca8-bd67-ef3e219f5ec0">
+    </UnitTestResult>
+    <UnitTestResult executionId="c0f73672-d2d8-448b-a7bf-6509dc7a1d08" testId="4156c605-3ad6-cca1-6085-9da7c62bf26f" testName="TestMethod6" computerName="SAMSUNG-PC" duration="00:00:00.0048606" startTime="2018-03-23T15:00:04.3855861+03:00" endTime="2018-03-23T15:00:04.3965868+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c0f73672-d2d8-448b-a7bf-6509dc7a1d08">
+    </UnitTestResult>
+    <UnitTestResult executionId="e05657fd-fd8f-4cf2-a734-f539a772dedd" testId="8d2fc632-eaef-cb04-69d0-9d114f7b9b09" testName="TestMethod4" computerName="SAMSUNG-PC" duration="00:00:00.0038207" startTime="2018-03-23T15:00:04.4025871+03:00" endTime="2018-03-23T15:00:04.4155879+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e05657fd-fd8f-4cf2-a734-f539a772dedd">
+    </UnitTestResult>
+    <UnitTestResult executionId="b58a23d6-aa05-4fda-9b89-555a8768aedd" testId="8e26141a-dd1d-59cc-c6a4-6771cc97c26c" testName="TestMethod3" computerName="SAMSUNG-PC" duration="00:00:00.0038432" startTime="2018-03-23T15:00:04.4485898+03:00" endTime="2018-03-23T15:00:04.4595904+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b58a23d6-aa05-4fda-9b89-555a8768aedd">
+    </UnitTestResult>
+    <UnitTestResult executionId="0a439b10-ba5a-4b36-ad02-8a24cf72bec5" testId="8fee4861-e2f4-71ab-9f08-4e7811e2c6c7" testName="TestMethod9" computerName="SAMSUNG-PC" duration="00:00:00.0038666" startTime="2018-03-23T15:00:04.4645907+03:00" endTime="2018-03-23T15:00:04.4745912+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0a439b10-ba5a-4b36-ad02-8a24cf72bec5">
+    </UnitTestResult>
+    <UnitTestResult executionId="8b6b35a3-2675-4e45-b502-c23b1c069210" testId="930f276b-cfb3-b77e-6d3a-63611b46dc06" testName="TestMethod11" computerName="SAMSUNG-PC" duration="00:00:00.0038065" startTime="2018-03-23T15:00:04.4815916+03:00" endTime="2018-03-23T15:00:04.4925923+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8b6b35a3-2675-4e45-b502-c23b1c069210">
+    </UnitTestResult>
+    <UnitTestResult executionId="c1a35b00-9709-4202-9ee3-f1a354bb7079" testId="af90197e-d14d-f4c5-57a7-19c23ef3a831" testName="TestMethod10" computerName="SAMSUNG-PC" duration="00:00:00.0039023" startTime="2018-03-23T15:00:04.4975926+03:00" endTime="2018-03-23T15:00:04.5075931+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c1a35b00-9709-4202-9ee3-f1a354bb7079">
+    </UnitTestResult>
+    <UnitTestResult executionId="a42b93ac-21db-4541-bed1-485b9f8615a6" testId="b0d38483-4483-bee0-1af7-2dd2c85c2026" testName="TestMethod7" computerName="SAMSUNG-PC" duration="00:00:00.0039624" startTime="2018-03-23T15:00:04.5165936+03:00" endTime="2018-03-23T15:00:04.5305944+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a42b93ac-21db-4541-bed1-485b9f8615a6">
+    </UnitTestResult>
+    <UnitTestResult executionId="13be70f0-f7b9-47a1-8375-11d115ab9ce3" testId="f45d2b56-5f35-a57c-657d-0217b6393cef" testName="TestMethod5" computerName="SAMSUNG-PC" duration="00:00:00.0041266" startTime="2018-03-23T15:00:04.5485955+03:00" endTime="2018-03-23T15:00:04.5605962+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="13be70f0-f7b9-47a1-8375-11d115ab9ce3">
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,46 @@
+D:\универ\6 семестр\твоп\3 блок\3\UTests\obj\Debug\UTests.csprojResolveAssemblyReference.cache
+D:\универ\6 семестр\твоп\3 блок\3\UTests\bin\Debug\UTests.dll
+D:\универ\6 семестр\твоп\3 блок\3\UTests\bin\Debug\UTests.pdb
+D:\универ\6 семестр\твоп\3 блок\3\UTests\bin\Debug\3.exe
+D:\универ\6 семестр\твоп\3 блок\3\UTests\bin\Debug\3.pdb
+D:\универ\6 семестр\твоп\3 блок\3\UTests\obj\Debug\UTests.dll
+D:\универ\6 семестр\твоп\3 блок\3\UTests\obj\Debug\UTests.pdb
+D:\универ 3.2\лабы твоп\блок 3\3_blok_2\3 блок\3\UTests\bin\Debug\UTests.dll
+D:\универ 3.2\лабы твоп\блок 3\3_blok_2\3 блок\3\UTests\bin\Debug\UTests.pdb
+D:\универ 3.2\лабы твоп\блок 3\3_blok_2\3 блок\3\UTests\bin\Debug\3.exe
+D:\универ 3.2\лабы твоп\блок 3\3_blok_2\3 блок\3\UTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\универ 3.2\лабы твоп\блок 3\3_blok_2\3 блок\3\UTests\bin\Debug\3.pdb
+D:\универ 3.2\лабы твоп\блок 3\3_blok_2\3 блок\3\UTests\obj\Debug\UTests.csprojResolveAssemblyReference.cache
+D:\универ 3.2\лабы твоп\блок 3\3_blok_2\3 блок\3\UTests\obj\Debug\UTests.csproj.CoreCompileInputs.cache
+D:\универ 3.2\лабы твоп\блок 3\3_blok_2\3 блок\3\UTests\obj\Debug\UTests.dll
+D:\универ 3.2\лабы твоп\блок 3\3_blok_2\3 блок\3\UTests\obj\Debug\UTests.pdb
+D:\OneDrive - Белорусский государственный университет информатики и радиоэлектроники\учеба\6 семестр\ТВОП\3 блок\3\UTests\bin\Debug\UTests.dll
+D:\OneDrive - Белорусский государственный университет информатики и радиоэлектроники\учеба\6 семестр\ТВОП\3 блок\3\UTests\bin\Debug\UTests.pdb
+D:\OneDrive - Белорусский государственный университет информатики и радиоэлектроники\учеба\6 семестр\ТВОП\3 блок\3\UTests\bin\Debug\3.exe
+D:\OneDrive - Белорусский государственный университет информатики и радиоэлектроники\учеба\6 семестр\ТВОП\3 блок\3\UTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\OneDrive - Белорусский государственный университет информатики и радиоэлектроники\учеба\6 семестр\ТВОП\3 блок\3\UTests\bin\Debug\3.pdb
+D:\OneDrive - Белорусский государственный университет информатики и радиоэлектроники\учеба\6 семестр\ТВОП\3 блок\3\UTests\obj\Debug\UTests.csproj.CoreCompileInputs.cache
+D:\OneDrive - Белорусский государственный университет информатики и радиоэлектроники\учеба\6 семестр\ТВОП\3 блок\3\UTests\obj\Debug\UTests.csproj.CopyComplete
+D:\OneDrive - Белорусский государственный университет информатики и радиоэлектроники\учеба\6 семестр\ТВОП\3 блок\3\UTests\obj\Debug\UTests.dll
+D:\OneDrive - Белорусский государственный университет информатики и радиоэлектроники\учеба\6 семестр\ТВОП\3 блок\3\UTests\obj\Debug\UTests.pdb
+D:\OneDrive - Белорусский государственный университет информатики и радиоэлектроники\учеба\6 семестр\ТВОП\3 блок\3\UTests\obj\Debug\UTests.csprojResolveAssemblyReference.cache
+D:\all you need is\to study\6 sem\tvop\ТВОП\3 блок\3\UTests\bin\Debug\UTests.dll
+D:\all you need is\to study\6 sem\tvop\ТВОП\3 блок\3\UTests\bin\Debug\UTests.pdb
+D:\all you need is\to study\6 sem\tvop\ТВОП\3 блок\3\UTests\bin\Debug\3.exe
+D:\all you need is\to study\6 sem\tvop\ТВОП\3 блок\3\UTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\all you need is\to study\6 sem\tvop\ТВОП\3 блок\3\UTests\bin\Debug\3.pdb
+D:\all you need is\to study\6 sem\tvop\ТВОП\3 блок\3\UTests\obj\Debug\UTests.csprojAssemblyReference.cache
+D:\all you need is\to study\6 sem\tvop\ТВОП\3 блок\3\UTests\obj\Debug\UTests.csproj.CoreCompileInputs.cache
+D:\all you need is\to study\6 sem\tvop\ТВОП\3 блок\3\UTests\obj\Debug\UTests.csproj.CopyComplete
+D:\all you need is\to study\6 sem\tvop\ТВОП\3 блок\3\UTests\obj\Debug\UTests.dll
+D:\all you need is\to study\6 sem\tvop\ТВОП\3 блок\3\UTests\obj\Debug\UTests.pdb
+C:\Users\Admin\Desktop\6 сем\ТВОП\3 блок\Программа\UTests\bin\Debug\UTests.dll
+C:\Users\Admin\Desktop\6 сем\ТВОП\3 блок\Программа\UTests\bin\Debug\UTests.pdb
+C:\Users\Admin\Desktop\6 сем\ТВОП\3 блок\Программа\UTests\bin\Debug\3.exe
+C:\Users\Admin\Desktop\6 сем\ТВОП\3 блок\Программа\UTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Admin\Desktop\6 сем\ТВОП\3 блок\Программа\UTests\bin\Debug\3.pdb
+C:\Users\Admin\Desktop\6 сем\ТВОП\3 блок\Программа\UTests\obj\Debug\UTests.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\6 сем\ТВОП\3 блок\Программа\UTests\obj\Debug\UTests.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\6 сем\ТВОП\3 блок\Программа\UTests\obj\Debug\UTests.csproj.CopyComplete
+C:\Users\Admin\Desktop\6 сем\ТВОП\3 блок\Программа\UTests\obj\Debug\UTests.dll
+C:\Users\Admin\Desktop\6 сем\ТВОП\3 блок\Программа\UTests\obj\Debug\UTests.pdb

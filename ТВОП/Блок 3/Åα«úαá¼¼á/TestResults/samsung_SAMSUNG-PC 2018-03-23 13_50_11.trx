@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="2b39f5a0-f2c5-4653-b67c-accf7afd0ea3" name="samsung@SAMSUNG-PC 2018-03-23 13:50:11" runUser="samsung-PC\samsung" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Локальные" id="636dc71c-ee14-4ea2-9d7c-f8610282730e">
+    <Description>Это - параметры по умолчанию для локального тестового запуска.</Description>
+    <Deployment enabled="false" runDeploymentRoot="samsung_SAMSUNG-PC 2018-03-23 13_50_11">
+      <DeploymentItem filename="D:\универ\6 семестр\твоп\3 блок\3\3\bin\Debug\3.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2018-03-23T13:50:11.3628149+03:00" queuing="2018-03-23T13:50:11.5708268+03:00" start="2018-03-23T13:50:11.6948339+03:00" finish="2018-03-23T13:50:12.6558889+03:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestMethod7" storage="d:\универ\6 семестр\твоп\3 блок\3\utests\bin\debug\utests.dll" id="b0d38483-4483-bee0-1af7-2dd2c85c2026">
+      <Execution id="a9ca69fa-f7df-4985-a2fb-36d23e00eafb" />
+      <TestMethod codeBase="D:/универ/6 семестр/твоп/3 блок/3/UTests/bin/Debug/UTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UTests.UnitTest1, UTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod7" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Отсутствующие в списке результаты" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Все загруженные результаты" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="b0d38483-4483-bee0-1af7-2dd2c85c2026" executionId="a9ca69fa-f7df-4985-a2fb-36d23e00eafb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="a9ca69fa-f7df-4985-a2fb-36d23e00eafb" testId="b0d38483-4483-bee0-1af7-2dd2c85c2026" testName="TestMethod7" computerName="SAMSUNG-PC" duration="00:00:00.0862448" startTime="2018-03-23T13:50:11.7678381+03:00" endTime="2018-03-23T13:50:12.6188868+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a9ca69fa-f7df-4985-a2fb-36d23e00eafb">
+      <Output>
+        <ErrorInfo>
+          <Message>Ошибка в Assert.AreEqual. Ожидается: &lt;True&gt;. Фактически: &lt;False&gt;. </Message>
+          <StackTrace>   в UTests.UnitTest1.TestMethod7() в D:\универ\6 семестр\твоп\3 блок\3\UTests\UnitTest1.cs:строка 62
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
