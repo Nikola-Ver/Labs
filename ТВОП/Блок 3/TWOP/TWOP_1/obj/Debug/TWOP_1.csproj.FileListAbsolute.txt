@@ -1,0 +1,40 @@
+G:\учеба\Лабораторные\6_semestr\TVOP\1\TWOP_1\TWOP_1\bin\Debug\TWOP_1.exe.config
+G:\учеба\Лабораторные\6_semestr\TVOP\1\TWOP_1\TWOP_1\bin\Debug\TWOP_1.exe
+G:\учеба\Лабораторные\6_semestr\TVOP\1\TWOP_1\TWOP_1\bin\Debug\TWOP_1.pdb
+G:\учеба\Лабораторные\6_semestr\TVOP\1\TWOP_1\TWOP_1\obj\Debug\TWOP_1.csprojAssemblyReference.cache
+G:\учеба\Лабораторные\6_semestr\TVOP\1\TWOP_1\TWOP_1\obj\Debug\TWOP_1.FormMain.resources
+G:\учеба\Лабораторные\6_semestr\TVOP\1\TWOP_1\TWOP_1\obj\Debug\TWOP_1.Properties.Resources.resources
+G:\учеба\Лабораторные\6_semestr\TVOP\1\TWOP_1\TWOP_1\obj\Debug\TWOP_1.csproj.GenerateResource.cache
+G:\учеба\Лабораторные\6_semestr\TVOP\1\TWOP_1\TWOP_1\obj\Debug\TWOP_1.csproj.CoreCompileInputs.cache
+G:\учеба\Лабораторные\6_semestr\TVOP\1\TWOP_1\TWOP_1\obj\Debug\TWOP_1.exe
+G:\учеба\Лабораторные\6_semestr\TVOP\1\TWOP_1\TWOP_1\obj\Debug\TWOP_1.pdb
+F:\tvop\3blok\TWOP_1\TWOP_1\bin\Debug\TWOP_1.exe.config
+F:\tvop\3blok\TWOP_1\TWOP_1\bin\Debug\TWOP_1.exe
+F:\tvop\3blok\TWOP_1\TWOP_1\bin\Debug\TWOP_1.pdb
+F:\tvop\3blok\TWOP_1\TWOP_1\obj\Debug\TWOP_1.csprojAssemblyReference.cache
+F:\tvop\3blok\TWOP_1\TWOP_1\obj\Debug\TWOP_1.FormMain.resources
+F:\tvop\3blok\TWOP_1\TWOP_1\obj\Debug\TWOP_1.Properties.Resources.resources
+F:\tvop\3blok\TWOP_1\TWOP_1\obj\Debug\TWOP_1.csproj.GenerateResource.cache
+F:\tvop\3blok\TWOP_1\TWOP_1\obj\Debug\TWOP_1.csproj.CoreCompileInputs.cache
+F:\tvop\3blok\TWOP_1\TWOP_1\obj\Debug\TWOP_1.exe
+F:\tvop\3blok\TWOP_1\TWOP_1\obj\Debug\TWOP_1.pdb
+H:\tvop\3blok\TWOP_1\TWOP_1\bin\Debug\TWOP_1.exe.config
+H:\tvop\3blok\TWOP_1\TWOP_1\bin\Debug\TWOP_1.exe
+H:\tvop\3blok\TWOP_1\TWOP_1\bin\Debug\TWOP_1.pdb
+H:\tvop\3blok\TWOP_1\TWOP_1\obj\Debug\TWOP_1.csprojAssemblyReference.cache
+H:\tvop\3blok\TWOP_1\TWOP_1\obj\Debug\TWOP_1.FormMain.resources
+H:\tvop\3blok\TWOP_1\TWOP_1\obj\Debug\TWOP_1.Properties.Resources.resources
+H:\tvop\3blok\TWOP_1\TWOP_1\obj\Debug\TWOP_1.csproj.GenerateResource.cache
+H:\tvop\3blok\TWOP_1\TWOP_1\obj\Debug\TWOP_1.csproj.CoreCompileInputs.cache
+H:\tvop\3blok\TWOP_1\TWOP_1\obj\Debug\TWOP_1.exe
+H:\tvop\3blok\TWOP_1\TWOP_1\obj\Debug\TWOP_1.pdb
+D:\Programming\University\Labs\ТВОП\Блок 3\TWOP\TWOP_1\bin\Debug\TWOP_1.exe.config
+D:\Programming\University\Labs\ТВОП\Блок 3\TWOP\TWOP_1\bin\Debug\TWOP_1.exe
+D:\Programming\University\Labs\ТВОП\Блок 3\TWOP\TWOP_1\bin\Debug\TWOP_1.pdb
+D:\Programming\University\Labs\ТВОП\Блок 3\TWOP\TWOP_1\obj\Debug\TWOP_1.csprojAssemblyReference.cache
+D:\Programming\University\Labs\ТВОП\Блок 3\TWOP\TWOP_1\obj\Debug\TWOP_1.FormMain.resources
+D:\Programming\University\Labs\ТВОП\Блок 3\TWOP\TWOP_1\obj\Debug\TWOP_1.Properties.Resources.resources
+D:\Programming\University\Labs\ТВОП\Блок 3\TWOP\TWOP_1\obj\Debug\TWOP_1.csproj.GenerateResource.cache
+D:\Programming\University\Labs\ТВОП\Блок 3\TWOP\TWOP_1\obj\Debug\TWOP_1.csproj.CoreCompileInputs.cache
+D:\Programming\University\Labs\ТВОП\Блок 3\TWOP\TWOP_1\obj\Debug\TWOP_1.exe
+D:\Programming\University\Labs\ТВОП\Блок 3\TWOP\TWOP_1\obj\Debug\TWOP_1.pdb

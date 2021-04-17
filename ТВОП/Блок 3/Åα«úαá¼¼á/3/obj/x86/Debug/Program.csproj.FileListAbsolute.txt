@@ -1,9 +1,0 @@
-C:\Users\Admin\Desktop\6 сем\ТВОП\3 блок\Программа\3\bin\Debug\3.exe
-C:\Users\Admin\Desktop\6 сем\ТВОП\3 блок\Программа\3\bin\Debug\3.pdb
-C:\Users\Admin\Desktop\6 сем\ТВОП\3 блок\Программа\3\obj\x86\Debug\Program.csprojAssemblyReference.cache
-C:\Users\Admin\Desktop\6 сем\ТВОП\3 блок\Программа\3\obj\x86\Debug\_3.Form1.resources
-C:\Users\Admin\Desktop\6 сем\ТВОП\3 блок\Программа\3\obj\x86\Debug\_3.Properties.Resources.resources
-C:\Users\Admin\Desktop\6 сем\ТВОП\3 блок\Программа\3\obj\x86\Debug\Program.csproj.GenerateResource.cache
-C:\Users\Admin\Desktop\6 сем\ТВОП\3 блок\Программа\3\obj\x86\Debug\Program.csproj.CoreCompileInputs.cache
-C:\Users\Admin\Desktop\6 сем\ТВОП\3 блок\Программа\3\obj\x86\Debug\3.exe
-C:\Users\Admin\Desktop\6 сем\ТВОП\3 блок\Программа\3\obj\x86\Debug\3.pdb
