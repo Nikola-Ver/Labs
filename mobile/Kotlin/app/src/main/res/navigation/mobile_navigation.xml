@@ -8,15 +8,18 @@
     <fragment
         android:id="@+id/navigation_home"
         android:name="com.example.schedule.ui.schedule.HomeFragment"
+        android:label="@string/title_schedule"
         tools:layout="@layout/fragment_schedule" />
 
     <fragment
         android:id="@+id/navigation_dashboard"
         android:name="com.example.schedule.ui.map.DashboardFragment"
+        android:label="@string/title_map"
         tools:layout="@layout/fragment_map" />
 
     <fragment
         android:id="@+id/navigation_notifications"
         android:name="com.example.schedule.ui.settings.NotificationsFragment"
+        android:label="@string/title_settings"
         tools:layout="@layout/fragment_settings" />
 </navigation>
