@@ -1,4 +1,4 @@
-package com.example.schedule.ui.map
+package com.example.schedule.ui.schedule
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,18 +8,18 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.example.schedule.R
 
-class DashboardFragment : Fragment() {
+class ScheduleFragment : Fragment() {
 
-    private lateinit var dashboardViewModel: DashboardViewModel
+    private lateinit var scheduleViewModel: ScheduleViewModel
 
     override fun onCreateView(
             inflater: LayoutInflater,
             container: ViewGroup?,
             savedInstanceState: Bundle?
     ): View? {
-        dashboardViewModel =
-                ViewModelProvider(this).get(DashboardViewModel::class.java)
-        val root = inflater.inflate(R.layout.fragment_map, container, false)
+        scheduleViewModel =
+                ViewModelProvider(this).get(ScheduleViewModel::class.java)
+        val root = inflater.inflate(R.layout.fragment_schedule, container, false)
         return root
     }
 }
