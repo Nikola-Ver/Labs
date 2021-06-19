@@ -4,11 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.schedule.ScheduleFragment">
+    tools:context=".fragments.ContactsFragment">
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recycle_schedule_view"
+        android:id="@+id/list"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:listitem="@layout/schedule_item"/>
+        android:paddingHorizontal="8dp"
+        android:paddingVertical="16dp"
+        app:layoutManager="LinearLayoutManager"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:listitem="@layout/fragment_contact_table" />
 </androidx.constraintlayout.widget.ConstraintLayout>

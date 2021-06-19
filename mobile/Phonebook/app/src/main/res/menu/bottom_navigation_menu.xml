@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_phonebook"
+        android:icon="@drawable/ic_action_phonebook"
+        android:title="@string/title_contacts" />
+
+    <item
+        android:id="@+id/navigation_map"
+        android:icon="@drawable/ic_action_map"
+        android:title="@string/title_map" />
+
+    <item
+        android:id="@+id/navigation_settings"
+        android:icon="@drawable/ic_action_settings"
+        android:title="@string/title_settings" />
+</menu>
