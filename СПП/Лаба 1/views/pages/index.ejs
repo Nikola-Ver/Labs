@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="logo.png">
+    <title>Todos</title>
+</head>
+<body <% if (data.length > 0) { %> class="load" <% } %>>
+    <header class="main-header"><span>To</span><span>do</span> <span>list</span></header>
+    <div class="form">
+        <input type="text" autocomplete="off" name='text' placeholder="New todo" class="text">
+        <input type="file" name="file" class="file">
+        <input type="submit" value="Add new" class="send-button">
+        <div class="file-button"></div>
+        <div class="ondrag-file">Drop file</div>
+    </div>
+    <% for(let i = 0; i < data.length; i++) { %>
+        <div class="todo-item <%= data[i].done %>">
+            <div class="done-item"></div>
+            <div class="text-item"><%= data[i].text %></div>
+            <div class="files-todo"></div>
+            <div class="delete-todo"></div>
+            <div class="delete-line-item"></div>
+            <div class="files-item">
+                <div class="content-files-item">
+                    <div class="close-files-item"></div>
+                    <% for (let index = 0; index < data[i].files.length; index++) { %>
+                        <div class="file-item">
+                            <div class="file-item-header"><%= data[i].files[index].name %></div>
+                            <div class="file-item-content"><%= data[i].files[index].content %></div>
+                        </div>
+                    <% } %>
+                </div>
+            </div>
+        </div>
+    <% } %>
+        <script src="index.js"></script>
+</body>
+</html>

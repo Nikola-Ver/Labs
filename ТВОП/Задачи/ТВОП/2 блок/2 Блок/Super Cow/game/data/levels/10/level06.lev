@@ -1,0 +1,2547 @@
+levelname=first
+numlevelobjs=214
+
+curlevelback=1
+
+curleveltask=0
+
+<obj0/>
+    name=gem2
+    rect={-457.55,100.06,-455.55,98.06}
+    drawlayer=1
+    rotation=0.000
+    endpos={-216.21,72.38}
+    invertobj=0
+</obj0>
+
+
+<obj1/>
+    name=gem2
+    rect={-458.50,100.28,-456.50,98.28}
+    drawlayer=1
+    rotation=0.000
+    endpos={-217.17,72.61}
+    invertobj=0
+</obj1>
+
+
+<obj2/>
+    name=gem2
+    rect={-452.00,100.25,-450.00,98.25}
+    drawlayer=1
+    rotation=0.000
+    endpos={-210.67,72.57}
+    invertobj=0
+</obj2>
+
+
+<obj3/>
+    name=gem2
+    rect={-451.00,100.38,-449.00,98.38}
+    drawlayer=1
+    rotation=0.000
+    endpos={-209.66,72.70}
+    invertobj=0
+</obj3>
+
+
+<obj4/>
+    name=gem2
+    rect={-450.79,98.98,-448.79,96.98}
+    drawlayer=1
+    rotation=0.000
+    endpos={-209.45,71.30}
+    invertobj=0
+</obj4>
+
+
+<obj5/>
+    name=gem2
+    rect={-452.40,98.95,-450.40,96.95}
+    drawlayer=1
+    rotation=0.000
+    endpos={-211.06,71.27}
+    invertobj=0
+</obj5>
+
+
+<obj6/>
+    name=gem2
+    rect={-457.21,98.94,-455.21,96.94}
+    drawlayer=1
+    rotation=0.000
+    endpos={-215.87,71.26}
+    invertobj=0
+</obj6>
+
+
+<obj7/>
+    name=gem2
+    rect={-458.82,98.90,-456.82,96.90}
+    drawlayer=1
+    rotation=0.000
+    endpos={-217.48,71.23}
+    invertobj=0
+</obj7>
+
+
+<obj8/>
+    name=coin1
+    rect={-460.16,90.20,-458.16,88.20}
+    drawlayer=1
+    rotation=0.000
+    endpos={-238.74,52.45}
+    invertobj=0
+</obj8>
+
+
+<obj9/>
+    name=coin1
+    rect={-450.29,90.24,-448.29,88.24}
+    drawlayer=1
+    rotation=0.000
+    endpos={-238.13,52.77}
+    invertobj=0
+</obj9>
+
+
+<obj10/>
+    name=coin1
+    rect={-459.01,90.18,-457.01,88.18}
+    drawlayer=1
+    rotation=0.000
+    endpos={-238.36,53.08}
+    invertobj=0
+</obj10>
+
+
+<obj11/>
+    name=coin1
+    rect={-451.29,90.07,-449.29,88.07}
+    drawlayer=1
+    rotation=0.000
+    endpos={-238.51,53.34}
+    invertobj=0
+</obj11>
+
+
+<obj12/>
+    name=coin1
+    rect={-457.88,89.81,-455.88,87.81}
+    drawlayer=1
+    rotation=0.000
+    endpos={-238.36,53.08}
+    invertobj=0
+</obj12>
+
+
+<obj13/>
+    name=coin1
+    rect={-456.81,89.81,-454.81,87.81}
+    drawlayer=1
+    rotation=0.000
+    endpos={-238.36,53.08}
+    invertobj=0
+</obj13>
+
+
+<obj14/>
+    name=coin1
+    rect={-455.61,89.74,-453.61,87.74}
+    drawlayer=1
+    rotation=0.000
+    endpos={-238.36,53.08}
+    invertobj=0
+</obj14>
+
+
+<obj15/>
+    name=coin1
+    rect={-454.58,89.70,-452.58,87.70}
+    drawlayer=1
+    rotation=0.000
+    endpos={-238.36,53.08}
+    invertobj=0
+</obj15>
+
+
+<obj16/>
+    name=coin1
+    rect={-453.34,89.70,-451.34,87.70}
+    drawlayer=1
+    rotation=0.000
+    endpos={-238.36,53.08}
+    invertobj=0
+</obj16>
+
+
+<obj17/>
+    name=coin1
+    rect={-452.13,89.78,-450.13,87.78}
+    drawlayer=1
+    rotation=0.000
+    endpos={-238.36,53.08}
+    invertobj=0
+</obj17>
+
+
+<obj18/>
+    name=gem1
+    rect={-456.05,87.87,-454.05,85.87}
+    drawlayer=1
+    rotation=0.000
+    endpos={-238.36,53.08}
+    invertobj=0
+</obj18>
+
+
+<obj19/>
+    name=gem1
+    rect={-453.70,87.80,-451.70,85.80}
+    drawlayer=1
+    rotation=0.000
+    endpos={-238.36,53.08}
+    invertobj=0
+</obj19>
+
+
+<obj20/>
+    name=gem1
+    rect={-454.87,87.91,-452.87,85.91}
+    drawlayer=1
+    rotation=0.000
+    endpos={-238.36,53.08}
+    invertobj=0
+</obj20>
+
+
+<obj21/>
+    name=gem1
+    rect={-456.27,86.92,-454.27,84.92}
+    drawlayer=1
+    rotation=0.000
+    endpos={-238.36,53.08}
+    invertobj=0
+</obj21>
+
+
+<obj22/>
+    name=gem1
+    rect={-453.67,86.89,-451.67,84.89}
+    drawlayer=1
+    rotation=0.000
+    endpos={-238.36,53.08}
+    invertobj=0
+</obj22>
+
+
+<obj23/>
+    name=gem1
+    rect={-455.46,85.71,-453.46,83.71}
+    drawlayer=1
+    rotation=0.000
+    endpos={-238.29,52.93}
+    invertobj=0
+</obj23>
+
+
+<obj24/>
+    name=gem1
+    rect={-454.40,85.64,-452.40,83.64}
+    drawlayer=1
+    rotation=0.000
+    endpos={-238.29,52.93}
+    invertobj=0
+</obj24>
+
+
+<obj25/>
+    name=gem1
+    rect={-455.02,86.70,-453.02,84.70}
+    drawlayer=1
+    rotation=0.000
+    endpos={-238.36,53.08}
+    invertobj=0
+</obj25>
+
+
+<obj26/>
+    name=crown
+    rect={-463.74,110.18,-461.74,108.18}
+    drawlayer=1
+    rotation=0.000
+    endpos={-238.00,55.99}
+    invertobj=0
+</obj26>
+
+
+<obj27/>
+    name=crown
+    rect={-445.58,110.29,-443.58,108.29}
+    drawlayer=1
+    rotation=0.000
+    endpos={-238.00,55.99}
+    invertobj=0
+</obj27>
+
+
+<obj28/>
+    name=gold
+    rect={-463.81,108.68,-461.81,106.68}
+    drawlayer=1
+    rotation=0.000
+    endpos={-238.00,55.99}
+    invertobj=0
+</obj28>
+
+
+<obj29/>
+    name=gold
+    rect={-445.84,108.90,-443.84,106.90}
+    drawlayer=1
+    rotation=0.000
+    endpos={-238.00,55.99}
+    invertobj=0
+</obj29>
+
+
+<obj30/>
+    name=gold
+    rect={-463.23,107.44,-461.23,105.44}
+    drawlayer=1
+    rotation=0.000
+    endpos={-238.00,55.99}
+    invertobj=0
+</obj30>
+
+
+<obj31/>
+    name=gold
+    rect={-462.24,106.63,-460.24,104.63}
+    drawlayer=1
+    rotation=0.000
+    endpos={-238.00,55.99}
+    invertobj=0
+</obj31>
+
+
+<obj32/>
+    name=gold
+    rect={-461.43,106.12,-459.43,104.12}
+    drawlayer=1
+    rotation=0.000
+    endpos={-238.00,55.99}
+    invertobj=0
+</obj32>
+
+
+<obj33/>
+    name=gold
+    rect={-460.44,105.43,-458.44,103.43}
+    drawlayer=1
+    rotation=0.000
+    endpos={-238.00,55.99}
+    invertobj=0
+</obj33>
+
+
+<obj34/>
+    name=gold
+    rect={-449.46,105.54,-447.46,103.54}
+    drawlayer=1
+    rotation=0.000
+    endpos={-238.00,55.99}
+    invertobj=0
+</obj34>
+
+
+<obj35/>
+    name=gold
+    rect={-448.58,105.97,-446.58,103.97}
+    drawlayer=1
+    rotation=0.000
+    endpos={-238.00,55.99}
+    invertobj=0
+</obj35>
+
+
+<obj36/>
+    name=gold
+    rect={-447.48,106.67,-445.48,104.67}
+    drawlayer=1
+    rotation=0.000
+    endpos={-238.00,55.99}
+    invertobj=0
+</obj36>
+
+
+<obj37/>
+    name=gold
+    rect={-446.46,107.44,-444.46,105.44}
+    drawlayer=1
+    rotation=0.000
+    endpos={-238.00,55.99}
+    invertobj=0
+</obj37>
+
+
+<obj38/>
+    name=gold
+    rect={-464.40,107.22,-462.40,105.22}
+    drawlayer=1
+    rotation=0.000
+    endpos={-238.00,55.99}
+    invertobj=0
+</obj38>
+
+
+<obj39/>
+    name=gold
+    rect={-445.43,107.37,-443.43,105.37}
+    drawlayer=1
+    rotation=0.000
+    endpos={-238.00,55.99}
+    invertobj=0
+</obj39>
+
+
+<obj40/>
+    name=gold
+    rect={-464.47,105.54,-462.47,103.54}
+    drawlayer=1
+    rotation=0.000
+    endpos={-238.00,55.99}
+    invertobj=0
+</obj40>
+
+
+<obj41/>
+    name=gold
+    rect={-463.96,104.25,-461.96,102.25}
+    drawlayer=1
+    rotation=0.000
+    endpos={-238.00,55.99}
+    invertobj=0
+</obj41>
+
+
+<obj42/>
+    name=gold
+    rect={-463.37,103.41,-461.37,101.41}
+    drawlayer=1
+    rotation=0.000
+    endpos={-238.00,55.99}
+    invertobj=0
+</obj42>
+
+
+<obj43/>
+    name=gold
+    rect={-462.49,102.68,-460.49,100.68}
+    drawlayer=1
+    rotation=0.000
+    endpos={-238.00,55.99}
+    invertobj=0
+</obj43>
+
+
+<obj44/>
+    name=gold
+    rect={-461.43,102.68,-459.43,100.68}
+    drawlayer=1
+    rotation=0.000
+    endpos={-238.00,55.99}
+    invertobj=0
+</obj44>
+
+
+<obj45/>
+    name=gold
+    rect={-460.66,103.85,-458.66,101.85}
+    drawlayer=1
+    rotation=0.000
+    endpos={-238.00,55.99}
+    invertobj=0
+</obj45>
+
+
+<obj46/>
+    name=gold
+    rect={-445.10,105.75,-443.10,103.75}
+    drawlayer=1
+    rotation=0.000
+    endpos={-238.00,55.99}
+    invertobj=0
+</obj46>
+
+
+<obj47/>
+    name=gold
+    rect={-445.47,104.14,-443.47,102.14}
+    drawlayer=1
+    rotation=0.000
+    endpos={-238.00,55.99}
+    invertobj=0
+</obj47>
+
+
+<obj48/>
+    name=gold
+    rect={-446.35,103.08,-444.35,101.08}
+    drawlayer=1
+    rotation=0.000
+    endpos={-238.00,55.99}
+    invertobj=0
+</obj48>
+
+
+<obj49/>
+    name=gold
+    rect={-447.23,102.83,-445.23,100.83}
+    drawlayer=1
+    rotation=0.000
+    endpos={-238.00,55.99}
+    invertobj=0
+</obj49>
+
+
+<obj50/>
+    name=gold
+    rect={-449.06,104.29,-447.06,102.29}
+    drawlayer=1
+    rotation=0.000
+    endpos={-238.00,55.99}
+    invertobj=0
+</obj50>
+
+
+<obj51/>
+    name=gold
+    rect={-448.18,102.75,-446.18,100.75}
+    drawlayer=1
+    rotation=0.000
+    endpos={-238.07,55.48}
+    invertobj=0
+</obj51>
+
+
+<obj52/>
+    name=gold
+    rect={-461.47,104.40,-459.47,102.40}
+    drawlayer=1
+    rotation=0.000
+    endpos={-238.00,55.99}
+    invertobj=0
+</obj52>
+
+
+<obj53/>
+    name=gold
+    rect={-448.25,104.77,-446.25,102.77}
+    drawlayer=1
+    rotation=0.000
+    endpos={-238.00,55.99}
+    invertobj=0
+</obj53>
+
+
+<obj54/>
+    name=gold
+    rect={-447.26,104.69,-445.26,102.69}
+    drawlayer=1
+    rotation=0.000
+    endpos={-238.00,55.99}
+    invertobj=0
+</obj54>
+
+
+<obj55/>
+    name=gold
+    rect={-446.28,105.43,-444.28,103.43}
+    drawlayer=1
+    rotation=0.000
+    endpos={-237.82,56.21}
+    invertobj=0
+</obj55>
+
+
+<obj56/>
+    name=gold
+    rect={-462.46,104.69,-460.46,102.69}
+    drawlayer=1
+    rotation=0.000
+    endpos={-238.00,55.99}
+    invertobj=0
+</obj56>
+
+
+<obj57/>
+    name=gold
+    rect={-463.55,105.61,-461.55,103.61}
+    drawlayer=1
+    rotation=0.000
+    endpos={-238.00,55.99}
+    invertobj=0
+</obj57>
+
+
+<obj58/>
+    name=coin1
+    rect={-459.28,105.66,-457.28,103.66}
+    drawlayer=1
+    rotation=0.000
+    endpos={-238.00,55.99}
+    invertobj=0
+</obj58>
+
+
+<obj59/>
+    name=coin1
+    rect={-458.51,106.25,-456.51,104.25}
+    drawlayer=1
+    rotation=0.000
+    endpos={-238.00,55.99}
+    invertobj=0
+</obj59>
+
+
+<obj60/>
+    name=coin1
+    rect={-457.49,106.73,-455.49,104.73}
+    drawlayer=1
+    rotation=0.000
+    endpos={-238.00,55.99}
+    invertobj=0
+</obj60>
+
+
+<obj61/>
+    name=coin1
+    rect={-456.46,106.95,-454.46,104.95}
+    drawlayer=1
+    rotation=0.000
+    endpos={-238.00,55.99}
+    invertobj=0
+</obj61>
+
+
+<obj62/>
+    name=coin1
+    rect={-455.36,107.09,-453.36,105.09}
+    drawlayer=1
+    rotation=0.000
+    endpos={-238.00,55.99}
+    invertobj=0
+</obj62>
+
+
+<obj63/>
+    name=coin1
+    rect={-454.30,107.06,-452.30,105.06}
+    drawlayer=1
+    rotation=0.000
+    endpos={-238.00,55.99}
+    invertobj=0
+</obj63>
+
+
+<obj64/>
+    name=coin1
+    rect={-453.24,106.98,-451.24,104.98}
+    drawlayer=1
+    rotation=0.000
+    endpos={-238.00,55.99}
+    invertobj=0
+</obj64>
+
+
+<obj65/>
+    name=coin1
+    rect={-452.00,106.84,-450.00,104.84}
+    drawlayer=1
+    rotation=0.000
+    endpos={-238.00,55.99}
+    invertobj=0
+</obj65>
+
+
+<obj66/>
+    name=coin1
+    rect={-450.97,106.25,-448.97,104.25}
+    drawlayer=1
+    rotation=0.000
+    endpos={-238.00,55.99}
+    invertobj=0
+</obj66>
+
+
+<obj67/>
+    name=coin1
+    rect={-450.24,105.55,-448.24,103.55}
+    drawlayer=1
+    rotation=0.000
+    endpos={-238.00,55.99}
+    invertobj=0
+</obj67>
+
+
+<obj68/>
+    name=coin2
+    rect={-446.08,96.80,-444.08,94.80}
+    drawlayer=1
+    rotation=0.000
+    endpos={-238.00,55.99}
+    invertobj=0
+</obj68>
+
+
+<obj69/>
+    name=coin2
+    rect={-445.67,95.22,-443.67,93.22}
+    drawlayer=1
+    rotation=0.000
+    endpos={-238.00,55.99}
+    invertobj=0
+</obj69>
+
+
+<obj70/>
+    name=coin2
+    rect={-445.85,93.54,-443.85,91.54}
+    drawlayer=1
+    rotation=0.000
+    endpos={-238.00,55.99}
+    invertobj=0
+</obj70>
+
+
+<obj71/>
+    name=coin2
+    rect={-446.34,92.14,-444.34,90.14}
+    drawlayer=1
+    rotation=0.000
+    endpos={-238.00,55.99}
+    invertobj=0
+</obj71>
+
+
+<obj72/>
+    name=coin2
+    rect={-447.09,90.97,-445.09,88.97}
+    drawlayer=1
+    rotation=0.000
+    endpos={-238.00,55.99}
+    invertobj=0
+</obj72>
+
+
+<obj73/>
+    name=coin2
+    rect={-463.45,96.70,-461.45,94.70}
+    drawlayer=1
+    rotation=0.000
+    endpos={-238.00,55.99}
+    invertobj=0
+</obj73>
+
+
+<obj74/>
+    name=coin2
+    rect={-464.02,95.12,-462.02,93.12}
+    drawlayer=1
+    rotation=0.000
+    endpos={-238.00,55.99}
+    invertobj=0
+</obj74>
+
+
+<obj75/>
+    name=coin2
+    rect={-463.92,93.46,-461.92,91.46}
+    drawlayer=1
+    rotation=0.000
+    endpos={-238.00,55.99}
+    invertobj=0
+</obj75>
+
+
+<obj76/>
+    name=coin2
+    rect={-463.56,91.98,-461.56,89.98}
+    drawlayer=1
+    rotation=0.000
+    endpos={-238.00,55.99}
+    invertobj=0
+</obj76>
+
+
+<obj77/>
+    name=coin2
+    rect={-462.49,91.03,-460.49,89.03}
+    drawlayer=1
+    rotation=0.000
+    endpos={-238.26,56.36}
+    invertobj=0
+</obj77>
+
+
+<obj78/>
+    name=coin1
+    rect={-445.82,101.58,-443.82,99.58}
+    drawlayer=1
+    rotation=0.000
+    endpos={-227.22,70.56}
+    invertobj=0
+</obj78>
+
+
+<obj79/>
+    name=coin1
+    rect={-458.92,88.84,-456.92,86.84}
+    drawlayer=1
+    rotation=0.000
+    endpos={-238.36,53.08}
+    invertobj=0
+</obj79>
+
+
+<obj80/>
+    name=coin1
+    rect={-458.33,88.04,-456.33,86.04}
+    drawlayer=1
+    rotation=0.000
+    endpos={-238.36,53.08}
+    invertobj=0
+</obj80>
+
+
+<obj81/>
+    name=coin1
+    rect={-457.63,87.52,-455.63,85.52}
+    drawlayer=1
+    rotation=0.000
+    endpos={-238.36,53.08}
+    invertobj=0
+</obj81>
+
+
+<obj82/>
+    name=coin1
+    rect={-452.34,87.44,-450.34,85.44}
+    drawlayer=1
+    rotation=0.000
+    endpos={-238.36,53.08}
+    invertobj=0
+</obj82>
+
+
+<obj83/>
+    name=coin1
+    rect={-451.54,88.12,-449.54,86.12}
+    drawlayer=1
+    rotation=0.000
+    endpos={-238.36,53.08}
+    invertobj=0
+</obj83>
+
+
+<obj84/>
+    name=coin1
+    rect={-450.95,89.05,-448.95,87.05}
+    drawlayer=1
+    rotation=0.000
+    endpos={-238.36,53.08}
+    invertobj=0
+</obj84>
+
+
+<obj85/>
+    name=rings1
+    rect={-458.49,94.55,-456.49,92.55}
+    drawlayer=1
+    rotation=0.000
+    endpos={-208.52,88.15}
+    invertobj=0
+</obj85>
+
+
+<obj86/>
+    name=rings1
+    rect={-459.33,95.46,-457.33,93.46}
+    drawlayer=1
+    rotation=0.000
+    endpos={-209.36,89.06}
+    invertobj=0
+</obj86>
+
+
+<obj87/>
+    name=rings1
+    rect={-460.39,95.83,-458.39,93.83}
+    drawlayer=1
+    rotation=0.000
+    endpos={-210.42,89.44}
+    invertobj=0
+</obj87>
+
+
+<obj88/>
+    name=rings1
+    rect={-451.51,94.45,-449.51,92.45}
+    drawlayer=1
+    rotation=0.000
+    endpos={-201.54,88.06}
+    invertobj=0
+</obj88>
+
+
+<obj89/>
+    name=rings1
+    rect={-450.80,95.49,-448.80,93.49}
+    drawlayer=1
+    rotation=0.000
+    endpos={-200.83,89.10}
+    invertobj=0
+</obj89>
+
+
+<obj90/>
+    name=rings1
+    rect={-449.68,95.92,-447.68,93.92}
+    drawlayer=1
+    rotation=0.000
+    endpos={-199.71,89.53}
+    invertobj=0
+</obj90>
+
+
+<obj91/>
+    name=coin2
+    rect={-461.21,90.44,-459.21,88.44}
+    drawlayer=1
+    rotation=0.000
+    endpos={-236.98,55.77}
+    invertobj=0
+</obj91>
+
+
+<obj92/>
+    name=coin2
+    rect={-448.11,90.41,-446.11,88.41}
+    drawlayer=1
+    rotation=0.000
+    endpos={-223.87,55.73}
+    invertobj=0
+</obj92>
+
+
+<obj93/>
+    name=coin2
+    rect={-449.39,90.08,-447.39,88.08}
+    drawlayer=1
+    rotation=0.000
+    endpos={-225.15,55.40}
+    invertobj=0
+</obj93>
+
+
+<obj94/>
+    name=gem3
+    rect={-460.45,100.30,-458.45,98.30}
+    drawlayer=1
+    rotation=0.000
+    endpos={-240.68,55.96}
+    invertobj=0
+</obj94>
+
+
+<obj95/>
+    name=gem3
+    rect={-460.00,101.29,-458.00,99.29}
+    drawlayer=1
+    rotation=0.000
+    endpos={-240.23,56.95}
+    invertobj=0
+</obj95>
+
+
+<obj96/>
+    name=gem3
+    rect={-459.47,102.27,-457.47,100.27}
+    drawlayer=1
+    rotation=0.000
+    endpos={-239.69,57.92}
+    invertobj=0
+</obj96>
+
+
+<obj97/>
+    name=gem3
+    rect={-458.70,102.50,-456.70,100.50}
+    drawlayer=1
+    rotation=0.000
+    endpos={-238.93,58.15}
+    invertobj=0
+</obj97>
+
+
+<obj98/>
+    name=gem3
+    rect={-455.81,101.63,-453.81,99.63}
+    drawlayer=1
+    rotation=0.000
+    endpos={-236.04,57.29}
+    invertobj=0
+</obj98>
+
+
+<obj99/>
+    name=gem3
+    rect={-455.42,100.11,-453.42,98.11}
+    drawlayer=1
+    rotation=0.000
+    endpos={-235.64,55.76}
+    invertobj=0
+</obj99>
+
+
+<obj100/>
+    name=gem3
+    rect={-457.91,102.61,-455.91,100.61}
+    drawlayer=1
+    rotation=0.000
+    endpos={-238.14,58.26}
+    invertobj=0
+</obj100>
+
+
+<obj101/>
+    name=gem3
+    rect={-457.17,102.59,-455.17,100.59}
+    drawlayer=1
+    rotation=0.000
+    endpos={-237.40,58.24}
+    invertobj=0
+</obj101>
+
+
+<obj102/>
+    name=gem3
+    rect={-456.50,102.37,-454.50,100.37}
+    drawlayer=1
+    rotation=0.000
+    endpos={-236.73,58.03}
+    invertobj=0
+</obj102>
+
+
+<obj103/>
+    name=gem3
+    rect={-453.91,100.12,-451.91,98.12}
+    drawlayer=1
+    rotation=0.000
+    endpos={-234.14,55.78}
+    invertobj=0
+</obj103>
+
+
+<obj104/>
+    name=gem3
+    rect={-453.60,101.66,-451.60,99.66}
+    drawlayer=1
+    rotation=0.000
+    endpos={-233.82,57.31}
+    invertobj=0
+</obj104>
+
+
+<obj105/>
+    name=gem3
+    rect={-452.89,102.19,-450.89,100.19}
+    drawlayer=1
+    rotation=0.000
+    endpos={-233.12,57.84}
+    invertobj=0
+</obj105>
+
+
+<obj106/>
+    name=gem3
+    rect={-452.14,102.56,-450.14,100.56}
+    drawlayer=1
+    rotation=0.000
+    endpos={-232.37,58.22}
+    invertobj=0
+</obj106>
+
+
+<obj107/>
+    name=gem3
+    rect={-451.37,102.62,-449.37,100.62}
+    drawlayer=1
+    rotation=0.000
+    endpos={-231.60,58.28}
+    invertobj=0
+</obj107>
+
+
+<obj108/>
+    name=gem3
+    rect={-450.57,102.47,-448.57,100.47}
+    drawlayer=1
+    rotation=0.000
+    endpos={-230.80,58.12}
+    invertobj=0
+</obj108>
+
+
+<obj109/>
+    name=gem3
+    rect={-449.90,102.08,-447.90,100.08}
+    drawlayer=1
+    rotation=0.000
+    endpos={-230.13,57.73}
+    invertobj=0
+</obj109>
+
+
+<obj110/>
+    name=gem3
+    rect={-449.48,101.06,-447.48,99.06}
+    drawlayer=1
+    rotation=0.000
+    endpos={-229.71,56.72}
+    invertobj=0
+</obj110>
+
+
+<obj111/>
+    name=gem3
+    rect={-449.16,99.88,-447.16,97.88}
+    drawlayer=1
+    rotation=0.000
+    endpos={-229.39,55.53}
+    invertobj=0
+</obj111>
+
+
+<obj112/>
+    name=coin1
+    rect={-444.85,101.84,-442.85,99.84}
+    drawlayer=1
+    rotation=0.000
+    endpos={-226.26,70.82}
+    invertobj=0
+</obj112>
+
+
+<obj113/>
+    name=coin1
+    rect={-443.74,101.87,-441.74,99.87}
+    drawlayer=1
+    rotation=0.000
+    endpos={-225.15,70.85}
+    invertobj=0
+</obj113>
+
+
+<obj114/>
+    name=coin1
+    rect={-442.89,101.54,-440.89,99.54}
+    drawlayer=1
+    rotation=0.000
+    endpos={-224.30,70.52}
+    invertobj=0
+</obj114>
+
+
+<obj115/>
+    name=coin1
+    rect={-441.89,101.02,-439.89,99.02}
+    drawlayer=1
+    rotation=0.000
+    endpos={-223.30,70.00}
+    invertobj=0
+</obj115>
+
+
+<obj116/>
+    name=coin1
+    rect={-440.37,100.32,-438.37,98.32}
+    drawlayer=1
+    rotation=0.000
+    endpos={-221.78,69.30}
+    invertobj=0
+</obj116>
+
+
+<obj117/>
+    name=coin1
+    rect={-441.00,99.54,-439.00,97.54}
+    drawlayer=1
+    rotation=0.000
+    endpos={-222.41,68.52}
+    invertobj=0
+</obj117>
+
+
+<obj118/>
+    name=coin1
+    rect={-441.85,99.21,-439.85,97.21}
+    drawlayer=1
+    rotation=0.000
+    endpos={-223.26,68.18}
+    invertobj=0
+</obj118>
+
+
+<obj119/>
+    name=coin1
+    rect={-442.93,98.95,-440.93,96.95}
+    drawlayer=1
+    rotation=0.000
+    endpos={-224.33,67.93}
+    invertobj=0
+</obj119>
+
+
+<obj120/>
+    name=coin1
+    rect={-443.89,98.84,-441.89,96.84}
+    drawlayer=1
+    rotation=0.000
+    endpos={-225.30,67.81}
+    invertobj=0
+</obj120>
+
+
+<obj121/>
+    name=coin1
+    rect={-445.07,98.69,-443.07,96.69}
+    drawlayer=1
+    rotation=0.000
+    endpos={-226.48,67.67}
+    invertobj=0
+</obj121>
+
+
+<obj122/>
+    name=coin1
+    rect={-446.04,98.76,-444.04,96.76}
+    drawlayer=1
+    rotation=0.000
+    endpos={-227.45,67.74}
+    invertobj=0
+</obj122>
+
+
+<obj123/>
+    name=coin1
+    rect={-439.70,101.21,-437.70,99.21}
+    drawlayer=1
+    rotation=0.000
+    endpos={-221.11,70.19}
+    invertobj=0
+</obj123>
+
+
+<obj124/>
+    name=coin1
+    rect={-440.96,100.76,-438.96,98.76}
+    drawlayer=1
+    rotation=0.000
+    endpos={-222.37,69.74}
+    invertobj=0
+</obj124>
+
+
+<obj125/>
+    name=coin1
+    rect={-463.44,101.37,-461.44,99.37}
+    drawlayer=1
+    rotation=0.000
+    endpos={-244.84,70.34}
+    invertobj=0
+</obj125>
+
+
+<obj126/>
+    name=coin1
+    rect={-464.29,101.70,-462.29,99.70}
+    drawlayer=1
+    rotation=0.000
+    endpos={-245.70,70.68}
+    invertobj=0
+</obj126>
+
+
+<obj127/>
+    name=coin1
+    rect={-465.36,102.00,-463.36,100.00}
+    drawlayer=1
+    rotation=0.000
+    endpos={-246.77,70.97}
+    invertobj=0
+</obj127>
+
+
+<obj128/>
+    name=coin1
+    rect={-466.33,101.92,-464.33,99.92}
+    drawlayer=1
+    rotation=0.000
+    endpos={-247.73,70.90}
+    invertobj=0
+</obj128>
+
+
+<obj129/>
+    name=coin1
+    rect={-467.29,101.59,-465.29,99.59}
+    drawlayer=1
+    rotation=0.000
+    endpos={-248.70,70.57}
+    invertobj=0
+</obj129>
+
+
+<obj130/>
+    name=coin1
+    rect={-468.29,100.96,-466.29,98.96}
+    drawlayer=1
+    rotation=0.000
+    endpos={-249.70,69.94}
+    invertobj=0
+</obj130>
+
+
+<obj131/>
+    name=coin1
+    rect={-468.96,100.85,-466.96,98.85}
+    drawlayer=1
+    rotation=0.000
+    endpos={-250.37,69.82}
+    invertobj=0
+</obj131>
+
+
+<obj132/>
+    name=coin1
+    rect={-469.92,101.44,-467.92,99.44}
+    drawlayer=1
+    rotation=0.000
+    endpos={-251.33,70.42}
+    invertobj=0
+</obj132>
+
+
+<obj133/>
+    name=coin1
+    rect={-468.37,99.81,-466.37,97.81}
+    drawlayer=1
+    rotation=0.000
+    endpos={-249.77,68.79}
+    invertobj=0
+</obj133>
+
+
+<obj134/>
+    name=coin1
+    rect={-467.29,99.44,-465.29,97.44}
+    drawlayer=1
+    rotation=0.000
+    endpos={-248.70,68.42}
+    invertobj=0
+</obj134>
+
+
+<obj135/>
+    name=coin1
+    rect={-466.25,99.18,-464.25,97.18}
+    drawlayer=1
+    rotation=0.000
+    endpos={-247.66,68.16}
+    invertobj=0
+</obj135>
+
+
+<obj136/>
+    name=coin1
+    rect={-465.33,98.92,-463.33,96.92}
+    drawlayer=1
+    rotation=0.000
+    endpos={-246.73,67.90}
+    invertobj=0
+</obj136>
+
+
+<obj137/>
+    name=coin1
+    rect={-464.40,98.99,-462.40,96.99}
+    drawlayer=1
+    rotation=0.000
+    endpos={-245.81,67.97}
+    invertobj=0
+</obj137>
+
+
+<obj138/>
+    name=coin1
+    rect={-463.36,98.92,-461.36,96.92}
+    drawlayer=1
+    rotation=0.000
+    endpos={-244.77,67.90}
+    invertobj=0
+</obj138>
+
+
+<obj139/>
+    name=gem3
+    rect={-455.13,101.69,-453.13,99.69}
+    drawlayer=1
+    rotation=0.000
+    endpos={-235.36,57.34}
+    invertobj=0
+</obj139>
+
+
+<obj140/>
+    name=gem3
+    rect={-454.29,101.71,-452.29,99.71}
+    drawlayer=1
+    rotation=0.000
+    endpos={-234.52,57.37}
+    invertobj=0
+</obj140>
+
+
+<obj141/>
+    name=gem3
+    rect={-454.66,100.08,-452.66,98.08}
+    drawlayer=1
+    rotation=0.000
+    endpos={-234.89,55.73}
+    invertobj=0
+</obj141>
+
+
+<obj142/>
+    name=gem3
+    rect={-460.82,101.29,-458.82,99.29}
+    drawlayer=1
+    rotation=0.000
+    endpos={-241.05,56.95}
+    invertobj=0
+</obj142>
+
+
+<obj143/>
+    name=gem3
+    rect={-461.72,101.27,-459.72,99.27}
+    drawlayer=1
+    rotation=0.000
+    endpos={-241.95,56.92}
+    invertobj=0
+</obj143>
+
+
+<obj144/>
+    name=gem3
+    rect={-462.64,101.24,-460.64,99.24}
+    drawlayer=1
+    rotation=0.000
+    endpos={-242.87,56.89}
+    invertobj=0
+</obj144>
+
+
+<obj145/>
+    name=gem3
+    rect={-460.95,99.69,-458.95,97.69}
+    drawlayer=1
+    rotation=0.000
+    endpos={-241.18,55.34}
+    invertobj=0
+</obj145>
+
+
+<obj146/>
+    name=gem3
+    rect={-461.67,99.66,-459.67,97.66}
+    drawlayer=1
+    rotation=0.000
+    endpos={-241.89,55.31}
+    invertobj=0
+</obj146>
+
+
+<obj147/>
+    name=gem3
+    rect={-462.27,100.16,-460.27,98.16}
+    drawlayer=1
+    rotation=0.000
+    endpos={-242.50,55.81}
+    invertobj=0
+</obj147>
+
+
+<obj148/>
+    name=gem3
+    rect={-462.22,99.16,-460.22,97.16}
+    drawlayer=1
+    rotation=0.000
+    endpos={-242.45,54.81}
+    invertobj=0
+</obj148>
+
+
+<obj149/>
+    name=gem3
+    rect={-462.93,99.08,-460.93,97.08}
+    drawlayer=1
+    rotation=0.000
+    endpos={-243.16,54.73}
+    invertobj=0
+</obj149>
+
+
+<obj150/>
+    name=gem3
+    rect={-448.68,101.29,-446.68,99.29}
+    drawlayer=1
+    rotation=0.000
+    endpos={-228.91,56.95}
+    invertobj=0
+</obj150>
+
+
+<obj151/>
+    name=gem3
+    rect={-448.63,99.45,-446.63,97.45}
+    drawlayer=1
+    rotation=0.000
+    endpos={-228.86,55.10}
+    invertobj=0
+</obj151>
+
+
+<obj152/>
+    name=gem3
+    rect={-447.73,101.16,-445.73,99.16}
+    drawlayer=1
+    rotation=0.000
+    endpos={-227.96,56.81}
+    invertobj=0
+</obj152>
+
+
+<obj153/>
+    name=gem3
+    rect={-446.84,101.13,-444.84,99.13}
+    drawlayer=1
+    rotation=0.000
+    endpos={-227.07,56.79}
+    invertobj=0
+</obj153>
+
+
+<obj154/>
+    name=gem3
+    rect={-447.36,100.13,-445.36,98.13}
+    drawlayer=1
+    rotation=0.000
+    endpos={-227.59,55.79}
+    invertobj=0
+</obj154>
+
+
+<obj155/>
+    name=gem3
+    rect={-447.84,99.19,-445.84,97.19}
+    drawlayer=1
+    rotation=0.000
+    endpos={-228.07,54.84}
+    invertobj=0
+</obj155>
+
+
+<obj156/>
+    name=gem3
+    rect={-446.94,99.03,-444.94,97.03}
+    drawlayer=1
+    rotation=0.000
+    endpos={-227.17,54.68}
+    invertobj=0
+</obj156>
+
+
+<obj157/>
+    name=gem3
+    rect={-449.23,102.03,-447.23,100.03}
+    drawlayer=1
+    rotation=0.000
+    endpos={-229.46,57.68}
+    invertobj=0
+</obj157>
+
+
+<obj158/>
+    name=gem3
+    rect={-460.22,102.03,-458.22,100.03}
+    drawlayer=1
+    rotation=0.000
+    endpos={-240.45,57.68}
+    invertobj=0
+</obj158>
+
+
+<obj159/>
+    name=pot
+    rect={-458.08,99.29,-456.08,97.29}
+    drawlayer=1
+    rotation=0.000
+    endpos={-224.39,71.28}
+    invertobj=0
+</obj159>
+
+
+<obj160/>
+    name=nugget
+    rect={-458.09,99.88,-456.09,97.88}
+    drawlayer=1
+    rotation=0.000
+    endpos={-223.96,70.75}
+    invertobj=0
+</obj160>
+
+
+<obj161/>
+    name=gem3
+    rect={-463.18,97.84,-461.18,95.84}
+    drawlayer=1
+    rotation=0.000
+    endpos={-243.41,53.50}
+    invertobj=0
+</obj161>
+
+
+<obj162/>
+    name=gem3
+    rect={-462.47,97.88,-460.47,95.88}
+    drawlayer=1
+    rotation=0.000
+    endpos={-242.70,53.54}
+    invertobj=0
+</obj162>
+
+
+<obj163/>
+    name=gem3
+    rect={-461.71,98.20,-459.71,96.20}
+    drawlayer=1
+    rotation=0.000
+    endpos={-241.94,53.85}
+    invertobj=0
+</obj163>
+
+
+<obj164/>
+    name=gem3
+    rect={-461.04,98.56,-459.04,96.56}
+    drawlayer=1
+    rotation=0.000
+    endpos={-241.27,54.21}
+    invertobj=0
+</obj164>
+
+
+<obj165/>
+    name=gem3
+    rect={-460.45,98.66,-458.45,96.66}
+    drawlayer=1
+    rotation=0.000
+    endpos={-240.68,54.31}
+    invertobj=0
+</obj165>
+
+
+<obj166/>
+    name=gem3
+    rect={-455.08,98.77,-453.08,96.77}
+    drawlayer=1
+    rotation=0.000
+    endpos={-235.31,54.42}
+    invertobj=0
+</obj166>
+
+
+<obj167/>
+    name=gem3
+    rect={-454.28,98.77,-452.28,96.77}
+    drawlayer=1
+    rotation=0.000
+    endpos={-234.51,54.42}
+    invertobj=0
+</obj167>
+
+
+<obj168/>
+    name=gem3
+    rect={-446.54,97.93,-444.54,95.93}
+    drawlayer=1
+    rotation=0.000
+    endpos={-226.77,53.58}
+    invertobj=0
+</obj168>
+
+
+<obj169/>
+    name=gem3
+    rect={-447.17,97.88,-445.17,95.88}
+    drawlayer=1
+    rotation=0.000
+    endpos={-227.40,53.54}
+    invertobj=0
+</obj169>
+
+
+<obj170/>
+    name=gem3
+    rect={-447.86,98.05,-445.86,96.05}
+    drawlayer=1
+    rotation=0.000
+    endpos={-228.09,53.71}
+    invertobj=0
+</obj170>
+
+
+<obj171/>
+    name=gem3
+    rect={-448.54,98.26,-446.54,96.26}
+    drawlayer=1
+    rotation=0.000
+    endpos={-228.76,53.92}
+    invertobj=0
+</obj171>
+
+
+<obj172/>
+    name=gem3
+    rect={-449.19,98.35,-447.19,96.35}
+    drawlayer=1
+    rotation=0.000
+    endpos={-229.42,54.00}
+    invertobj=0
+</obj172>
+
+
+<obj173/>
+    name=pot
+    rect={-451.49,99.10,-449.49,97.10}
+    drawlayer=1
+    rotation=0.000
+    endpos={-217.79,71.08}
+    invertobj=0
+</obj173>
+
+
+<obj174/>
+    name=nugget
+    rect={-451.49,99.72,-449.49,97.72}
+    drawlayer=1
+    rotation=0.000
+    endpos={-217.35,70.59}
+    invertobj=0
+</obj174>
+
+
+<obj175/>
+    name=gem3
+    rect={-455.50,98.08,-453.50,96.08}
+    drawlayer=1
+    rotation=0.000
+    endpos={-235.73,53.73}
+    invertobj=0
+</obj175>
+
+
+<obj176/>
+    name=gem3
+    rect={-453.73,97.92,-451.73,95.92}
+    drawlayer=1
+    rotation=0.000
+    endpos={-233.96,53.58}
+    invertobj=0
+</obj176>
+
+
+<obj177/>
+    name=coin2
+    rect={-454.65,97.50,-452.65,95.50}
+    drawlayer=1
+    rotation=0.000
+    endpos={-230.41,62.83}
+    invertobj=0
+</obj177>
+
+
+<obj178/>
+    name=tree1
+    rect={-488.56,96.54,-487.63,94.60}
+    drawlayer=2
+    rotation=0.000
+    endpos={-499.09,10.01}
+    invertobj=1
+</obj178>
+
+
+<obj179/>
+    name=tree1
+    rect={-488.06,96.86,-486.74,93.80}
+    drawlayer=2
+    rotation=0.000
+    endpos={-498.59,9.22}
+    invertobj=1
+</obj179>
+
+
+<obj180/>
+    name=tree1
+    rect={-487.71,97.04,-486.11,93.30}
+    drawlayer=2
+    rotation=0.000
+    endpos={-498.24,8.72}
+    invertobj=1
+</obj180>
+
+
+<obj181/>
+    name=tree1
+    rect={-490.06,96.51,-489.13,94.56}
+    drawlayer=2
+    rotation=0.000
+    endpos={-500.59,9.98}
+    invertobj=0
+</obj181>
+
+
+<obj182/>
+    name=tree1
+    rect={-490.81,96.93,-489.49,93.86}
+    drawlayer=2
+    rotation=0.000
+    endpos={-501.34,9.28}
+    invertobj=0
+</obj182>
+
+
+<obj183/>
+    name=tree1
+    rect={-491.54,97.19,-489.94,93.45}
+    drawlayer=2
+    rotation=0.000
+    endpos={-502.07,8.87}
+    invertobj=0
+</obj183>
+
+
+<obj184/>
+    name=tree1
+    rect={-492.63,98.08,-490.36,92.03}
+    drawlayer=2
+    rotation=0.000
+    endpos={-503.16,7.45}
+    invertobj=0
+</obj184>
+
+
+<obj185/>
+    name=tree1
+    rect={-487.46,97.76,-485.19,91.70}
+    drawlayer=2
+    rotation=0.000
+    endpos={-497.99,7.12}
+    invertobj=1
+</obj185>
+
+
+<obj186/>
+    name=flowers1
+    rect={-489.50,95.04,-487.50,93.93}
+    drawlayer=2
+    rotation=0.000
+    endpos={-505.41,5.93}
+    invertobj=0
+</obj186>
+
+
+<obj187/>
+    name=flowers1
+    rect={-489.20,94.88,-487.20,93.77}
+    drawlayer=2
+    rotation=0.000
+    endpos={-505.11,5.77}
+    invertobj=0
+</obj187>
+
+
+<obj188/>
+    name=flowers1
+    rect={-489.67,94.80,-487.67,93.69}
+    drawlayer=2
+    rotation=0.000
+    endpos={-505.58,5.69}
+    invertobj=0
+</obj188>
+
+
+<obj189/>
+    name=flowers1
+    rect={-489.92,94.65,-487.92,93.54}
+    drawlayer=2
+    rotation=0.000
+    endpos={-505.83,5.54}
+    invertobj=0
+</obj189>
+
+
+<obj190/>
+    name=flowers1
+    rect={-489.00,94.62,-487.00,93.51}
+    drawlayer=2
+    rotation=0.000
+    endpos={-504.91,5.51}
+    invertobj=0
+</obj190>
+
+
+<obj191/>
+    name=flowers1
+    rect={-490.75,94.37,-486.75,93.02}
+    drawlayer=2
+    rotation=0.000
+    endpos={-506.99,5.02}
+    invertobj=0
+</obj191>
+
+
+<obj192/>
+    name=flowers1
+    rect={-490.39,94.15,-486.39,92.44}
+    drawlayer=2
+    rotation=0.000
+    endpos={-507.21,4.44}
+    invertobj=0
+</obj192>
+
+
+<obj193/>
+    name=flowers1
+    rect={-491.20,94.12,-487.20,92.41}
+    drawlayer=2
+    rotation=0.000
+    endpos={-508.02,4.41}
+    invertobj=0
+</obj193>
+
+
+<obj194/>
+    name=flowers1
+    rect={-490.15,93.82,-486.15,91.63}
+    drawlayer=2
+    rotation=0.000
+    endpos={-507.24,3.63}
+    invertobj=0
+</obj194>
+
+
+<obj195/>
+    name=flowers1
+    rect={-491.60,93.83,-487.60,91.65}
+    drawlayer=2
+    rotation=0.000
+    endpos={-508.69,3.65}
+    invertobj=0
+</obj195>
+
+
+<obj196/>
+    name=decor3
+    rect={-488.88,95.09,-488.46,94.72}
+    drawlayer=2
+    rotation=0.000
+    endpos={-498.06,7.43}
+    invertobj=0
+</obj196>
+
+
+<obj197/>
+    name=decor3
+    rect={-489.13,95.12,-488.73,94.77}
+    drawlayer=2
+    rotation=0.000
+    endpos={-498.31,7.48}
+    invertobj=0
+</obj197>
+
+
+<obj198/>
+    name=decor3
+    rect={-488.68,95.12,-488.23,94.67}
+    drawlayer=2
+    rotation=0.000
+    endpos={-497.86,7.39}
+    invertobj=0
+</obj198>
+
+
+<obj199/>
+    name=decor3
+    rect={-489.54,95.12,-488.99,94.64}
+    drawlayer=2
+    rotation=0.000
+    endpos={-498.72,7.35}
+    invertobj=0
+</obj199>
+
+
+<obj200/>
+    name=decor3
+    rect={-488.49,95.03,-487.76,94.39}
+    drawlayer=2
+    rotation=0.000
+    endpos={-497.67,7.10}
+    invertobj=0
+</obj200>
+
+
+<obj201/>
+    name=decor3
+    rect={-489.93,95.01,-489.20,94.37}
+    drawlayer=2
+    rotation=0.000
+    endpos={-499.11,7.09}
+    invertobj=0
+</obj201>
+
+
+<obj202/>
+    name=decor3
+    rect={-488.19,94.82,-487.29,94.02}
+    drawlayer=2
+    rotation=0.000
+    endpos={-497.37,6.73}
+    invertobj=0
+</obj202>
+
+
+<obj203/>
+    name=decor3
+    rect={-490.38,94.78,-489.28,93.80}
+    drawlayer=2
+    rotation=0.000
+    endpos={-499.56,6.51}
+    invertobj=0
+</obj203>
+
+
+<obj204/>
+    name=decor3
+    rect={-488.13,94.50,-486.82,93.22}
+    drawlayer=2
+    rotation=0.000
+    endpos={-497.31,5.93}
+    invertobj=0
+</obj204>
+
+
+<obj205/>
+    name=decor3
+    rect={-490.94,94.45,-489.63,93.17}
+    drawlayer=2
+    rotation=0.000
+    endpos={-500.12,5.89}
+    invertobj=0
+</obj205>
+
+
+<obj206/>
+    name=decor3
+    rect={-491.59,94.00,-489.77,92.11}
+    drawlayer=2
+    rotation=0.000
+    endpos={-500.77,4.82}
+    invertobj=0
+</obj206>
+
+
+<obj207/>
+    name=decor3
+    rect={-487.97,94.20,-486.08,91.84}
+    drawlayer=2
+    rotation=0.000
+    endpos={-497.15,4.56}
+    invertobj=0
+</obj207>
+
+
+<obj208/>
+    name=flowers1
+    rect={-492.36,93.26,-488.36,91.02}
+    drawlayer=2
+    rotation=0.000
+    endpos={-509.96,3.02}
+    invertobj=0
+</obj208>
+
+
+<obj209/>
+    name=flowers1
+    rect={-492.80,92.62,-484.80,90.32}
+    drawlayer=1
+    rotation=0.000
+    endpos={-509.61,2.32}
+    invertobj=0
+</obj209>
+
+
+<obj210/>
+    name=flowers1
+    rect={-489.72,93.24,-485.72,91.01}
+    drawlayer=2
+    rotation=0.000
+    endpos={-507.32,3.01}
+    invertobj=0
+</obj210>
+
+
+<obj211/>
+    name=exit
+    rect={-480.64,104.61,-473.35,90.51}
+    drawlayer=1
+    rotation=-0.089
+    endpos={-829.36,112.82}
+    invertobj=0
+</obj211>
+
+
+<obj212/>
+    name=decor3
+    rect={-492.45,93.23,-490.03,90.66}
+    drawlayer=2
+    rotation=0.000
+    endpos={-501.63,3.37}
+    invertobj=0
+</obj212>
+
+
+<obj213/>
+    name=decor3
+    rect={-487.95,93.21,-485.53,90.64}
+    drawlayer=2
+    rotation=0.000
+    endpos={-497.13,3.35}
+    invertobj=0
+</obj213>
+
+
+
+
+groundlayer0=
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+
+groundlayer1=
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+
+groundlayer2=
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+
+groundlayer3=
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+
+groundlayer4=
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+
+groundlayer5=
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+
+
+

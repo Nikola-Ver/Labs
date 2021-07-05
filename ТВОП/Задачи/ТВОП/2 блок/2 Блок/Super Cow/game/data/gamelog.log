@@ -1,0 +1,1466 @@
+[00:00:00]  Log is successfully started!
+[00:00:00]  Create output window...
+[00:00:00]  Output window is created.
+[00:00:02]  D3D starting...
+[00:00:07]  D3D initialized at 800x600, 16 bit, fullscreen=TRUE
+[00:00:07]  'splash1.jpg' loaded
+[00:00:07]  'logo.jpg' loaded
+[00:00:07]  'loadscreen.jpg' loaded
+[00:00:07]  'loadbar.jpg' loaded
+[00:01:01]  SondHost has been initialized
+[00:01:01]  'load.ogg' loaded
+[00:01:02]  'logo.ogg' loaded
+[00:01:02]  IIntro::Load() done!
+[00:02:09]  OnCreate() started...
+[00:02:09]  Can't load '_a_font.jpg'
+[00:02:09]  'font.tga' loaded
+[00:03:00]  'font.dat' loaded
+[00:03:00]  'podsvet.jpg' loaded
+[00:03:00]  Can't load '_a_font2.jpg'
+[00:03:00]  'font2.tga' loaded
+[00:03:00]  'font2.dat' loaded
+[00:03:00]  'strings.txt' loaded
+[00:03:00]  'menutext.txt' loaded
+[00:03:00]  'tips.txt' loaded
+[00:03:01]  'introcomics.txt' loaded
+[00:03:01]  'diary.txt' loaded
+[00:03:01]  'records.dat' loaded
+[00:03:01]  'hiscore.dat' loaded
+[00:03:01]  'trophy.cfg' loaded
+[00:03:01]  'trophyback.jpg' loaded
+[00:03:01]  'trophy.txt' loaded
+[00:03:01]  '_a_tr1.jpg' loaded
+[00:03:01]  'tr1.jpg' loaded
+[00:03:01]  '_a_tr2.jpg' loaded
+[00:03:01]  'tr2.jpg' loaded
+[00:03:01]  '_a_tr3.jpg' loaded
+[00:03:01]  'tr3.jpg' loaded
+[00:03:01]  '_a_tr4.jpg' loaded
+[00:03:01]  'tr4.jpg' loaded
+[00:03:01]  '_a_tr5.jpg' loaded
+[00:03:01]  'tr5.jpg' loaded
+[00:03:01]  '_a_tr6.jpg' loaded
+[00:03:01]  'tr6.jpg' loaded
+[00:03:01]  '_a_tr7.jpg' loaded
+[00:03:01]  'tr7.jpg' loaded
+[00:03:01]  '_a_tr8.jpg' loaded
+[00:03:02]  'tr8.jpg' loaded
+[00:03:02]  '_a_tr9.jpg' loaded
+[00:03:02]  'tr9.jpg' loaded
+[00:03:02]  '_a_tr10.jpg' loaded
+[00:03:02]  'tr10.jpg' loaded
+[00:03:02]  '_a_tr11.jpg' loaded
+[00:03:02]  'tr11.jpg' loaded
+[00:03:02]  '_a_tr12.jpg' loaded
+[00:03:02]  'tr12.jpg' loaded
+[00:03:02]  '_a_tr13.jpg' loaded
+[00:03:02]  'tr13.jpg' loaded
+[00:03:02]  'firework1.jpg' loaded
+[00:03:02]  'cow.chr' loaded
+[00:03:02]  'cow.skl' loaded
+[00:03:02]  'korova.jpg' loaded
+[00:03:02]  'cow_beg.anm' loaded
+[00:03:02]  'cow_hop.anm' loaded
+[00:03:02]  'cow_stand.anm' loaded
+[00:03:02]  'cow_jump_up.anm' loaded
+[00:03:02]  'cow_jump_down.anm' loaded
+[00:03:02]  'cow_jump_top.anm' loaded
+[00:03:02]  'cow_lookdown.anm' loaded
+[00:03:03]  'cow_sit.anm' loaded
+[00:03:03]  'cow_wow.anm' loaded
+[00:03:03]  'cow_liana.anm' loaded
+[00:03:03]  'cow_read.anm' loaded
+[00:03:03]  'cow_loiter1.anm' loaded
+[00:03:03]  'cow_loiter2.anm' loaded
+[00:03:03]  'cow_loiter3.anm' loaded
+[00:03:03]  'cow_loiter4.anm' loaded
+[00:03:03]  'cow_loiter5.anm' loaded
+[00:03:03]  'cow_dance1.anm' loaded
+[00:03:03]  'cow_dance2.anm' loaded
+[00:03:04]  'cow_dance3.anm' loaded
+[00:03:04]  'cow_victory.anm' loaded
+[00:03:04]  'cow_poklon.anm' loaded
+[00:03:04]  'cow_shock.anm' loaded
+[00:03:04]  'cow_banjo.anm' loaded
+[00:03:04]  'cow_death.anm' loaded
+[00:03:04]  'snail.chr' loaded
+[00:03:04]  'snail.skl' loaded
+[00:03:04]  'ulitka.jpg' loaded
+[00:03:04]  'snail_left.anm' loaded
+[00:03:04]  'snail_right.anm' loaded
+[00:03:04]  'snail_pause.anm' loaded
+[00:03:04]  'snail_attack.anm' loaded
+[00:03:05]  'mole.chr' loaded
+[00:03:05]  'mole.skl' loaded
+[00:03:05]  'Krot.jpg' loaded
+[00:03:05]  'mole_void.anm' loaded
+[00:03:05]  'mole_look.anm' loaded
+[00:03:05]  'mole_attack.anm' loaded
+[00:03:05]  'mole_fall.anm' loaded
+[00:03:05]  'dog.chr' loaded
+[00:03:05]  'dog.skl' loaded
+[00:03:05]  Can't load '_a_DoG_TGA.jpg'
+[00:03:05]  'DoG_TGA.tga' loaded
+[00:03:05]  'dog_run.anm' loaded
+[00:03:05]  'dog_pausa.anm' loaded
+[00:03:05]  'dog_pausa2.anm' loaded
+[00:03:05]  'dog_atack.anm' loaded
+[00:03:05]  'dog_dance.anm' loaded
+[00:03:05]  'bird.chr' loaded
+[00:03:05]  'bird.skl' loaded
+[00:03:06]  'vorona.jpg' loaded
+[00:03:06]  'bird_run.anm' loaded
+[00:03:06]  'bird_attack.anm' loaded
+[00:03:06]  'spider.chr' loaded
+[00:03:06]  'spider.skl' loaded
+[00:03:06]  'pauk.jpg' loaded
+[00:03:06]  'spider_run.anm' loaded
+[00:03:06]  'spider.chr' loaded
+[00:03:06]  'hedgehog.chr' loaded
+[00:03:06]  'hedgehog.skl' loaded
+[00:03:06]  Can't load '_a_Dikobraz.jpg'
+[00:03:06]  'Dikobraz.tga' loaded
+[00:03:06]  'hedgehog.anm' loaded
+[00:03:06]  'boss_pig.chr' loaded
+[00:03:06]  'boss_pig.skl' loaded
+[00:03:06]  'pig.jpg' loaded
+[00:03:07]  'pig_run.anm' loaded
+[00:03:07]  'pig_stand.anm' loaded
+[00:03:07]  'pig_attack.anm' loaded
+[00:03:07]  'frog.chr' loaded
+[00:03:07]  'frog.skl' loaded
+[00:03:07]  'frog.jpg' loaded
+[00:03:07]  'frog_jump.anm' loaded
+[00:03:07]  'frog_ik.anm' loaded
+[00:03:07]  'frog_plevok.anm' loaded
+[00:03:07]  'goat.chr' loaded
+[00:03:07]  'goat.skl' loaded
+[00:03:07]  'kozel.jpg' loaded
+[00:03:07]  'goat_walk.anm' loaded
+[00:03:07]  'goat_run.anm' loaded
+[00:03:07]  'goat_stand.anm' loaded
+[00:03:07]  'goat_attack.anm' loaded
+[00:03:07]  'goat_throw.anm' loaded
+[00:03:08]  'goat_death.anm' loaded
+[00:03:08]  'goat_dance.anm' loaded
+[00:03:08]  'bat.chr' loaded
+[00:03:08]  'bat.skl' loaded
+[00:03:08]  'bat.jpg' loaded
+[00:03:08]  'bat_run.anm' loaded
+[00:03:08]  'bat_pause.anm' loaded
+[00:03:08]  'wasp.chr' loaded
+[00:03:08]  'wasp.skl' loaded
+[00:03:08]  Can't load '_a_osa.jpg'
+[00:03:08]  'osa.tga' loaded
+[00:03:08]  'wasp_run.anm' loaded
+[00:03:08]  'bug.chr' loaded
+[00:03:08]  'bug.skl' loaded
+[00:03:08]  'bug.jpg' loaded
+[00:03:08]  'bug_attack.anm' loaded
+[00:03:09]  'bug_run.anm' loaded
+[00:03:09]  'bird2.chr' loaded
+[00:03:09]  'vorona2.jpg' loaded
+[00:03:09]  'flycatcher.chr' loaded
+[00:03:09]  'flycatcher.skl' loaded
+[00:03:09]  Can't load '_a_muholov.jpg'
+[00:03:09]  'muholov.tga' loaded
+[00:03:09]  'flycatcher_pause.anm' loaded
+[00:03:09]  'flycatcher_attack.anm' loaded
+[00:03:09]  'flycatcher_death.anm' loaded
+[00:03:09]  'prof.chr' loaded
+[00:03:09]  'prof.skl' loaded
+[00:03:09]  'prof.jpg' loaded
+[00:03:09]  'prof_walk.anm' loaded
+[00:03:09]  'prof_attack.anm' loaded
+[00:04:00]  'animbackobjs.txt' loaded
+[00:04:00]  'sky3.jpg' loaded
+[00:04:00]  'water0.jpg' loaded
+[00:04:00]  'waterfall0.jpg' loaded
+[00:04:00]  'waterfall1.jpg' loaded
+[00:04:00]  'waterfall2.jpg' loaded
+[00:04:00]  'spray0.jpg' loaded
+[00:04:00]  '_a_art_007.jpg' loaded
+[00:04:00]  '_a_art_031.jpg' loaded
+[00:04:00]  '_a_trawa1.jpg' loaded
+[00:04:00]  '_a_trawa2.jpg' loaded
+[00:04:00]  'level0.lev' loaded
+[00:04:00]  'backgrounds.txt' loaded
+[00:04:00]  'backsky1.jpg' loaded
+[00:04:00]  '_a_backmount1.jpg' loaded
+[00:04:00]  '_a_grass.jpg' loaded
+[00:04:00]  '_a_backmount2.jpg' loaded
+[00:04:00]  '_a_stones1.jpg' loaded
+[00:04:01]  'sky4.jpg' loaded
+[00:04:01]  '_a_cloud2.jpg' loaded
+[00:04:01]  '_a_backforest1.jpg' loaded
+[00:04:01]  'forestback2.jpg' loaded
+[00:04:01]  '_a_forest_up.jpg' loaded
+[00:04:01]  'bog.jpg' loaded
+[00:04:01]  '_a_grass2.jpg' loaded
+[00:04:01]  'rock1.jpg' loaded
+[00:04:01]  '_a_rock3.jpg' loaded
+[00:04:01]  '_a_rock2.jpg' loaded
+[00:04:01]  '_a_rock4.jpg' loaded
+[00:04:01]  'back_prof.jpg' loaded
+[00:04:01]  '_a_back_prof3.jpg' loaded
+[00:04:01]  '_a_back_prof5.jpg' loaded
+[00:04:01]  '_a_back_prof1.jpg' loaded
+[00:04:01]  '_a_back_prof4.jpg' loaded
+[00:04:01]  '_a_back_prof2.jpg' loaded
+[00:04:01]  'gameobjs.txt' loaded
+[00:04:01]  Can't load '_a_art_001.jpg'
+[00:04:01]  Can't load 'art_001.tga'
+[00:04:01]  '_a_art_001.jpg' loaded
+[00:04:02]  Can't load '_a_art_003.jpg'
+[00:04:02]  Can't load 'art_003.tga'
+[00:04:02]  '_a_art_003.jpg' loaded
+[00:04:02]  Can't load '_a_art_004.jpg'
+[00:04:02]  Can't load 'art_004.tga'
+[00:04:02]  '_a_art_004.jpg' loaded
+[00:04:02]  Can't load '_a_art_005.jpg'
+[00:04:02]  Can't load 'art_005.tga'
+[00:04:02]  '_a_art_005.jpg' loaded
+[00:04:02]  Can't load '_a_art_006.jpg'
+[00:04:02]  Can't load 'art_006.tga'
+[00:04:02]  '_a_art_006.jpg' loaded
+[00:04:02]  Can't load '_a_art_008.jpg'
+[00:04:02]  Can't load 'art_008.tga'
+[00:04:02]  '_a_art_008.jpg' loaded
+[00:04:02]  Can't load '_a_art_014.jpg'
+[00:04:02]  Can't load 'art_014.tga'
+[00:04:02]  '_a_art_014.jpg' loaded
+[00:04:02]  Can't load '_a_art_015.jpg'
+[00:04:02]  Can't load 'art_015.tga'
+[00:04:02]  '_a_art_015.jpg' loaded
+[00:04:02]  Can't load '_a_sunflower1.jpg'
+[00:04:02]  Can't load 'sunflower1.tga'
+[00:04:02]  '_a_sunflower1.jpg' loaded
+[00:04:02]  Can't load '_a_sunflower2.jpg'
+[00:04:02]  Can't load 'sunflower2.tga'
+[00:04:02]  '_a_sunflower2.jpg' loaded
+[00:04:02]  Can't load '_a_romashka1.jpg'
+[00:04:02]  Can't load 'romashka1.tga'
+[00:04:02]  '_a_romashka1.jpg' loaded
+[00:04:02]  Can't load '_a_tomato1.jpg'
+[00:04:02]  Can't load 'tomato1.tga'
+[00:04:02]  '_a_tomato1.jpg' loaded
+[00:04:02]  Can't load '_a_flowers1.jpg'
+[00:04:02]  Can't load 'flowers1.tga'
+[00:04:02]  '_a_flowers1.jpg' loaded
+[00:04:02]  Can't load '_a_tree1.jpg'
+[00:04:02]  Can't load 'tree1.tga'
+[00:04:02]  '_a_tree1.jpg' loaded
+[00:04:02]  Can't load '_a_tree2.jpg'
+[00:04:02]  Can't load 'tree2.tga'
+[00:04:02]  '_a_tree2.jpg' loaded
+[00:04:02]  Can't load '_a_tree3.jpg'
+[00:04:02]  Can't load 'tree3.tga'
+[00:04:02]  '_a_tree3.jpg' loaded
+[00:04:02]  Can't load '_a_tree5.jpg'
+[00:04:02]  Can't load 'tree5.tga'
+[00:04:02]  '_a_tree5.jpg' loaded
+[00:04:02]  Can't load '_a_art_018.jpg'
+[00:04:02]  Can't load 'art_018.tga'
+[00:04:02]  '_a_art_018.jpg' loaded
+[00:04:02]  Can't load '_a_art_019.jpg'
+[00:04:02]  Can't load 'art_019.tga'
+[00:04:02]  '_a_art_019.jpg' loaded
+[00:04:02]  Can't load '_a_art_023.jpg'
+[00:04:02]  Can't load 'art_023.tga'
+[00:04:02]  '_a_art_023.jpg' loaded
+[00:04:02]  Can't load '_a_art_024.jpg'
+[00:04:02]  Can't load 'art_024.tga'
+[00:04:02]  '_a_art_024.jpg' loaded
+[00:04:02]  Can't load '_a_art_025.jpg'
+[00:04:02]  Can't load 'art_025.tga'
+[00:04:02]  '_a_art_025.jpg' loaded
+[00:04:02]  Can't load '_a_art_026.jpg'
+[00:04:02]  Can't load 'art_026.tga'
+[00:04:02]  '_a_art_026.jpg' loaded
+[00:04:02]  Can't load '_a_art_027.jpg'
+[00:04:02]  Can't load 'art_027.tga'
+[00:04:02]  '_a_art_027.jpg' loaded
+[00:04:02]  Can't load '_a_art_028.jpg'
+[00:04:02]  Can't load 'art_028.tga'
+[00:04:02]  '_a_art_028.jpg' loaded
+[00:04:02]  Can't load '_a_art_029.jpg'
+[00:04:02]  Can't load 'art_029.tga'
+[00:04:02]  '_a_art_029.jpg' loaded
+[00:04:02]  Can't load '_a_art_030.jpg'
+[00:04:02]  Can't load 'art_030.tga'
+[00:04:02]  '_a_art_030.jpg' loaded
+[00:04:02]  Can't load '_a_art_002.jpg'
+[00:04:02]  Can't load 'art_002.tga'
+[00:04:02]  '_a_art_002.jpg' loaded
+[00:04:02]  Can't load '_a_art_009.jpg'
+[00:04:02]  Can't load 'art_009.tga'
+[00:04:02]  '_a_art_009.jpg' loaded
+[00:04:02]  Can't load '_a_art_010.jpg'
+[00:04:02]  Can't load 'art_010.tga'
+[00:04:02]  '_a_art_010.jpg' loaded
+[00:04:02]  Can't load '_a_art_012.jpg'
+[00:04:02]  Can't load 'art_012.tga'
+[00:04:02]  '_a_art_012.jpg' loaded
+[00:04:02]  Can't load '_a_art_013.jpg'
+[00:04:02]  Can't load 'art_013.tga'
+[00:04:02]  '_a_art_013.jpg' loaded
+[00:04:03]  Can't load '_a_art_017.jpg'
+[00:04:03]  Can't load 'art_017.tga'
+[00:04:03]  '_a_art_017.jpg' loaded
+[00:04:03]  Can't load '_a_mummy.jpg'
+[00:04:03]  Can't load 'mummy.tga'
+[00:04:03]  '_a_mummy.jpg' loaded
+[00:04:03]  Can't load '_a_art_020.jpg'
+[00:04:03]  Can't load 'art_020.tga'
+[00:04:03]  '_a_art_020.jpg' loaded
+[00:04:03]  Can't load '_a_art_021.jpg'
+[00:04:03]  Can't load 'art_021.tga'
+[00:04:03]  '_a_art_021.jpg' loaded
+[00:04:03]  Can't load '_a_art_022.jpg'
+[00:04:03]  Can't load 'art_022.tga'
+[00:04:03]  '_a_art_022.jpg' loaded
+[00:04:03]  Can't load '_a_art_032.jpg'
+[00:04:03]  Can't load 'art_032.tga'
+[00:04:03]  '_a_art_032.jpg' loaded
+[00:04:03]  Can't load '_a_art_033.jpg'
+[00:04:03]  Can't load 'art_033.tga'
+[00:04:03]  '_a_art_033.jpg' loaded
+[00:04:03]  Can't load '_a_stok1.jpg'
+[00:04:03]  Can't load 'stok1.tga'
+[00:04:03]  '_a_stok1.jpg' loaded
+[00:04:03]  Can't load '_a_stump.jpg'
+[00:04:03]  Can't load 'stump.tga'
+[00:04:03]  '_a_stump.jpg' loaded
+[00:04:03]  Can't load '_a_light1.jpg'
+[00:04:03]  Can't load 'light1.tga'
+[00:04:03]  '_a_light1.jpg' loaded
+[00:04:03]  Can't load '_a_tree6.jpg'
+[00:04:03]  Can't load 'tree6.tga'
+[00:04:03]  '_a_tree6.jpg' loaded
+[00:04:03]  Can't load '_a_tree7.jpg'
+[00:04:03]  Can't load 'tree7.tga'
+[00:04:03]  '_a_tree7.jpg' loaded
+[00:04:03]  Can't load '_a_tree8.jpg'
+[00:04:03]  Can't load 'tree8.tga'
+[00:04:03]  '_a_tree8.jpg' loaded
+[00:04:03]  Can't load '_a_tree9.jpg'
+[00:04:03]  Can't load 'tree9.tga'
+[00:04:03]  '_a_tree9.jpg' loaded
+[00:04:03]  Can't load '_a_clothes1.jpg'
+[00:04:03]  Can't load 'clothes1.tga'
+[00:04:03]  '_a_clothes1.jpg' loaded
+[00:04:03]  Can't load '_a_clothes2.jpg'
+[00:04:03]  Can't load 'clothes2.tga'
+[00:04:03]  '_a_clothes2.jpg' loaded
+[00:04:03]  Can't load '_a_clothes3.jpg'
+[00:04:03]  Can't load 'clothes3.tga'
+[00:04:03]  '_a_clothes3.jpg' loaded
+[00:04:03]  Can't load '_a_clothes4.jpg'
+[00:04:03]  Can't load 'clothes4.tga'
+[00:04:03]  '_a_clothes4.jpg' loaded
+[00:04:03]  Can't load '_a_clothes5.jpg'
+[00:04:03]  Can't load 'clothes5.tga'
+[00:04:03]  '_a_clothes5.jpg' loaded
+[00:04:03]  Can't load '_a_clothes6.jpg'
+[00:04:03]  Can't load 'clothes6.tga'
+[00:04:03]  '_a_clothes6.jpg' loaded
+[00:04:03]  Can't load '_a_clothes7.jpg'
+[00:04:03]  Can't load 'clothes7.tga'
+[00:04:03]  '_a_clothes7.jpg' loaded
+[00:04:03]  Can't load '_a_rope1.jpg'
+[00:04:03]  Can't load 'rope1.tga'
+[00:04:03]  '_a_rope1.jpg' loaded
+[00:04:03]  Can't load '_a_rope2.jpg'
+[00:04:03]  Can't load 'rope2.tga'
+[00:04:03]  '_a_rope2.jpg' loaded
+[00:04:03]  Can't load '_a_art_034.jpg'
+[00:04:03]  Can't load 'art_034.tga'
+[00:04:03]  '_a_art_034.jpg' loaded
+[00:04:03]  Can't load '_a_art_035.jpg'
+[00:04:03]  Can't load 'art_035.tga'
+[00:04:03]  '_a_art_035.jpg' loaded
+[00:04:03]  Can't load '_a_art_036.jpg'
+[00:04:03]  Can't load 'art_036.tga'
+[00:04:03]  '_a_art_036.jpg' loaded
+[00:04:03]  Can't load '_a_colb_crash.jpg'
+[00:04:03]  Can't load 'colb_crash.tga'
+[00:04:03]  '_a_colb_crash.jpg' loaded
+[00:04:04]  Can't load '_a_colb_dog.jpg'
+[00:04:04]  Can't load 'colb_dog.tga'
+[00:04:04]  '_a_colb_dog.jpg' loaded
+[00:04:04]  Can't load '_a_colb_full.jpg'
+[00:04:04]  Can't load 'colb_full.tga'
+[00:04:04]  '_a_colb_full.jpg' loaded
+[00:04:04]  Can't load '_a_colb_krot.jpg'
+[00:04:04]  Can't load 'colb_krot.tga'
+[00:04:04]  '_a_colb_krot.jpg' loaded
+[00:04:04]  Can't load '_a_colb_osa.jpg'
+[00:04:04]  Can't load 'colb_osa.tga'
+[00:04:04]  '_a_colb_osa.jpg' loaded
+[00:04:04]  Can't load '_a_colb_safe.jpg'
+[00:04:04]  Can't load 'colb_safe.tga'
+[00:04:04]  '_a_colb_safe.jpg' loaded
+[00:04:04]  Can't load '_a_tree10.jpg'
+[00:04:04]  Can't load 'tree10.tga'
+[00:04:04]  '_a_tree10.jpg' loaded
+[00:04:04]  Can't load '_a_tree11.jpg'
+[00:04:04]  Can't load 'tree11.tga'
+[00:04:04]  '_a_tree11.jpg' loaded
+[00:04:04]  Can't load '_a_bush03.jpg'
+[00:04:04]  Can't load 'bush03.tga'
+[00:04:04]  '_a_bush03.jpg' loaded
+[00:04:04]  Can't load '_a_bush04.jpg'
+[00:04:04]  Can't load 'bush04.tga'
+[00:04:04]  '_a_bush04.jpg' loaded
+[00:04:04]  Can't load '_a_bush05.jpg'
+[00:04:04]  Can't load 'bush05.tga'
+[00:04:04]  '_a_bush05.jpg' loaded
+[00:04:04]  Can't load '_a_bush06.jpg'
+[00:04:04]  Can't load 'bush06.tga'
+[00:04:04]  '_a_bush06.jpg' loaded
+[00:04:04]  Can't load '_a_bush07.jpg'
+[00:04:04]  Can't load 'bush07.tga'
+[00:04:04]  '_a_bush07.jpg' loaded
+[00:04:04]  Can't load '_a_bush08.jpg'
+[00:04:04]  Can't load 'bush08.tga'
+[00:04:04]  '_a_bush08.jpg' loaded
+[00:04:04]  Can't load '_a_bush09.jpg'
+[00:04:04]  Can't load 'bush09.tga'
+[00:04:04]  '_a_bush09.jpg' loaded
+[00:04:04]  Can't load '_a_grate.jpg'
+[00:04:04]  Can't load 'grate.tga'
+[00:04:04]  '_a_grate.jpg' loaded
+[00:04:04]  Can't load '_a_grate2.jpg'
+[00:04:04]  Can't load 'grate2.tga'
+[00:04:04]  '_a_grate2.jpg' loaded
+[00:04:04]  Can't load '_a_art_011.jpg'
+[00:04:04]  Can't load 'art_011.tga'
+[00:04:04]  '_a_art_011.jpg' loaded
+[00:04:04]  Can't load '_a_waterfall.jpg'
+[00:04:04]  Can't load 'waterfall.tga'
+[00:04:04]  '_a_waterfall.jpg' loaded
+[00:04:04]  Can't load '_a_stolb1.jpg'
+[00:04:04]  Can't load 'stolb1.tga'
+[00:04:04]  '_a_stolb1.jpg' loaded
+[00:04:04]  Can't load '_a_stolb2.jpg'
+[00:04:04]  Can't load 'stolb2.tga'
+[00:04:04]  '_a_stolb2.jpg' loaded
+[00:04:04]  Can't load '_a_stolb3.jpg'
+[00:04:04]  Can't load 'stolb3.tga'
+[00:04:04]  '_a_stolb3.jpg' loaded
+[00:04:04]  Can't load '_a_stolb4.jpg'
+[00:04:04]  Can't load 'stolb4.tga'
+[00:04:04]  '_a_stolb4.jpg' loaded
+[00:04:04]  Can't load '_a_stolb5.jpg'
+[00:04:04]  Can't load 'stolb5.tga'
+[00:04:04]  '_a_stolb5.jpg' loaded
+[00:04:04]  Can't load '_a_nest.jpg'
+[00:04:04]  Can't load 'nest.tga'
+[00:04:04]  '_a_nest.jpg' loaded
+[00:04:04]  Can't load '_a_os.jpg'
+[00:04:04]  Can't load 'os.tga'
+[00:04:04]  '_a_os.jpg' loaded
+[00:04:04]  Can't load 'water.jpg'
+[00:04:04]  'water.jpg' loaded
+[00:04:04]  Can't load '_a_platform1.jpg'
+[00:04:04]  Can't load 'platform1.tga'
+[00:04:04]  '_a_platform1.jpg' loaded
+[00:04:04]  Can't load '_a_platform2.jpg'
+[00:04:04]  Can't load 'platform2.tga'
+[00:04:04]  '_a_platform2.jpg' loaded
+[00:04:04]  Can't load '_a_platform3.jpg'
+[00:04:04]  Can't load 'platform3.tga'
+[00:04:04]  '_a_platform3.jpg' loaded
+[00:04:04]  Can't load '_a_platform4.jpg'
+[00:04:04]  Can't load 'platform4.tga'
+[00:04:04]  '_a_platform4.jpg' loaded
+[00:04:04]  Can't load '_a_platform5.jpg'
+[00:04:04]  Can't load 'platform5.tga'
+[00:04:04]  '_a_platform5.jpg' loaded
+[00:04:04]  Can't load '_a_platform6.jpg'
+[00:04:04]  Can't load 'platform6.tga'
+[00:04:04]  '_a_platform6.jpg' loaded
+[00:04:04]  Can't load '_a_platform9.jpg'
+[00:04:04]  Can't load 'platform9.tga'
+[00:04:04]  '_a_platform9.jpg' loaded
+[00:04:05]  Can't load '_a_platform10.jpg'
+[00:04:05]  Can't load 'platform10.tga'
+[00:04:05]  '_a_platform10.jpg' loaded
+[00:04:05]  Can't load '_a_dynplatform1.jpg'
+[00:04:05]  Can't load 'dynplatform1.tga'
+[00:04:05]  '_a_dynplatform1.jpg' loaded
+[00:04:05]  Can't load '_a_platform7.jpg'
+[00:04:05]  Can't load 'platform7.tga'
+[00:04:05]  '_a_platform7.jpg' loaded
+[00:04:05]  Can't load '_a_platform8.jpg'
+[00:04:05]  Can't load 'platform8.tga'
+[00:04:05]  '_a_platform8.jpg' loaded
+[00:04:05]  Can't load '_a_fence1.jpg'
+[00:04:05]  Can't load 'fence1.tga'
+[00:04:05]  '_a_fence1.jpg' loaded
+[00:04:05]  Can't load '_a_fence2.jpg'
+[00:04:05]  Can't load 'fence2.tga'
+[00:04:05]  '_a_fence2.jpg' loaded
+[00:04:05]  Can't load '_a_dynplatform2.jpg'
+[00:04:05]  Can't load 'dynplatform2.tga'
+[00:04:05]  '_a_dynplatform2.jpg' loaded
+[00:04:05]  Can't load '_a_dynplatform3.jpg'
+[00:04:05]  Can't load 'dynplatform3.tga'
+[00:04:05]  '_a_dynplatform3.jpg' loaded
+[00:04:05]  Can't load '_a_dynplatform4.jpg'
+[00:04:05]  Can't load 'dynplatform4.tga'
+[00:04:05]  '_a_dynplatform4.jpg' loaded
+[00:04:05]  Can't load '_a_bridge0.jpg'
+[00:04:05]  Can't load 'bridge0.tga'
+[00:04:05]  '_a_bridge0.jpg' loaded
+[00:04:05]  Can't load '_a_elevator1.jpg'
+[00:04:05]  Can't load 'elevator1.tga'
+[00:04:05]  '_a_elevator1.jpg' loaded
+[00:04:05]  Can't load '_a_elevator2.jpg'
+[00:04:05]  Can't load 'elevator2.tga'
+[00:04:05]  '_a_elevator2.jpg' loaded
+[00:04:05]  Can't load '_a_ground1.jpg'
+[00:04:05]  Can't load 'ground1.tga'
+[00:04:05]  '_a_ground1.jpg' loaded
+[00:04:05]  Can't load '_a_ground2.jpg'
+[00:04:05]  Can't load 'ground2.tga'
+[00:04:05]  '_a_ground2.jpg' loaded
+[00:04:05]  Can't load '_a_ground3.jpg'
+[00:04:05]  Can't load 'ground3.tga'
+[00:04:05]  '_a_ground3.jpg' loaded
+[00:04:05]  Can't load '_a_ground4.jpg'
+[00:04:05]  Can't load 'ground4.tga'
+[00:04:05]  '_a_ground4.jpg' loaded
+[00:04:06]  Can't load '_a_ground5.jpg'
+[00:04:06]  Can't load 'ground5.tga'
+[00:04:06]  '_a_ground5.jpg' loaded
+[00:04:06]  Can't load 'white.jpg'
+[00:04:06]  'white.jpg' loaded
+[00:04:06]  Can't load '_a_badexit1.jpg'
+[00:04:06]  Can't load 'badexit1.tga'
+[00:04:06]  '_a_badexit1.jpg' loaded
+[00:04:06]  Can't load '_a_badexit2.jpg'
+[00:04:06]  Can't load 'badexit2.tga'
+[00:04:06]  '_a_badexit2.jpg' loaded
+[00:04:06]  Can't load '_a_badexit3.jpg'
+[00:04:06]  Can't load 'badexit3.tga'
+[00:04:06]  '_a_badexit3.jpg' loaded
+[00:04:06]  Can't load '_a_house1.jpg'
+[00:04:06]  Can't load 'house1.tga'
+[00:04:06]  '_a_house1.jpg' loaded
+[00:04:06]  Can't load '_a_house2.jpg'
+[00:04:06]  Can't load 'house2.tga'
+[00:04:06]  '_a_house2.jpg' loaded
+[00:04:06]  Can't load '_a_house3.jpg'
+[00:04:06]  Can't load 'house3.tga'
+[00:04:06]  '_a_house3.jpg' loaded
+[00:04:06]  Can't load '_a_house4.jpg'
+[00:04:06]  Can't load 'house4.tga'
+[00:04:06]  '_a_house4.jpg' loaded
+[00:04:06]  Can't load '_a_bad_wc.jpg'
+[00:04:06]  Can't load 'bad_wc.tga'
+[00:04:06]  '_a_bad_wc.jpg' loaded
+[00:04:06]  Can't load '_a_tube1.jpg'
+[00:04:06]  Can't load 'tube1.tga'
+[00:04:06]  '_a_tube1.jpg' loaded
+[00:04:06]  Can't load '_a_tube2.jpg'
+[00:04:06]  Can't load 'tube2.tga'
+[00:04:06]  '_a_tube2.jpg' loaded
+[00:04:06]  Can't load '_a_tube3.jpg'
+[00:04:06]  Can't load 'tube3.tga'
+[00:04:06]  '_a_tube3.jpg' loaded
+[00:04:06]  Can't load '_a_tube4.jpg'
+[00:04:06]  Can't load 'tube4.tga'
+[00:04:06]  '_a_tube4.jpg' loaded
+[00:04:06]  Can't load '_a_tube5.jpg'
+[00:04:06]  Can't load 'tube5.tga'
+[00:04:06]  '_a_tube5.jpg' loaded
+[00:04:06]  Can't load '_a_tube8.jpg'
+[00:04:06]  Can't load 'tube8.tga'
+[00:04:06]  '_a_tube8.jpg' loaded
+[00:04:06]  Can't load '_a_tube6.jpg'
+[00:04:06]  Can't load 'tube6.tga'
+[00:04:06]  '_a_tube6.jpg' loaded
+[00:04:06]  Can't load '_a_tube7.jpg'
+[00:04:06]  Can't load 'tube7.tga'
+[00:04:06]  '_a_tube7.jpg' loaded
+[00:04:06]  Can't load '_a_ventil.jpg'
+[00:04:06]  Can't load 'ventil.tga'
+[00:04:06]  '_a_ventil.jpg' loaded
+[00:04:06]  Can't load '_a_pile.jpg'
+[00:04:06]  Can't load 'pile.tga'
+[00:04:06]  '_a_pile.jpg' loaded
+[00:04:06]  Can't load '_a_barrel1.jpg'
+[00:04:06]  Can't load 'barrel1.tga'
+[00:04:06]  '_a_barrel1.jpg' loaded
+[00:04:06]  Can't load '_a_barrel2.jpg'
+[00:04:06]  Can't load 'barrel2.tga'
+[00:04:07]  '_a_barrel2.jpg' loaded
+[00:04:07]  Can't load '_a_korito.jpg'
+[00:04:07]  Can't load 'korito.tga'
+[00:04:07]  '_a_korito.jpg' loaded
+[00:04:07]  Can't load '_a_bucket1.jpg'
+[00:04:07]  Can't load 'bucket1.tga'
+[00:04:07]  '_a_bucket1.jpg' loaded
+[00:04:07]  Can't load '_a_bucket2.jpg'
+[00:04:07]  Can't load 'bucket2.tga'
+[00:04:07]  '_a_bucket2.jpg' loaded
+[00:04:07]  Can't load '_a_bucket3.jpg'
+[00:04:07]  Can't load 'bucket3.tga'
+[00:04:07]  '_a_bucket3.jpg' loaded
+[00:04:07]  Can't load '_a_egipt05.jpg'
+[00:04:07]  Can't load 'egipt05.tga'
+[00:04:07]  '_a_egipt05.jpg' loaded
+[00:04:07]  Can't load '_a_egipt06.jpg'
+[00:04:07]  Can't load 'egipt06.tga'
+[00:04:07]  '_a_egipt06.jpg' loaded
+[00:04:07]  Can't load '_a_refrigerator.jpg'
+[00:04:07]  Can't load 'refrigerator.tga'
+[00:04:07]  '_a_refrigerator.jpg' loaded
+[00:04:07]  Can't load '_a_dog_tga.jpg'
+[00:04:07]  Can't load '_a_dikobraz.jpg'
+[00:04:07]  Can't load '_a_coin1.jpg'
+[00:04:07]  Can't load 'coin1.tga'
+[00:04:07]  Can't load '_a_coin1.jpg'
+[00:04:07]  Can't load 'coin1.tga'
+[00:04:07]  '_a_coin1.jpg' loaded
+[00:04:07]  Can't load '_a_coin2.jpg'
+[00:04:07]  Can't load 'coin2.tga'
+[00:04:07]  Can't load '_a_coin2.jpg'
+[00:04:07]  Can't load 'coin2.tga'
+[00:04:07]  '_a_coin2.jpg' loaded
+[00:04:07]  Can't load '_a_coin3.jpg'
+[00:04:07]  Can't load 'coin3.tga'
+[00:04:07]  Can't load '_a_coin3.jpg'
+[00:04:07]  Can't load 'coin3.tga'
+[00:04:07]  '_a_coin3.jpg' loaded
+[00:04:07]  Can't load '_a_gold.jpg'
+[00:04:07]  Can't load 'gold.tga'
+[00:04:07]  Can't load '_a_gold.jpg'
+[00:04:07]  Can't load 'gold.tga'
+[00:04:07]  '_a_gold.jpg' loaded
+[00:04:07]  Can't load '_a_diamond01.jpg'
+[00:04:07]  Can't load 'diamond01.tga'
+[00:04:07]  Can't load '_a_diamond01.jpg'
+[00:04:07]  Can't load 'diamond01.tga'
+[00:04:07]  '_a_diamond01.jpg' loaded
+[00:04:07]  Can't load '_a_diamond02.jpg'
+[00:04:07]  Can't load 'diamond02.tga'
+[00:04:07]  Can't load '_a_diamond02.jpg'
+[00:04:07]  Can't load 'diamond02.tga'
+[00:04:07]  '_a_diamond02.jpg' loaded
+[00:04:07]  Can't load '_a_diamond03.jpg'
+[00:04:07]  Can't load 'diamond03.tga'
+[00:04:07]  Can't load '_a_diamond03.jpg'
+[00:04:07]  Can't load 'diamond03.tga'
+[00:04:07]  '_a_diamond03.jpg' loaded
+[00:04:07]  Can't load '_a_sack.jpg'
+[00:04:07]  Can't load 'sack.tga'
+[00:04:07]  Can't load '_a_sack.jpg'
+[00:04:07]  Can't load 'sack.tga'
+[00:04:07]  '_a_sack.jpg' loaded
+[00:04:07]  Can't load '_a_pot.jpg'
+[00:04:07]  Can't load 'pot.tga'
+[00:04:07]  Can't load '_a_pot.jpg'
+[00:04:07]  Can't load 'pot.tga'
+[00:04:07]  '_a_pot.jpg' loaded
+[00:04:08]  Can't load '_a_nugget.jpg'
+[00:04:08]  Can't load 'nugget.tga'
+[00:04:08]  Can't load '_a_nugget.jpg'
+[00:04:08]  Can't load 'nugget.tga'
+[00:04:08]  '_a_nugget.jpg' loaded
+[00:04:08]  Can't load '_a_bracelet.jpg'
+[00:04:08]  Can't load 'bracelet.tga'
+[00:04:08]  Can't load '_a_bracelet.jpg'
+[00:04:08]  Can't load 'bracelet.tga'
+[00:04:08]  '_a_bracelet.jpg' loaded
+[00:04:08]  Can't load '_a_brooch1.jpg'
+[00:04:08]  Can't load 'brooch1.tga'
+[00:04:08]  Can't load '_a_brooch1.jpg'
+[00:04:08]  Can't load 'brooch1.tga'
+[00:04:08]  '_a_brooch1.jpg' loaded
+[00:04:08]  Can't load '_a_crown.jpg'
+[00:04:08]  Can't load 'crown.tga'
+[00:04:08]  Can't load '_a_crown.jpg'
+[00:04:08]  Can't load 'crown.tga'
+[00:04:08]  '_a_crown.jpg' loaded
+[00:04:08]  Can't load '_a_goblet.jpg'
+[00:04:08]  Can't load 'goblet.tga'
+[00:04:08]  Can't load '_a_goblet.jpg'
+[00:04:08]  Can't load 'goblet.tga'
+[00:04:08]  '_a_goblet.jpg' loaded
+[00:04:08]  Can't load '_a_locket1.jpg'
+[00:04:08]  Can't load 'locket1.tga'
+[00:04:08]  Can't load '_a_locket1.jpg'
+[00:04:08]  Can't load 'locket1.tga'
+[00:04:08]  '_a_locket1.jpg' loaded
+[00:04:08]  Can't load '_a_perl.jpg'
+[00:04:08]  Can't load 'perl.tga'
+[00:04:08]  Can't load '_a_perl.jpg'
+[00:04:08]  Can't load 'perl.tga'
+[00:04:08]  '_a_perl.jpg' loaded
+[00:04:08]  Can't load '_a_rings1.jpg'
+[00:04:08]  Can't load 'rings1.tga'
+[00:04:08]  Can't load '_a_rings1.jpg'
+[00:04:08]  Can't load 'rings1.tga'
+[00:04:08]  '_a_rings1.jpg' loaded
+[00:04:08]  Can't load '_a_rings2.jpg'
+[00:04:08]  Can't load 'rings2.tga'
+[00:04:08]  Can't load '_a_rings2.jpg'
+[00:04:08]  Can't load 'rings2.tga'
+[00:04:08]  '_a_rings2.jpg' loaded
+[00:04:08]  Can't load '_a_rings3.jpg'
+[00:04:08]  Can't load 'rings3.tga'
+[00:04:08]  Can't load '_a_rings3.jpg'
+[00:04:08]  Can't load 'rings3.tga'
+[00:04:08]  '_a_rings3.jpg' loaded
+[00:04:08]  Can't load '_a_scepter.jpg'
+[00:04:08]  Can't load 'scepter.tga'
+[00:04:08]  Can't load '_a_scepter.jpg'
+[00:04:08]  Can't load 'scepter.tga'
+[00:04:08]  '_a_scepter.jpg' loaded
+[00:04:08]  Can't load '_a_bochka1.jpg'
+[00:04:08]  Can't load 'bochka1.tga'
+[00:04:08]  '_a_bochka1.jpg' loaded
+[00:04:08]  Can't load '_a_meshok.jpg'
+[00:04:08]  Can't load 'meshok.tga'
+[00:04:08]  '_a_meshok.jpg' loaded
+[00:04:09]  Can't load '_a_metal_box.jpg'
+[00:04:09]  Can't load 'metal_box.tga'
+[00:04:09]  '_a_metal_box.jpg' loaded
+[00:04:09]  Can't load '_a_exit.jpg'
+[00:04:09]  Can't load 'exit.tga'
+[00:04:09]  '_a_exit.jpg' loaded
+[00:04:09]  Can't load '_a_start.jpg'
+[00:04:09]  Can't load 'start.tga'
+[00:04:09]  '_a_start.jpg' loaded
+[00:04:09]  Can't load '_a_checkpoint01.jpg'
+[00:04:09]  Can't load 'checkpoint01.tga'
+[00:04:09]  '_a_checkpoint01.jpg' loaded
+[00:04:09]  Can't load '_a_checkpointEVIL01.jpg'
+[00:04:09]  Can't load 'checkpointEVIL01.tga'
+[00:04:09]  '_a_checkpointEVIL01.jpg' loaded
+[00:04:09]  'rake.cgo' loaded
+[00:04:09]  'grabli.msh' loaded
+[00:04:09]  Can't load '_a_grabli.jpg'
+[00:04:09]  'grabli.tga' loaded
+[00:04:09]  Can't load '_a_wc2.jpg'
+[00:04:09]  Can't load 'wc2.tga'
+[00:04:09]  '_a_wc2.jpg' loaded
+[00:04:09]  Can't load '_a_trampoline.jpg'
+[00:04:09]  Can't load 'trampoline.tga'
+[00:04:09]  '_a_trampoline.jpg' loaded
+[00:04:09]  Can't load '_a_trampoline2.jpg'
+[00:04:09]  Can't load 'trampoline2.tga'
+[00:04:09]  '_a_trampoline2.jpg' loaded
+[00:04:09]  Can't load '_a_trampoline3.jpg'
+[00:04:09]  Can't load 'trampoline3.tga'
+[00:04:09]  '_a_trampoline3.jpg' loaded
+[00:04:09]  Can't load '_a_trampoline4.jpg'
+[00:04:09]  Can't load 'trampoline4.tga'
+[00:04:09]  '_a_trampoline4.jpg' loaded
+[00:04:09]  Can't load '_a_kennel.jpg'
+[00:04:09]  Can't load 'kennel.tga'
+[00:04:09]  '_a_kennel.jpg' loaded
+[00:04:09]  Can't load '_a_fire.jpg'
+[00:04:09]  Can't load 'fire.tga'
+[00:04:09]  '_a_fire.jpg' loaded
+[00:04:09]  Can't load '_a_picket.jpg'
+[00:04:09]  Can't load 'picket.tga'
+[00:04:09]  '_a_picket.jpg' loaded
+[00:04:09]  Can't load '_a_picket2.jpg'
+[00:04:09]  Can't load 'picket2.tga'
+[00:04:09]  '_a_picket2.jpg' loaded
+[00:04:09]  Can't load '_a_guillotine.jpg'
+[00:04:09]  Can't load 'guillotine.tga'
+[00:04:09]  '_a_guillotine.jpg' loaded
+[00:04:09]  Can't load '_a_guillotine2.jpg'
+[00:04:09]  Can't load 'guillotine2.tga'
+[00:04:09]  '_a_guillotine2.jpg' loaded
+[00:04:09]  Can't load '_a_cloud1.jpg'
+[00:04:09]  Can't load 'cloud1.tga'
+[00:04:09]  '_a_cloud1.jpg' loaded
+[00:04:09]  Can't load '_a_liana.jpg'
+[00:04:09]  Can't load 'liana.tga'
+[00:04:09]  '_a_liana.jpg' loaded
+[00:04:09]  Can't load '_a_life.jpg'
+[00:04:09]  Can't load 'life.tga'
+[00:04:09]  Can't load '_a_life.jpg'
+[00:04:09]  Can't load 'life.tga'
+[00:04:09]  '_a_life.jpg' loaded
+[00:04:09]  Can't load '_a_pack.jpg'
+[00:04:09]  Can't load 'pack.tga'
+[00:04:09]  Can't load '_a_pack.jpg'
+[00:04:09]  Can't load 'pack.tga'
+[00:04:09]  '_a_pack.jpg' loaded
+[00:04:09]  Can't load '_a_aid.jpg'
+[00:04:09]  Can't load 'aid.tga'
+[00:04:09]  Can't load '_a_aid.jpg'
+[00:04:09]  Can't load 'aid.tga'
+[00:04:09]  '_a_aid.jpg' loaded
+[00:04:09]  Can't load '_a_jump.jpg'
+[00:04:09]  Can't load 'jump.tga'
+[00:04:09]  '_a_jump.jpg' loaded
+[00:05:00]  Can't load '_a_horseshoe.jpg'
+[00:05:00]  Can't load 'horseshoe.tga'
+[00:05:00]  '_a_horseshoe.jpg' loaded
+[00:05:00]  Can't load '_a_firmness.jpg'
+[00:05:00]  Can't load 'firmness.tga'
+[00:05:00]  '_a_firmness.jpg' loaded
+[00:05:00]  Can't load '_a_key.jpg'
+[00:05:00]  Can't load 'key.tga'
+[00:05:00]  Can't load '_a_key.jpg'
+[00:05:00]  Can't load 'key.tga'
+[00:05:00]  '_a_key.jpg' loaded
+[00:05:00]  Can't load '_a_hand.jpg'
+[00:05:00]  Can't load 'hand.tga'
+[00:05:00]  '_a_hand.jpg' loaded
+[00:05:00]  Can't load '_a_hand_dunno.jpg'
+[00:05:00]  Can't load 'hand_dunno.tga'
+[00:05:00]  '_a_hand_dunno.jpg' loaded
+[00:05:00]  Can't load '_a_hand_no.jpg'
+[00:05:00]  Can't load 'hand_no.tga'
+[00:05:00]  '_a_hand_no.jpg' loaded
+[00:05:00]  Can't load '_a_tablet.jpg'
+[00:05:00]  Can't load 'tablet.tga'
+[00:05:00]  '_a_tablet.jpg' loaded
+[00:05:00]  Can't load '_a_danger1.jpg'
+[00:05:00]  Can't load 'danger1.tga'
+[00:05:00]  '_a_danger1.jpg' loaded
+[00:05:00]  Can't load 'hellfire.jpg'
+[00:05:00]  'hellfire.jpg' loaded
+[00:05:00]  Can't load '_a_signspider.jpg'
+[00:05:00]  Can't load 'signspider.tga'
+[00:05:00]  '_a_signspider.jpg' loaded
+[00:05:00]  Can't load '_a_signpresent.jpg'
+[00:05:00]  Can't load 'signpresent.tga'
+[00:05:00]  '_a_signpresent.jpg' loaded
+[00:05:00]  Can't load '_a_signdog.jpg'
+[00:05:00]  Can't load 'signdog.tga'
+[00:05:00]  '_a_signdog.jpg' loaded
+[00:05:00]  Can't load '_a_signbull.jpg'
+[00:05:00]  Can't load 'signbull.tga'
+[00:05:00]  '_a_signbull.jpg' loaded
+[00:05:00]  Can't load '_a_art_016.jpg'
+[00:05:00]  Can't load 'art_016.tga'
+[00:05:00]  '_a_art_016.jpg' loaded
+[00:05:00]  '_a_apple.jpg' loaded
+[00:05:00]  '_a_plum.jpg' loaded
+[00:05:00]  '_a_pear.jpg' loaded
+[00:05:00]  'electro.jpg' loaded
+[00:05:00]  '_a_trampopressed.jpg' loaded
+[00:05:00]  '_a_trampopressed2.jpg' loaded
+[00:05:00]  '_a_trampopressed3.jpg' loaded
+[00:05:00]  '_a_trampopressed4.jpg' loaded
+[00:05:00]  '_a_wc1.jpg' loaded
+[00:05:00]  '_a_waterup.jpg' loaded
+[00:05:00]  '_a_waterfall2.jpg' loaded
+[00:05:00]  '_a_bridge1.jpg' loaded
+[00:05:00]  '_a_guillo_up.jpg' loaded
+[00:05:00]  '_a_guillo_down.jpg' loaded
+[00:05:00]  '_a_guillo_up2.jpg' loaded
+[00:05:00]  '_a_guillo_down2.jpg' loaded
+[00:05:00]  '_a_liana_up.jpg' loaded
+[00:05:00]  '_a_liana_down.jpg' loaded
+[00:05:00]  '_a_light2.jpg' loaded
+[00:05:00]  '_a_checkpoint02.jpg' loaded
+[00:05:00]  '_a_checkpoint03.jpg' loaded
+[00:05:00]  '_a_checkpointEVIL02.jpg' loaded
+[00:05:00]  '_a_checkpointEVIL03.jpg' loaded
+[00:05:00]  Can't load '_a_diamonds01.jpg'
+[00:05:00]  Can't load 'diamonds01.tga'
+[00:05:00]  Can't load '_a_diamonds02.jpg'
+[00:05:00]  Can't load 'diamonds02.tga'
+[00:05:00]  Can't load '_a_diamonds03.jpg'
+[00:05:00]  Can't load 'diamonds03.tga'
+[00:05:00]  '_a_lifebar.jpg' loaded
+[00:05:00]  '_a_scorebar.jpg' loaded
+[00:05:00]  '_a_levelbar.jpg' loaded
+[00:05:00]  '_a_taskbar.jpg' loaded
+[00:05:00]  Can't load '_a_keyhelp.jpg'
+[00:05:01]  'keyhelp.tga' loaded
+[00:05:01]  '_a_taskicon1.jpg' loaded
+[00:05:01]  '_a_taskicon2.jpg' loaded
+[00:05:01]  '_a_taskicon3.jpg' loaded
+[00:05:01]  '_a_taskicon4.jpg' loaded
+[00:05:01]  '_a_mainshadow.jpg' loaded
+[00:05:01]  '_a_lifebar2.jpg' loaded
+[00:05:01]  '_a_arrow.jpg' loaded
+[00:05:01]  '_a_compass.jpg' loaded
+[00:05:01]  '_a_gag.jpg' loaded
+[00:05:01]  Can't load '_a_gradient.jpg'
+[00:05:01]  'gradient.tga' loaded
+[00:05:01]  Can't load '_a_tick.jpg'
+[00:05:01]  'tick.tga' loaded
+[00:05:01]  '_a_menutex.jpg' loaded
+[00:05:01]  '_a_baloon.jpg' loaded
+[00:05:01]  '_a_button.jpg' loaded
+[00:05:01]  Can't load '_a_particles.jpg'
+[00:05:01]  'particles.tga' loaded
+[00:05:01]  ===== Loanig sounds =======
+[00:05:01]  Can't load '.'
+[00:05:01]  Can't load '..'
+[00:05:01]  'addthunder.ogg' loaded
+[00:05:02]  'addtrophy.ogg' loaded
+[00:05:02]  'appgag.ogg' loaded
+[00:05:02]  'applause.ogg' loaded
+[00:05:02]  'bat.ogg' loaded
+[00:05:02]  'batvoice.ogg' loaded
+[00:05:02]  'birdeggcrash.ogg' loaded
+[00:05:02]  'bonuscoin1.ogg' loaded
+[00:05:02]  'bonuscoin2.ogg' loaded
+[00:05:03]  'bonuscoin3.ogg' loaded
+[00:05:03]  'bonusgem.ogg' loaded
+[00:05:03]  'bonustreasure.ogg' loaded
+[00:05:03]  'bridge1.ogg' loaded
+[00:05:03]  'bridge2.ogg' loaded
+[00:05:03]  'brook.ogg' loaded
+[00:05:03]  'bug.ogg' loaded
+[00:05:03]  'cabbage.ogg' loaded
+[00:05:03]  'cabbagecrash.ogg' loaded
+[00:05:04]  'camera.ogg' loaded
+[00:05:04]  'checkpont.ogg' loaded
+[00:05:04]  'checkpont2.ogg' loaded
+[00:05:04]  'Death1.ogg' loaded
+[00:05:04]  'Death2.ogg' loaded
+[00:05:04]  'Death3.ogg' loaded
+[00:05:04]  'Death4.ogg' loaded
+[00:05:04]  'Death5.ogg' loaded
+[00:05:04]  'Death6.ogg' loaded
+[00:05:05]  'dog.ogg' loaded
+[00:05:05]  'dogvoice.ogg' loaded
+[00:05:05]  'ExpSalute1.ogg' loaded
+[00:05:05]  'ExpSalute2.ogg' loaded
+[00:05:05]  'flycatcher.ogg' loaded
+[00:05:05]  'flycatcherbite.ogg' loaded
+[00:05:05]  'frog.ogg' loaded
+[00:05:05]  'frogcrash.ogg' loaded
+[00:05:05]  'frogspitjump.ogg' loaded
+[00:05:05]  'fruitdown.ogg' loaded
+[00:05:06]  'fruiteat.ogg' loaded
+[00:05:06]  'garbage1.ogg' loaded
+[00:05:06]  'garbage2.ogg' loaded
+[00:05:06]  'goat.ogg' loaded
+[00:05:06]  'guillo1.ogg' loaded
+[00:05:06]  'guillo2.ogg' loaded
+[00:05:06]  'hedgehog.ogg' loaded
+[00:05:06]  'herojump.ogg' loaded
+[00:05:06]  'herojump1.ogg' loaded
+[00:05:07]  'herojump2.ogg' loaded
+[00:05:07]  'herojump3.ogg' loaded
+[00:05:07]  'hurt1.ogg' loaded
+[00:05:07]  'hurt2.ogg' loaded
+[00:05:07]  'hurt3.ogg' loaded
+[00:05:07]  'hurt4.ogg' loaded
+[00:05:07]  'hurt5.ogg' loaded
+[00:05:07]  'hurt6.ogg' loaded
+[00:05:07]  'hurt7.ogg' loaded
+[00:05:07]  'hyperstephero1.ogg' loaded
+[00:05:07]  'hyperstephero2.ogg' loaded
+[00:05:08]  'hyperstephero3.ogg' loaded
+[00:05:08]  'key.ogg' loaded
+[00:05:08]  'killmonster.ogg' loaded
+[00:05:08]  'kiss.wav' loaded
+[00:05:08]  'landing.ogg' loaded
+[00:05:08]  'landinghard.ogg' loaded
+[00:05:08]  'levelcomplete.ogg' loaded
+[00:05:08]  'liana.ogg' loaded
+[00:05:08]  'lightning.ogg' loaded
+[00:05:09]  'loadcomplete.ogg' loaded
+[00:05:09]  'magic.ogg' loaded
+[00:05:09]  'mapopenlevel.ogg' loaded
+[00:05:09]  'matrac.ogg' loaded
+[00:05:09]  'menu.ogg' loaded
+[00:05:09]  'menu2.ogg' loaded
+[00:05:09]  'menu3.ogg' loaded
+[00:06:00]  'moledig.ogg' loaded
+[00:06:00]  'molestone.ogg' loaded
+[00:06:00]  'molestonecrash.ogg' loaded
+[00:06:00]  'monsterdeath.ogg' loaded
+[00:06:00]  'openexit.ogg' loaded
+[00:06:00]  'pan.ogg' loaded
+[00:06:00]  'pigstep1.ogg' loaded
+[00:06:00]  'pigstep2.ogg' loaded
+[00:06:00]  'pigstep3.ogg' loaded
+[00:06:01]  'pigvoice.ogg' loaded
+[00:06:01]  'platform1.ogg' loaded
+[00:06:01]  'platform1stop.ogg' loaded
+[00:06:01]  'platform2.ogg' loaded
+[00:06:01]  'platform3.ogg' loaded
+[00:06:01]  'platform3stop.ogg' loaded
+[00:06:01]  'powerupfirmness.ogg' loaded
+[00:06:01]  'poweruphealth.ogg' loaded
+[00:06:01]  'powerupkefir.ogg' loaded
+[00:06:02]  'poweruplife.ogg' loaded
+[00:06:02]  'powerupmegajump.ogg' loaded
+[00:06:02]  'powerupshoe.ogg' loaded
+[00:06:02]  'praise1.ogg' loaded
+[00:06:02]  'praise2.ogg' loaded
+[00:06:02]  'praise3.ogg' loaded
+[00:06:03]  'profretort.ogg' loaded
+[00:06:03]  'profretortflight.ogg' loaded
+[00:06:03]  'rake.ogg' loaded
+[00:06:03]  'raven.ogg' loaded
+[00:06:03]  'ravenvoice.ogg' loaded
+[00:06:03]  'secretfound.ogg' loaded
+[00:06:03]  'spider.ogg' loaded
+[00:06:03]  'spring.ogg' loaded
+[00:06:03]  'stats0.ogg' loaded
+[00:06:04]  'stats1.ogg' loaded
+[00:06:04]  'stats2.ogg' loaded
+[00:06:04]  'stats3.ogg' loaded
+[00:06:04]  'stats4.ogg' loaded
+[00:06:04]  'stats5.ogg' loaded
+[00:06:04]  'stephero1.ogg' loaded
+[00:06:04]  'stephero2.ogg' loaded
+[00:06:04]  'stephero3.ogg' loaded
+[00:06:04]  'taskcompleted.ogg' loaded
+[00:06:04]  'tip.ogg' loaded
+[00:06:05]  'trampo.ogg' loaded
+[00:06:05]  'wasp.ogg' loaded
+[00:06:05]  'waterfall.ogg' loaded
+[00:06:05]  'whistle.ogg' loaded
+[00:06:05]  'write1.ogg' loaded
+[00:06:05]  'write2.ogg' loaded
+[00:06:05]  'write3.ogg' loaded
+[00:06:05]  'write4.ogg' loaded
+[00:06:06]  'write5.ogg' loaded
+[00:06:06]  'write6.ogg' loaded
+[00:06:06]  'write7.ogg' loaded
+[00:06:06]  'yahoo.ogg' loaded
+[00:06:06]  '10_h1.ogg' loaded
+[00:06:06]  '10_h2.ogg' loaded
+[00:06:06]  '10_h3.ogg' loaded
+[00:06:06]  '10_h4.ogg' loaded
+[00:06:06]  '10_h5.ogg' loaded
+[00:06:06]  '10_v1.ogg' loaded
+[00:06:06]  '10_v10.ogg' loaded
+[00:06:07]  '10_v11.ogg' loaded
+[00:06:07]  '10_v12.ogg' loaded
+[00:06:07]  '10_v13.ogg' loaded
+[00:06:07]  '10_v14.ogg' loaded
+[00:06:07]  '10_v15.ogg' loaded
+[00:06:07]  '10_v16.ogg' loaded
+[00:06:07]  '10_v17.ogg' loaded
+[00:06:07]  '10_v18.ogg' loaded
+[00:06:08]  '10_v2.ogg' loaded
+[00:06:08]  '10_v3.ogg' loaded
+[00:06:08]  '10_v4.ogg' loaded
+[00:06:08]  '10_v5.ogg' loaded
+[00:06:08]  '10_v6.ogg' loaded
+[00:06:08]  '10_v7.ogg' loaded
+[00:06:08]  '10_v8.ogg' loaded
+[00:06:08]  '10_v9.ogg' loaded
+[00:06:08]  '1_h1.ogg' loaded
+[00:06:08]  '1_h2.ogg' loaded
+[00:06:09]  '1_h3.ogg' loaded
+[00:06:09]  '1_h4.ogg' loaded
+[00:06:09]  '1_h5.ogg' loaded
+[00:06:09]  '1_h6.ogg' loaded
+[00:06:09]  '1_h7.ogg' loaded
+[00:06:09]  '1_h8.ogg' loaded
+[00:06:09]  '1_v1.ogg' loaded
+[00:06:09]  '1_v10.ogg' loaded
+[00:06:09]  '1_v11.ogg' loaded
+[00:06:09]  '1_v2.ogg' loaded
+[00:07:00]  '1_v3.ogg' loaded
+[00:07:00]  '1_v4.ogg' loaded
+[00:07:00]  '1_v5.ogg' loaded
+[00:07:00]  '1_v6.ogg' loaded
+[00:07:00]  '1_v7.ogg' loaded
+[00:07:00]  '1_v8.ogg' loaded
+[00:07:00]  '1_v9.ogg' loaded
+[00:07:00]  '2_h1.ogg' loaded
+[00:07:00]  '2_h2.ogg' loaded
+[00:07:01]  '2_h3.ogg' loaded
+[00:07:01]  '2_h4.ogg' loaded
+[00:07:01]  '2_h5.ogg' loaded
+[00:07:01]  '2_h6.ogg' loaded
+[00:07:01]  '2_h7.ogg' loaded
+[00:07:01]  '2_h8.ogg' loaded
+[00:07:01]  '2_v1.ogg' loaded
+[00:07:01]  '2_v10.ogg' loaded
+[00:07:01]  '2_v11.ogg' loaded
+[00:07:02]  '2_v12.ogg' loaded
+[00:07:02]  '2_v13.ogg' loaded
+[00:07:02]  '2_v14.ogg' loaded
+[00:07:02]  '2_v15.ogg' loaded
+[00:07:02]  '2_v16.ogg' loaded
+[00:07:02]  '2_v17.ogg' loaded
+[00:07:02]  '2_v18.ogg' loaded
+[00:07:02]  '2_v2.ogg' loaded
+[00:07:03]  '2_v3.ogg' loaded
+[00:07:03]  '2_v4.ogg' loaded
+[00:07:03]  '2_v5.ogg' loaded
+[00:07:03]  '2_v6.ogg' loaded
+[00:07:03]  '2_v7.ogg' loaded
+[00:07:03]  '2_v8.ogg' loaded
+[00:07:03]  '2_v9.ogg' loaded
+[00:07:03]  '3_h1.ogg' loaded
+[00:07:04]  '3_h2.ogg' loaded
+[00:07:04]  '3_h3.ogg' loaded
+[00:07:04]  '3_h4.ogg' loaded
+[00:07:04]  '3_h5.ogg' loaded
+[00:07:04]  '3_h6.ogg' loaded
+[00:07:04]  '3_h7.ogg' loaded
+[00:07:04]  '3_h8.ogg' loaded
+[00:07:04]  '3_h9.ogg' loaded
+[00:07:04]  '3_v1.ogg' loaded
+[00:07:05]  '3_v10.ogg' loaded
+[00:07:05]  '3_v11.ogg' loaded
+[00:07:05]  '3_v12.ogg' loaded
+[00:07:05]  '3_v13.ogg' loaded
+[00:07:05]  '3_v14.ogg' loaded
+[00:07:05]  '3_v15.ogg' loaded
+[00:07:05]  '3_v16.ogg' loaded
+[00:07:05]  '3_v2.ogg' loaded
+[00:07:06]  '3_v3.ogg' loaded
+[00:07:06]  '3_v4.ogg' loaded
+[00:07:06]  '3_v5.ogg' loaded
+[00:07:06]  '3_v6.ogg' loaded
+[00:07:06]  '3_v7.ogg' loaded
+[00:07:06]  '3_v8.ogg' loaded
+[00:07:06]  '3_v9.ogg' loaded
+[00:07:06]  '4_h1.ogg' loaded
+[00:07:06]  '4_h10.ogg' loaded
+[00:07:07]  '4_h11.ogg' loaded
+[00:07:07]  '4_h2.ogg' loaded
+[00:07:07]  '4_h3.ogg' loaded
+[00:07:07]  '4_h4.ogg' loaded
+[00:07:07]  '4_h5.ogg' loaded
+[00:07:07]  '4_h6.ogg' loaded
+[00:07:07]  '4_h7.ogg' loaded
+[00:07:07]  '4_h8.ogg' loaded
+[00:07:07]  '4_h9.ogg' loaded
+[00:07:08]  '4_v1.ogg' loaded
+[00:07:08]  '4_v10.ogg' loaded
+[00:07:08]  '4_v11.ogg' loaded
+[00:07:08]  '4_v12.ogg' loaded
+[00:07:08]  '4_v2.ogg' loaded
+[00:07:08]  '4_v3.ogg' loaded
+[00:07:08]  '4_v4.ogg' loaded
+[00:07:08]  '4_v5.ogg' loaded
+[00:07:08]  '4_v6.ogg' loaded
+[00:07:09]  '4_v7.ogg' loaded
+[00:07:09]  '4_v8.ogg' loaded
+[00:07:09]  '4_v9.ogg' loaded
+[00:07:09]  '5_h1.ogg' loaded
+[00:07:09]  '5_h10.ogg' loaded
+[00:07:09]  '5_h11.ogg' loaded
+[00:07:09]  '5_h12.ogg' loaded
+[00:07:09]  '5_h2.ogg' loaded
+[00:08:00]  '5_h3.ogg' loaded
+[00:08:00]  '5_h4.ogg' loaded
+[00:08:00]  '5_h5.ogg' loaded
+[00:08:00]  '5_h6.ogg' loaded
+[00:08:00]  '5_h7.ogg' loaded
+[00:08:00]  '5_h8.ogg' loaded
+[00:08:00]  '5_h9.ogg' loaded
+[00:08:00]  '5_v1.ogg' loaded
+[00:08:00]  '5_v10.ogg' loaded
+[00:08:01]  '5_v11.ogg' loaded
+[00:08:01]  '5_v12.ogg' loaded
+[00:08:01]  '5_v13.ogg' loaded
+[00:08:01]  '5_v14.ogg' loaded
+[00:08:01]  '5_v2.ogg' loaded
+[00:08:01]  '5_v3.ogg' loaded
+[00:08:01]  '5_v4.ogg' loaded
+[00:08:01]  '5_v5.ogg' loaded
+[00:08:01]  '5_v6.ogg' loaded
+[00:08:01]  '5_v7.ogg' loaded
+[00:08:02]  '5_v8.ogg' loaded
+[00:08:02]  '5_v9.ogg' loaded
+[00:08:02]  '6_h1.ogg' loaded
+[00:08:02]  '6_h2.ogg' loaded
+[00:08:02]  '6_h3.ogg' loaded
+[00:08:02]  '6_h4.ogg' loaded
+[00:08:02]  '6_h5.ogg' loaded
+[00:08:02]  '6_h6.ogg' loaded
+[00:08:02]  '6_h7.ogg' loaded
+[00:08:03]  '6_h8.ogg' loaded
+[00:08:03]  '6_v1.ogg' loaded
+[00:08:03]  '6_v10.ogg' loaded
+[00:08:03]  '6_v2.ogg' loaded
+[00:08:03]  '6_v3.ogg' loaded
+[00:08:03]  '6_v4.ogg' loaded
+[00:08:03]  '6_v5.ogg' loaded
+[00:08:03]  '6_v6.ogg' loaded
+[00:08:03]  '6_v7.ogg' loaded
+[00:08:04]  '6_v8.ogg' loaded
+[00:08:04]  '6_v9.ogg' loaded
+[00:08:04]  '7_h1.ogg' loaded
+[00:08:04]  '7_h2.ogg' loaded
+[00:08:04]  '7_h3.ogg' loaded
+[00:08:04]  '7_h4.ogg' loaded
+[00:08:04]  '7_h5.ogg' loaded
+[00:08:04]  '7_h6.ogg' loaded
+[00:08:05]  '7_h7.ogg' loaded
+[00:08:05]  '7_h8.ogg' loaded
+[00:08:05]  '7_h9.ogg' loaded
+[00:08:05]  '7_v1.ogg' loaded
+[00:08:05]  '7_v10.ogg' loaded
+[00:08:05]  '7_v11.ogg' loaded
+[00:08:05]  '7_v12.ogg' loaded
+[00:08:05]  '7_v13.ogg' loaded
+[00:08:05]  '7_v14.ogg' loaded
+[00:08:05]  '7_v2.ogg' loaded
+[00:08:06]  '7_v3.ogg' loaded
+[00:08:06]  '7_v4.ogg' loaded
+[00:08:06]  '7_v5.ogg' loaded
+[00:08:06]  '7_v6.ogg' loaded
+[00:08:06]  '7_v7.ogg' loaded
+[00:08:06]  '7_v8.ogg' loaded
+[00:08:06]  '7_v9.ogg' loaded
+[00:08:06]  '8_h1.ogg' loaded
+[00:08:06]  '8_h10.ogg' loaded
+[00:08:07]  '8_h11.ogg' loaded
+[00:08:07]  '8_h2.ogg' loaded
+[00:08:07]  '8_h3.ogg' loaded
+[00:08:07]  '8_h4.ogg' loaded
+[00:08:07]  '8_h5.ogg' loaded
+[00:08:07]  '8_h6.ogg' loaded
+[00:08:07]  '8_h7.ogg' loaded
+[00:08:07]  '8_h8.ogg' loaded
+[00:08:08]  '8_h9.ogg' loaded
+[00:08:08]  '8_v1.ogg' loaded
+[00:08:08]  '8_v10.ogg' loaded
+[00:08:08]  '8_v11.ogg' loaded
+[00:08:08]  '8_v12.ogg' loaded
+[00:08:08]  '8_v2.ogg' loaded
+[00:08:08]  '8_v3.ogg' loaded
+[00:08:08]  '8_v4.ogg' loaded
+[00:08:08]  '8_v5.ogg' loaded
+[00:08:09]  '8_v6.ogg' loaded
+[00:08:09]  '8_v7.ogg' loaded
+[00:08:09]  '8_v8.ogg' loaded
+[00:08:09]  '8_v9.ogg' loaded
+[00:08:09]  '9_h1.ogg' loaded
+[00:08:09]  '9_h2.ogg' loaded
+[00:08:09]  '9_h3.ogg' loaded
+[00:08:09]  '9_h4.ogg' loaded
+[00:08:09]  '9_h5.ogg' loaded
+[00:08:09]  '9_h6.ogg' loaded
+[00:09:00]  '9_h7.ogg' loaded
+[00:09:00]  '9_h8.ogg' loaded
+[00:09:00]  '9_v1.ogg' loaded
+[00:09:00]  '9_v10.ogg' loaded
+[00:09:00]  '9_v11.ogg' loaded
+[00:09:00]  '9_v12.ogg' loaded
+[00:09:00]  '9_v13.ogg' loaded
+[00:09:00]  '9_v14.ogg' loaded
+[00:09:00]  '9_v15.ogg' loaded
+[00:09:00]  '9_v16.ogg' loaded
+[00:09:01]  '9_v17.ogg' loaded
+[00:09:01]  '9_v2.ogg' loaded
+[00:09:01]  '9_v3.ogg' loaded
+[00:09:01]  '9_v4.ogg' loaded
+[00:09:01]  '9_v5.ogg' loaded
+[00:09:01]  '9_v6.ogg' loaded
+[00:09:01]  '9_v7.ogg' loaded
+[00:09:01]  '9_v8.ogg' loaded
+[00:09:01]  '9_v9.ogg' loaded
+[00:09:02]  'backdanger.ogg' loaded
+[00:09:02]  'backfarm.ogg' loaded
+[00:09:03]  'menu.txt' loaded
+[00:09:03]  '_a_button_back.jpg' loaded
+[00:09:03]  '_a_button_back_lum.jpg' loaded
+[00:09:03]  '1.jpg' loaded
+[00:09:03]  '2.jpg' loaded
+[00:09:03]  '3.jpg' loaded
+[00:09:03]  '4.jpg' loaded
+[00:09:04]  '5.jpg' loaded
+[00:09:04]  'happyendback.jpg' loaded
+[00:09:04]  'pers.txt' loaded
+[00:09:04]  '_a_sheep.jpg' loaded
+[00:09:04]  '_a_donkey.jpg' loaded
+[00:09:04]  '_a_goose.jpg' loaded
+[00:09:04]  '_a_han.jpg' loaded
+[00:09:04]  '_a_chicken.jpg' loaded
+[00:09:04]  '_a_rabbit.jpg' loaded
+[00:09:05]  '_a_cock.jpg' loaded
+[00:09:05]  '_a_pig.jpg' loaded
+[00:09:05]  '_a_goat.jpg' loaded
+[00:09:05]  '_a_bull.jpg' loaded
+[00:09:05]  'comics.txt' loaded
+[00:09:05]  '_a_back0.jpg' loaded
+[00:09:05]  Can't load '_a_levelmark.jpg'
+[00:09:05]  'levelmark.tga' loaded
+[00:09:05]  'banjo.cgo' loaded
+[00:09:06]  'banjo.msh' loaded
+[00:09:06]  'banjo_tex.jpg' loaded
+[00:09:06]  Can't load '_a_magglass.jpg'
+[00:09:06]  'magglass.tga' loaded
+[00:09:06]  'credits.txt' loaded
+[00:09:06]  'happyend0.jpg' loaded
+[00:09:06]  'happyend1.jpg' loaded
+[00:09:06]  Can't load 'Night.jpg'
+[00:09:06]  'Night0000.jpg' loaded
+[00:09:06]  'Night0001.jpg' loaded
+[00:09:06]  'Night0002.jpg' loaded
+[00:09:06]  'Night0003.jpg' loaded
+[00:09:06]  'Night0004.jpg' loaded
+[00:09:06]  'Night0005.jpg' loaded
+[00:09:06]  'Night0006.jpg' loaded
+[00:09:06]  'Night0007.jpg' loaded
+[00:09:06]  'Night0008.jpg' loaded
+[00:09:06]  'Night0009.jpg' loaded
+[00:09:06]  'Night0010.jpg' loaded
+[00:09:06]  'Night0011.jpg' loaded
+[00:09:06]  Can't load 'Night0012.jpg'
+[00:09:06]  'megamap.jpg' loaded
+[00:09:07]  'mapback.jpg' loaded
+[00:09:07]  Can't load '_a_mapstart.jpg'
+[00:09:07]  'mapstart.tga' loaded
+[00:09:07]  Can't load '_a_maplevelmark.jpg'
+[00:09:07]  'maplevelmark.tga' loaded
+[00:09:07]  Can't load '_a_mapstagemark0.jpg'
+[00:09:07]  'mapstagemark0.tga' loaded
+[00:09:07]  Can't load '_a_mapstagemark1.jpg'
+[00:09:07]  'mapstagemark1.tga' loaded
+[00:09:07]  Can't load '_a_mapstagemark2.jpg'
+[00:09:07]  'mapstagemark2.tga' loaded
+[00:09:07]  Can't load '_a_mapstagemark3.jpg'
+[00:09:07]  'mapstagemark3.tga' loaded
+[00:09:07]  Can't load '_a_mapstagemark4.jpg'
+[00:09:08]  'mapstagemark4.tga' loaded
+[00:09:08]  Can't load '_a_mapstagemark5.jpg'
+[00:09:08]  'mapstagemark5.tga' loaded
+[00:09:08]  Can't load '_a_mapstagemark6.jpg'
+[00:09:08]  'mapstagemark6.tga' loaded
+[00:09:08]  Can't load '_a_mapstagemark7.jpg'
+[00:09:08]  'mapstagemark7.tga' loaded
+[00:09:08]  Can't load '_a_mapstagemark8.jpg'
+[00:09:08]  'mapstagemark8.tga' loaded
+[00:09:08]  Can't load '_a_mapstagemark9.jpg'
+[00:09:08]  'mapstagemark9.tga' loaded
+[00:09:08]  Can't load '_a_mapstagemark10.jpg'
+[00:09:08]  'mapstagemark10.tga' loaded
+[00:09:08]  Can't load '_a_mapstagemark.jpg'
+[00:09:08]  'mapstagemark.tga' loaded
+[00:09:08]  Can't load '_a_mapstagequestion.jpg'
+[00:09:08]  'mapstagequestion.tga' loaded
+[00:09:08]  'levelglow1.jpg' loaded
+[00:09:08]  'levelglow2.jpg' loaded
+[00:09:08]  'levelglow3.jpg' loaded
+[00:09:08]  'boxglow1.jpg' loaded
+[00:09:08]  'boxglow2.jpg' loaded
+[00:09:08]  'boxglow3.jpg' loaded
+[00:09:08]  'stages.cfg' loaded
+[00:09:08]  'flare.jpg' loaded
+[00:09:08]  'dot.jpg' loaded
+[00:09:08]  OnCreate() done!
+[00:15:07]  Enable menu 'm'
+[00:34:03]  Enable menu 'p'
+[00:36:07]  Disable menu 'p'
+[00:37:00]  Enable menu 'm'
+[00:38:05]  Disable menu 'm'
+[00:38:08]  Enable menu 'p'
+[00:42:01]  Disable menu 'p'
+[00:42:04]  Enable menu 'r'
+[00:55:00]  Disable menu 'r'
+[00:55:03]  Enable menu 'p'
+[00:57:02]  Disable menu 'p'
+[00:57:05]  Enable menu 'm'
+[00:59:02]  Disable menu 'm'
+[01:02:07]  Enable menu 'm'
+[01:03:02]  Disable menu 'm'
+[01:03:08]  Enable menu 'm'
+[01:04:08]  Disable menu 'm'
+[01:05:01]  Enable menu 'm'
+[01:05:05]  Disable menu 'm'
+[01:05:09]  Enable menu 'm'
+[01:09:03]  Disable menu 'm'
+[01:09:06]  Enable menu 'i'
+[01:12:07]  Disable menu 'i'
+[01:22:02]  Enable menu 'm'
+[01:25:09]  Disable menu 'm'
+[01:30:08]  'level04.lev' loaded
+[01:30:08]  'snail.chr' loaded
+[01:30:08]  'snail.chr' loaded
+[01:30:08]  'snail.chr' loaded
+[01:30:08]  'snail.chr' loaded
+[01:30:08]  'snail.chr' loaded
+[01:30:08]  'snail.chr' loaded
+[01:30:08]  'snail.chr' loaded
+[01:30:08]  'dog.chr' loaded
+[01:30:08]  'dog.chr' loaded
+[01:30:08]  'snail.chr' loaded
+[01:30:08]  'snail.chr' loaded
+[01:30:08]  'dog.chr' loaded
+[01:30:08]  'dog.chr' loaded
+[01:30:08]  'snail.chr' loaded
+[01:30:08]  'snail.chr' loaded
+[01:30:08]  'snail.chr' loaded
+[01:30:08]  'snail.chr' loaded
+[01:30:08]  Enable menu 's'
+[01:33:03]  Disable menu 's'
+[05:15:01]  Enable menu 'l'
+[05:23:05]  Disable menu 'l'
+[08:02:08]  'level01.lev' loaded
+[08:03:01]  'mole.chr' loaded
+[08:03:01]  'mole.chr' loaded
+[08:03:01]  'mole.chr' loaded
+[08:03:01]  'mole.chr' loaded
+[08:03:01]  'mole.chr' loaded
+[08:03:01]  'mole.chr' loaded
+[08:03:01]  'mole.chr' loaded
+[08:03:01]  'mole.chr' loaded
+[08:03:01]  'dog.chr' loaded
+[08:03:01]  'dog.chr' loaded
+[08:03:01]  'dog.chr' loaded
+[08:03:01]  'snail.chr' loaded
+[08:03:01]  'snail.chr' loaded
+[08:03:01]  'snail.chr' loaded
+[08:03:01]  'snail.chr' loaded
+[08:03:01]  'dog.chr' loaded
+[08:03:01]  'dog.chr' loaded
+[08:03:01]  'mole.chr' loaded
+[08:03:01]  'mole.chr' loaded
+[08:03:01]  'snail.chr' loaded
+[08:03:01]  'snail.chr' loaded
+[08:03:01]  'snail.chr' loaded
+[08:03:01]  'dog.chr' loaded
+[08:03:01]  'dog.chr' loaded
+[08:03:01]  'dog.chr' loaded
+[08:03:01]  'snail.chr' loaded
+[08:03:01]  'snail.chr' loaded
+[08:03:01]  'mole.chr' loaded
+[08:03:01]  Enable menu 's'
+[08:05:00]  Disable menu 's'
+[25:36:01]  Enable menu 'l'
+[25:43:03]  Disable menu 'l'
+[26:06:06]  'level02.lev' loaded
+[26:06:07]  'mole.chr' loaded
+[26:06:07]  'mole.chr' loaded
+[26:06:07]  'snail.chr' loaded
+[26:06:07]  'dog.chr' loaded
+[26:06:07]  'snail.chr' loaded
+[26:06:07]  'snail.chr' loaded
+[26:06:07]  'mole.chr' loaded
+[26:06:07]  'mole.chr' loaded
+[26:06:07]  'snail.chr' loaded
+[26:06:07]  'snail.chr' loaded
+[26:06:07]  'dog.chr' loaded
+[26:06:07]  'dog.chr' loaded
+[26:06:07]  'mole.chr' loaded
+[26:06:07]  'dog.chr' loaded
+[26:06:07]  'mole.chr' loaded
+[26:06:07]  'mole.chr' loaded
+[26:06:07]  Enable menu 's'
+[26:08:07]  Disable menu 's'
+[29:39:03]  Enable menu 'l'
+[29:45:08]  Disable menu 'l'
+[29:49:02]  Enable menu 'm'
+[29:54:02]  Enable menu 'p'
+[30:10:02]  Disable menu 'p'
+[30:10:05]  Enable menu 'r'
+[30:54:02]  Disable menu 'r'
+[30:54:05]  Enable menu 'p'
+[30:57:09]  Disable menu 'p'
+[30:58:02]  Enable menu 'm'
+[31:00:00]  Disable menu 'm'
+[31:00:06]  Enable menu 'm'
+[31:02:00]  Disable menu 'm'
+[31:02:03]  Enable menu 'm'
+[31:03:06]  Disable menu 'm'
+[31:04:04]  Log is successfully finished. Bye!

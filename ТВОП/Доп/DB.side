@@ -1,0 +1,304 @@
+{
+  "id": "a0de98c7-5c10-48a6-b1a6-567cbe3bd608",
+  "version": "2.0",
+  "name": "TWOA_LW5_2",
+  "url": "http://site2.com/",
+  "tests": [{
+    "id": "4f175ee9-a2b7-4ded-b2ec-261a0fc68921",
+    "name": "test",
+    "commands": [{
+      "id": "c8de37c6-99bb-4c67-b04d-5c89a26c6481",
+      "comment": "",
+      "command": "open",
+      "target": "http://site2.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3db9fb0f-3e0f-420a-8d1c-021cc500b054",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=auth",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "429a6b92-6bf5-44e6-8443-e9560eff4445",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "linkText=users",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "d81e7f50-b487-41aa-9bbe-87a345a0386c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=users",
+      "targets": [
+        ["linkText=users", "linkText"],
+        ["css=#row_tbl_1 > th > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'users')])[3]", "xpath:link"],
+        ["xpath=//tr[@id='row_tbl_1']/th/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'sql.php?db=tvop&table=users&pos=0')]", "xpath:href"],
+        ["xpath=//tbody/tr/th/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "35b393b3-fca3-4c29-8e92-3664f043e54a",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=tr:nth-child(1) > .data:nth-child(6) > span",
+      "targets": [
+        ["css=tr:nth-child(1) > .data:nth-child(6) > span", "css:finder"],
+        ["xpath=//form[@id='resultsForm_891596747']/div/div/table/tbody/tr/td[6]/span", "xpath:idRelative"],
+        ["xpath=//td[6]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'user1')]", "xpath:innerText"]
+      ],
+      "value": "user1"
+    }, {
+      "id": "b15ee5d6-eb47-461c-af65-3a6d94ca2f5b",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=tr:nth-child(2) > .data:nth-child(6) > span",
+      "targets": [
+        ["css=tr:nth-child(2) > .data:nth-child(6) > span", "css:finder"],
+        ["xpath=//form[@id='resultsForm_891596747']/div/div/table/tbody/tr[2]/td[6]/span", "xpath:idRelative"],
+        ["xpath=//tr[2]/td[6]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'user2')]", "xpath:innerText"]
+      ],
+      "value": "user2"
+    }, {
+      "id": "6608d9c9-2723-4596-9ea3-c36009c39d91",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=tr:nth-child(1) > .data:nth-child(7) > span",
+      "targets": [
+        ["css=tr:nth-child(1) > .data:nth-child(7) > span", "css:finder"],
+        ["xpath=//form[@id='resultsForm_891596747']/div/div/table/tbody/tr/td[7]/span", "xpath:idRelative"],
+        ["xpath=//td[7]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'e38ad214943daad1d64c102faec29de4afe9da3d')]", "xpath:innerText"]
+      ],
+      "value": "e38ad214943daad1d64c102faec29de4afe9da3d"
+    }, {
+      "id": "d6e19c71-d0de-41ae-bdf9-d85f0b3fc8b0",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=tr:nth-child(2) > .data:nth-child(7) > span",
+      "targets": [
+        ["css=tr:nth-child(2) > .data:nth-child(7) > span", "css:finder"],
+        ["xpath=//form[@id='resultsForm_891596747']/div/div/table/tbody/tr[2]/td[7]/span", "xpath:idRelative"],
+        ["xpath=//tr[2]/td[7]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'2aa60a8ff7fcd473d321e0146afd9e26df395147')]", "xpath:innerText"]
+      ],
+      "value": "2aa60a8ff7fcd473d321e0146afd9e26df395147"
+    }, {
+      "id": "207d40a1-fa98-4f3b-89ba-89662ee12d44",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=tr:nth-child(1) > .data:nth-child(8) > span",
+      "targets": [
+        ["css=tr:nth-child(1) > .data:nth-child(8) > span", "css:finder"],
+        ["xpath=//form[@id='resultsForm_891596747']/div/div/table/tbody/tr/td[8]/span", "xpath:idRelative"],
+        ["xpath=//form[2]/div/div/table/tbody/tr/td[8]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'user1@mail.com')]", "xpath:innerText"]
+      ],
+      "value": "user1@mail.com"
+    }, {
+      "id": "77a4b8da-fa64-4a39-b902-a17952e3fd43",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=tr:nth-child(2) > .data:nth-child(8) > span",
+      "targets": [
+        ["css=tr:nth-child(2) > .data:nth-child(8) > span", "css:finder"],
+        ["xpath=//form[@id='resultsForm_891596747']/div/div/table/tbody/tr[2]/td[8]/span", "xpath:idRelative"],
+        ["xpath=//tr[2]/td[8]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'user2@mail.com')]", "xpath:innerText"]
+      ],
+      "value": "user2@mail.com"
+    }, {
+      "id": "55cd2433-1b07-422a-8959-ef30e3dadbe7",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=tr:nth-child(1) > .data:nth-child(9) > span",
+      "targets": [
+        ["css=tr:nth-child(1) > .data:nth-child(9) > span", "css:finder"],
+        ["xpath=//form[@id='resultsForm_891596747']/div/div/table/tbody/tr/td[9]/span", "xpath:idRelative"],
+        ["xpath=//td[9]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Pupkin')]", "xpath:innerText"]
+      ],
+      "value": "Pupkin"
+    }, {
+      "id": "6e7aa9bc-337f-46f4-92a6-13f6786715d3",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=tr:nth-child(2) > .data:nth-child(9) > span",
+      "targets": [
+        ["css=tr:nth-child(2) > .data:nth-child(9) > span", "css:finder"],
+        ["xpath=//form[@id='resultsForm_891596747']/div/div/table/tbody/tr[2]/td[9]/span", "xpath:idRelative"],
+        ["xpath=//tr[2]/td[9]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Smith')]", "xpath:innerText"]
+      ],
+      "value": "Smith"
+    }, {
+      "id": "898df71b-ea69-4cb8-8eb7-5ca614df985b",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=tr:nth-child(1) > .data:nth-child(10)",
+      "targets": [
+        ["css=tr:nth-child(1) > .data:nth-child(10)", "css:finder"],
+        ["xpath=//form[@id='resultsForm_891596747']/div/div/table/tbody/tr/td[10]", "xpath:idRelative"],
+        ["xpath=//form[2]/div/div/table/tbody/tr/td[10]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d9fc58cb-b7f7-4e94-85d4-821aebde3a53",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=tr:nth-child(2) > .data:nth-child(10)",
+      "targets": [
+        ["css=tr:nth-child(2) > .data:nth-child(10)", "css:finder"],
+        ["xpath=//form[@id='resultsForm_891596747']/div/div/table/tbody/tr[2]/td[10]", "xpath:idRelative"],
+        ["xpath=//tr[2]/td[10]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a7e5a960-cf57-416c-a67d-e5fba6c38e40",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "0c595dfe-3a86-4686-8347-b9bb9f89cc98",
+    "name": "phpMyAdmin",
+    "commands": [{
+      "id": "bb552c83-fe35-48e6-bb6c-66ba467305a4",
+      "comment": "",
+      "command": "open",
+      "target": "http://site2.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "20e3dda0-d41a-4c11-a694-02b6a10bfc4e",
+      "comment": "",
+      "command": "click",
+      "target": "//*[@id=\"topmenu\"]/li[2]/a",
+      "targets": [
+        ["linkText=SQL", "linkText"],
+        ["css=.nav-item:nth-child(2) > .nav-link", "css:finder"],
+        ["xpath=//ul[@id='topmenu']/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'index.php?route=/server/sql')]", "xpath:href"],
+        ["xpath=//nav/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,' SQL')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b54bb85-ddaf-48cb-b427-02d0502be44b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cm-s-default > .CodeMirror-scroll",
+      "targets": [
+        ["css=.cm-s-default > .CodeMirror-scroll", "css:finder"],
+        ["xpath=//div[@id='queryfieldscontainer']/div/div/div/div/div[6]", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div/div[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3224aa37-3486-4f02-90b3-d75bf702839d",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.cm-s-default textarea",
+      "targets": [],
+      "value": "DROP\\nDATABASE IF EXISTS `auth`;\\nCREATE DATABASE `auth`; USE `auth`;\\nCREATE TABLE IF NOT EXISTS `users`(\\n    `u_id` INT(11) NOT NULL AUTO_INCREMENT,\\n    `u_login` VARCHAR(255) NOT NULL,\\n    `u_password` CHAR(40) NOT NULL,\\n    `u_email` VARCHAR(255) NOT NULL,\\n    `u_name` VARCHAR(255) NOT NULL,\\n    `u_remember` CHAR(40) NOT NULL,\\n    PRIMARY KEY(`u_id`)\\n) ENGINE = innodb DEFAULT CHARSET = utf8 AUTO_INCREMENT = 3; TRUNCATE TABLE\\n    `users`;\\nINSERT INTO `users`(\\n    `u_id`,\\n    `u_login`,\\n    `u_password`,\\n    `u_email`,\\n    `u_name`,\\n    `u_remember`\\n)\\nVALUES(\\n    1,\\n    'user1',\\n    'e38ad214943daad1d64c102faec29de4afe9da3d',\\n    'user1@mail.com',\\n    'Pupkin',\\n    ''\\n),(\\n    2,\\n    'user2',\\n    '2aa60a8ff7fcd473d321e0146afd9e26df395147',\\n    'user2@mail.com',\\n    'Smith',\\n    ''\\n);"
+    }, {
+      "id": "cadf88a1-f047-4beb-95ce-8059b3a8b0c9",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//*[@id=\"button_submit_query\"]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9c6a69d6-a48d-41dc-bcbd-607cad748a6e",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//*[@id=\"topmenu\"]/li[1]/a",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4ba551d1-4a0d-472c-a0c6-2f15e5611570",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "linkText=auth",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "5dd9f71e-35de-43a3-bb9e-b16b65477f82",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=auth",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "766dbd40-9155-48cd-8fba-5e861b4aa6ad",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "linkText=users",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "d92f166c-f3cf-4ade-a536-5963b190ee96",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=users",
+      "targets": [
+        ["linkText=users", "linkText"],
+        ["css=#row_tbl_1 > th > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'users')])[3]", "xpath:link"],
+        ["xpath=//tr[@id='row_tbl_1']/th/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'sql.php?db=tvop&table=users&pos=0')]", "xpath:href"],
+        ["xpath=//tbody/tr/th/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9396b281-2418-4e73-a396-11ac1743cafa",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=tr:nth-child(1) > .data:nth-child(6) > span",
+      "targets": [
+        ["css=tr:nth-child(1) > .data:nth-child(6) > span", "css:finder"],
+        ["xpath=//form[@id='resultsForm_112296432']/div/div/table[2]/tbody/tr/td[6]/span", "xpath:idRelative"],
+        ["xpath=//td[6]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'user1')]", "xpath:innerText"]
+      ],
+      "value": "user1"
+    }, {
+      "id": "b81b78bf-b444-412a-b7cb-c28154f58b31",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=tr:nth-child(2) > .data:nth-child(6) > span",
+      "targets": [
+        ["css=tr:nth-child(2) > .data:nth-child(6) > span", "css:finder"],
+        ["xpath=//form[@id='resultsForm_112296432']/div/div/table[2]/tbody/tr[2]/td[6]/span", "xpath:idRelative"],
+        ["xpath=//tr[2]/td[6]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'user2')]", "xpath:innerText"]
+      ],
+      "value": "user2"
+    }, {
+      "id": "a8fcb969-1c8e-46ba-8c68-292e712db598",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "4601cac6-e0fb-4bbc-96d9-311516b1fe9b",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["http://localhost/tvop/", "http://localhost/phpmyadmin", "http://site2.com/"],
+  "plugins": []
+}
