@@ -41,7 +41,7 @@
             </tr>
             <tr>
                 <td>
-                    Semester 7
+                    <a  href="https://github.com/Nikola-Ver/Labs/tree/semester_7">Semester 7</a>
                     <br />
                     Semester 8
                 </td>
