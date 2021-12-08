@@ -1,0 +1,8 @@
+xst -intstyle ise -ifn "E:/Xilinx/Labs/lab2/lab2/lab2/task_1_struct.xst" -ofn "E:/Xilinx/Labs/lab2/lab2/lab2/task_1_struct.syr" 
+xst -intstyle ise -ifn "E:/Xilinx/Labs/lab2/lab2/lab2/task_1_struct.xst" -ofn "E:/Xilinx/Labs/lab2/lab2/lab2/task_1_struct.syr" 
+xst -intstyle ise -ifn "E:/Xilinx/Labs/lab2/lab2/lab2/task_1_struct.xst" -ofn "E:/Xilinx/Labs/lab2/lab2/lab2/task_1_struct.syr" 
+xst -intstyle ise -ifn "E:/Xilinx/Labs/lab2/lab2/lab2/task_1_struct.xst" -ofn "E:/Xilinx/Labs/lab2/lab2/lab2/task_1_struct.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc task_1_map.ucf -p xc6slx9-ftg256-3 task_1_struct.ngc task_1_struct.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o task_1_struct_map.ncd task_1_struct.ngd task_1_struct.pcf 
+par -w -intstyle ise -ol high -mt off task_1_struct_map.ncd task_1_struct.ncd task_1_struct.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml task_1_struct.twx task_1_struct.ncd -o task_1_struct.twr task_1_struct.pcf -ucf task_1_map.ucf 

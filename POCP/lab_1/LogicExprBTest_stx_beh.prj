@@ -1,0 +1,2 @@
+vhdl isim_temp "LogicExprB.vhd"
+vhdl isim_temp "LogicExprBTest.vhd"

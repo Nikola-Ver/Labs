@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\zaben\Lab1\MuxD.ncd
+OUTFILE=C:\Users\zaben\Lab1\MuxD.bit
+FAMILY=Spartan6
+PART=xc6slx9-3ftg256
+WORKINGDIR=C:\Users\zaben\Lab1
+LICENSE=WebPack
+USER_INFO=__0_0_0

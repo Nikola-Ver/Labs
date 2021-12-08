@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "E:/Xilinx/Labs/lab3/lab3/task_4_struct_1.xst" -ofn "E:/Xilinx/Labs/lab3/lab3/task_4_struct_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-ftg256-3 task_4_struct_1.ngc task_4_struct_1.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o task_4_struct_1_map.ncd task_4_struct_1.ngd task_4_struct_1.pcf 
+par -w -intstyle ise -ol high -mt off task_4_struct_1_map.ncd task_4_struct_1.ncd task_4_struct_1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml task_4_struct_1.twx task_4_struct_1.ncd -o task_4_struct_1.twr task_4_struct_1.pcf 
+xst -intstyle ise -ifn "E:/Xilinx/Labs/lab3/lab3/task_4_struct_1.xst" -ofn "E:/Xilinx/Labs/lab3/lab3/task_4_struct_1.syr" 

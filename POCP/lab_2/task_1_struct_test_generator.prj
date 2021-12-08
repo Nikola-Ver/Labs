@@ -1,0 +1,3 @@
+vhdl work "task_1_bex_1.vhd"
+vhdl work "task_1_struct.vhd"
+vhdl work "task_1_struct_test_generator.vhd"

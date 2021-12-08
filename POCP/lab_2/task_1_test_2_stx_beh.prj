@@ -1,0 +1,4 @@
+vhdl isim_temp "task_1_bex_1.vhd"
+vhdl isim_temp "task_1_struct.vhd"
+vhdl isim_temp "task_1_struct_test_generator.vhd"
+vhdl isim_temp "task_1_test_2.vhd"

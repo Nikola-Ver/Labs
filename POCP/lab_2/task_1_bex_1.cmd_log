@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/Programming/University/pocp/lab_2/task_1_bex_1.xst" -ofn "D:/Programming/University/pocp/lab_2/task_1_bex_1.syr" 

@@ -1,0 +1,11 @@
+xst -intstyle ise -ifn "D:/Programming/University/pocp/Lab1/And4.xst" -ofn "D:/Programming/University/pocp/Lab1/And4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc And4Map.ucf -p xc6slx9-ftg256-3 And4.ngc And4.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o And4_map.ncd And4.ngd And4.pcf 
+par -w -intstyle ise -ol high -mt off And4_map.ncd And4.ncd And4.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml And4.twx And4.ncd -o And4.twr And4.pcf -ucf And4Map.ucf 
+xst -intstyle ise -ifn "D:/Programming/University/pocp/lab_1/And4.xst" -ofn "D:/Programming/University/pocp/lab_1/And4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc And4Map.ucf -p xc6slx9-ftg256-3 And4.ngc And4.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o And4_map.ncd And4.ngd And4.pcf 
+par -w -intstyle ise -ol high -mt off And4_map.ncd And4.ncd And4.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml And4.twx And4.ncd -o And4.twr And4.pcf -ucf And4Map.ucf 
+bitgen -intstyle ise -f And4.ut And4.ncd 

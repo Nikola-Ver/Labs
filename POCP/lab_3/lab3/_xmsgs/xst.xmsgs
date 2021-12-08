@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="946" delta="new" >"D:\Programming\University\pocp\lab_3\lab3\task_5_7_struct_1.vhd" Line 51: Actual for formal port <arg fmt="%s" index="1">clk</arg> is neither a static name nor a globally static expression
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">D:\Programming\University\pocp\lab_3\lab3\task_5_7_struct_1.vhd</arg>&quot; line <arg fmt="%s" index="2">50</arg>: Output port &lt;<arg fmt="%s" index="3">nQ</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">U1</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+</messages>
+

@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\Programming\University\pocp\lab_1\And4.ncd
+OUTFILE=D:\Programming\University\pocp\lab_1\And4.bit
+FAMILY=Spartan6
+PART=xc6slx9-3ftg256
+WORKINGDIR=D:\Programming\University\pocp\lab_1
+LICENSE=WebPack
+USER_INFO=__0_0_0

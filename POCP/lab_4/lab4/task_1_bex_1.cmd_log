@@ -1,0 +1,3 @@
+xst -intstyle ise -ifn "E:/Xilinx/Labs/lab4/lab4/task_1_bex_1.xst" -ofn "E:/Xilinx/Labs/lab4/lab4/task_1_bex_1.syr" 
+xst -intstyle ise -ifn "E:/Xilinx/Labs/lab4/lab4/task_1_bex_1.xst" -ofn "E:/Xilinx/Labs/lab4/lab4/task_1_bex_1.syr" 
+xst -intstyle ise -ifn "E:/Xilinx/Labs/lab4/lab4/task_1_bex_1.xst" -ofn "E:/Xilinx/Labs/lab4/lab4/task_1_bex_1.syr" 

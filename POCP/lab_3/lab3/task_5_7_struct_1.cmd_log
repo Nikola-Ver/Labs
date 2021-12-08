@@ -1,0 +1,10 @@
+xst -intstyle ise -ifn "E:/Xilinx/Labs/lab3/lab3/task_5_7_struct_1.xst" -ofn "E:/Xilinx/Labs/lab3/lab3/task_5_7_struct_1.syr" 
+xst -intstyle ise -ifn "E:/Xilinx/Labs/lab3/lab3/task_5_7_struct_1.xst" -ofn "E:/Xilinx/Labs/lab3/lab3/task_5_7_struct_1.syr" 
+xst -intstyle ise -ifn "D:/Programming/University/pocp/lab_3/lab3/task_5_7_struct_1.xst" -ofn "D:/Programming/University/pocp/lab_3/lab3/task_5_7_struct_1.syr" 
+xst -intstyle ise -ifn "D:/Programming/University/pocp/lab_3/lab3/task_5_7_struct_1.xst" -ofn "D:/Programming/University/pocp/lab_3/lab3/task_5_7_struct_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc map_5_7.ucf -p xc6slx9-ftg256-3 task_5_7_struct_1.ngc task_5_7_struct_1.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o task_5_7_struct_1_map.ncd task_5_7_struct_1.ngd task_5_7_struct_1.pcf 
+par -w -intstyle ise -ol high -mt off task_5_7_struct_1_map.ncd task_5_7_struct_1.ncd task_5_7_struct_1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml task_5_7_struct_1.twx task_5_7_struct_1.ncd -o task_5_7_struct_1.twr task_5_7_struct_1.pcf -ucf map_5_7.ucf 
+netgen -intstyle ise -s 3  -pcf task_5_7_struct_1.pcf -sdf_anno true -sdf_path "netgen/par" -insert_glbl true -insert_pp_buffers true -w -dir netgen/par -ofmt verilog -sim task_5_7_struct_1.ncd task_5_7_struct_1_timesim.v 
+xst -intstyle ise -ifn "D:/Programming/University/pocp/lab_3/lab3/task_5_7_struct_1.xst" -ofn "D:/Programming/University/pocp/lab_3/lab3/task_5_7_struct_1.syr" 

@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "E:/Xilinx/Labs/lab3/lab3/task_5_6_struct_1.xst" -ofn "E:/Xilinx/Labs/lab3/lab3/task_5_6_struct_1.syr" 

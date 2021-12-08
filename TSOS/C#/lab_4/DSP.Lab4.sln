@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31829.152
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSP.Lab4.Presentation", "DSP.Lab4.Presentation\DSP.Lab4.Presentation.csproj", "{1863F7C8-4AF8-4042-A9A1-C4E3B07A3065}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSP.Lab4.Api", "DSP.Lab4.Api\DSP.Lab4.Api.csproj", "{7238D099-9902-4E50-9C55-13298FF3F602}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1863F7C8-4AF8-4042-A9A1-C4E3B07A3065}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1863F7C8-4AF8-4042-A9A1-C4E3B07A3065}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1863F7C8-4AF8-4042-A9A1-C4E3B07A3065}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1863F7C8-4AF8-4042-A9A1-C4E3B07A3065}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7238D099-9902-4E50-9C55-13298FF3F602}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7238D099-9902-4E50-9C55-13298FF3F602}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7238D099-9902-4E50-9C55-13298FF3F602}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7238D099-9902-4E50-9C55-13298FF3F602}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {029F18BA-2F02-46EC-B13D-0FDDAF284BFF}
+	EndGlobalSection
+EndGlobal
