@@ -8,6 +8,13 @@
 <br />
 
 <div align="center">
+    <a href="https://www.bsuir.by/">BSUIR</a>
+    <span> | </span>
+    <a href="https://www.bsuir.by/ru/fksis">FCSN</a>
+    <span> | </span>
+    <a href="https://www.bsuir.by/ru/kaf-poit">DITS</a>
+</div>
+<div align="center">
     <table>
         <thead>
             <tr>
