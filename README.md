@@ -12,7 +12,7 @@
     <span> | </span>
     <a href="https://www.bsuir.by/ru/fksis">FCSN</a>
     <span> | </span>
-    <a href="https://www.bsuir.by/ru/kaf-poit">DITS</a>
+    <a href="https://www.bsuir.by/ru/kaf-poit">ITS</a>
 </div>
 <div align="center">
     <table>
